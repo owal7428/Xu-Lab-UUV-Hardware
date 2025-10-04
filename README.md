@@ -1,2 +1,2 @@
-# Xu-Lab-UUV-Electronics
-Electronics component for Xu Lab UUV project.
+# Xu-Lab-UUV-Hardware
+Hardware design for Xu Lab underwater modular robotic platform project.
