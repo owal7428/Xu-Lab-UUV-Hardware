@@ -1,41 +1,40 @@
-# Prerequisites
-*.d
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
 
-# Precompiled Headers
-*.gch
-*.pch
+# Netlist files (exported from Eeschema)
+*.net
 
-# Linker files
-*.ilk
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
 
-# Debugger Files
-*.pdb
+# Exported BOM files
+*.xml
+*.csv
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Local project settings
+*.kicad_prl
