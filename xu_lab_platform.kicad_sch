@@ -11,6 +11,48 @@
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
 	(lib_symbols)
+	(sheet
+		(at 66.04 91.44)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b34bde8-cf26-4b12-b362-4972fe9ac1d6")
+		(property "Sheetname" "MCU A"
+			(at 66.04 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "xu_lab_platform_mcu1.kicad_sch"
+			(at 66.04 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xu_lab_platform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
