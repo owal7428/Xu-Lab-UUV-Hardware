@@ -6,14 +6,14 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2025-10-04")
+		(date "2025-10-15")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
 	(lib_symbols)
 	(sheet
-		(at 66.04 91.44)
-		(size 38.1 24.13)
+		(at 50.8 38.1)
+		(size 38.1 88.9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28,7 +28,7 @@
 		)
 		(uuid "4b34bde8-cf26-4b12-b362-4972fe9ac1d6")
 		(property "Sheetname" "MCU A"
-			(at 66.04 90.7284 0)
+			(at 50.8 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,12 +37,232 @@
 			)
 		)
 		(property "Sheetfile" "xu_lab_platform_mcu1.kicad_sch"
-			(at 66.04 116.1546 0)
+			(at 50.8 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN1_RX" input
+			(at 50.8 43.18 180)
+			(uuid "4bf67a01-088d-4c6e-b817-873c08bf5319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN1_TX" output
+			(at 88.9 43.18 0)
+			(uuid "6cb56f5d-abeb-425e-a7a9-be5b84a41dc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_EXTI1" input
+			(at 50.8 58.42 180)
+			(uuid "88d6e637-907a-41da-9162-1e7550cc63cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 88.9 63.5 0)
+			(uuid "9ee3b832-f8a0-4d9d-a1d3-57ac5af36e24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 88.9 67.31 0)
+			(uuid "90eb2332-71a0-4b3c-b4c5-43df6eed3928")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SCL" bidirectional
+			(at 88.9 71.12 0)
+			(uuid "49f0a9ea-3ba0-4538-a749-7e7a907e2908")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SDA" bidirectional
+			(at 88.9 74.93 0)
+			(uuid "c59efb2a-bc48-43c4-b0b0-29bd927663bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SCL" bidirectional
+			(at 88.9 78.74 0)
+			(uuid "c0d083cc-f64f-4b03-9431-95b54112b6ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 88.9 82.55 0)
+			(uuid "86f094b7-e0df-4833-a06f-4d8b51da9705")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 50.8 48.26 180)
+			(uuid "a4dd8ca6-0e76-452c-8f37-56b792f7ac4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 88.9 53.34 0)
+			(uuid "9dc86433-49da-42dd-8a79-0f737f730d9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 88.9 48.26 0)
+			(uuid "74e96e3c-f9de-4390-ac81-fe5fbad54d61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM2_CH1" output
+			(at 88.9 96.52 0)
+			(uuid "44fcbb64-828b-4797-93da-8f2ecba7430b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM2_CH2" output
+			(at 88.9 100.33 0)
+			(uuid "18d9a567-775b-4b7b-aa62-f734ea1d0206")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM2_CH3" output
+			(at 88.9 104.14 0)
+			(uuid "06b24167-267c-41f5-a0ea-d079cc18a9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM2_CH4" output
+			(at 88.9 107.95 0)
+			(uuid "68772e8a-c939-4934-a9db-e6d18d05f7df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM3_CH1" output
+			(at 88.9 111.76 0)
+			(uuid "89128ad6-2040-453f-a25e-ec88a497e9aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM3_CH2" output
+			(at 88.9 115.57 0)
+			(uuid "befde832-0b12-457d-9210-87079e1ed814")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM3_CH3" output
+			(at 88.9 119.38 0)
+			(uuid "a4a63688-fa35-44d2-9193-79faaf21b54e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM3_CH4" output
+			(at 88.9 123.19 0)
+			(uuid "e5ff00d7-dead-4732-ba73-5ec894ae0635")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART4_RX" input
+			(at 50.8 53.34 180)
+			(uuid "76c1d310-a60b-4096-9001-ade9a5136b30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART4_TX" output
+			(at 88.9 86.36 0)
+			(uuid "33c62bd1-4a95-4458-a4f3-b6b8503ce825")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
