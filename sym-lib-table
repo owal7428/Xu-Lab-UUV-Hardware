@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XuLab")(type "KiCad")(uri "${KIPRJMOD}/Libraries/XuLab.kicad_sym")(options "")(descr ""))
+)
