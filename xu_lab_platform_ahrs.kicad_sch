@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e6ae6017-a085-4642-a023-e750bebd9827")
+	(paper "A4")
+	(title_block
+		(title "Attitude and Heading Module")
+		(date "2025-10-16")
+		(rev "A")
+		(company "CU Boulder Senior Design Team 29 - Xu Lab")
+	)
+	(lib_symbols)
+)
