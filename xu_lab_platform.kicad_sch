@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2025-10-15")
+		(date "2025-10-17")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -146,7 +146,7 @@
 			)
 		)
 		(pin "SPI1_MOSI" output
-			(at 88.9 53.34 0)
+			(at 88.9 52.07 0)
 			(uuid "9dc86433-49da-42dd-8a79-0f737f730d9d")
 			(effects
 				(font
@@ -265,10 +265,132 @@
 				(justify right)
 			)
 		)
+		(pin "LED_OUT" output
+			(at 88.9 91.44 0)
+			(uuid "2ead6cc4-602c-4590-8913-534bf476568c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_CS1" output
+			(at 88.9 55.88 0)
+			(uuid "89e69a1e-f315-43fb-8f65-c4434c46953c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "xu_lab_platform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 55.88)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5713b00-422c-456a-9938-13721b057665")
+		(property "Sheetname" "Attitude and Heading Module"
+			(at 170.18 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "xu_lab_platform_ahrs.kicad_sch"
+			(at 170.18 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MAG_SCL" bidirectional
+			(at 170.18 60.96 180)
+			(uuid "6cc07520-6e5c-47f3-a011-e66dc8d8f441")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG_SDA" bidirectional
+			(at 170.18 64.77 180)
+			(uuid "86bf1202-e4bd-4cdd-b00f-a5c3dd949344")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_CS1" input
+			(at 170.18 80.01 180)
+			(uuid "6160db6e-a292-4c54-9bd1-6450c4493de4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" output
+			(at 209.55 60.96 0)
+			(uuid "c01851fb-65cf-4b8f-ac44-1532b2a0f2a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" input
+			(at 170.18 76.2 180)
+			(uuid "731136dd-04a2-4654-bbee-91c1f4bb18a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" input
+			(at 170.18 72.39 180)
+			(uuid "3f23ddd4-7c53-4631-8941-707dcea3ceed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "xu_lab_platform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(page "3")
 				)
 			)
 		)
