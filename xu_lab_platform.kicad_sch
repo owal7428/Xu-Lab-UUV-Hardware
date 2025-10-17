@@ -146,7 +146,7 @@
 			)
 		)
 		(pin "SPI1_MOSI" output
-			(at 88.9 53.34 0)
+			(at 88.9 52.07 0)
 			(uuid "9dc86433-49da-42dd-8a79-0f737f730d9d")
 			(effects
 				(font
@@ -258,6 +258,26 @@
 		(pin "UART4_TX" output
 			(at 88.9 86.36 0)
 			(uuid "33c62bd1-4a95-4458-a4f3-b6b8503ce825")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_OUT" output
+			(at 88.9 91.44 0)
+			(uuid "2ead6cc4-602c-4590-8913-534bf476568c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_CS1" output
+			(at 88.9 55.88 0)
+			(uuid "89e69a1e-f315-43fb-8f65-c4434c46953c")
 			(effects
 				(font
 					(size 1.27 1.27)
