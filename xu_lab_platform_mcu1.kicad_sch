@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MCU A - STM32F446RCT6")
-		(date "2025-10-15")
+		(date "2025-10-17")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
