@@ -295,7 +295,7 @@
 	)
 	(sheet
 		(at 170.18 55.88)
-		(size 39.37 27.94)
+		(size 39.37 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -319,7 +319,7 @@
 			)
 		)
 		(property "Sheetfile" "xu_lab_platform_ahrs.kicad_sch"
-			(at 170.18 84.4046 0)
+			(at 170.18 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,6 +380,26 @@
 		(pin "SPI1_SCK" input
 			(at 170.18 72.39 180)
 			(uuid "3f23ddd4-7c53-4631-8941-707dcea3ceed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PS_SCL" bidirectional
+			(at 170.18 87.63 180)
+			(uuid "4b855d89-b508-4c22-8d96-835bee60e4e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PS_SDA" bidirectional
+			(at 170.18 91.44 180)
+			(uuid "7e05f3a0-d00e-400c-a098-325a3add8f53")
 			(effects
 				(font
 					(size 1.27 1.27)
