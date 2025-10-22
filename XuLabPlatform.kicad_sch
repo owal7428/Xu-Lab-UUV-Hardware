@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2025-10-17")
+		(date "2025-10-21")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -358,7 +358,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "xu_lab_platform_mcu1.kicad_sch"
+		(property "Sheetfile" "MicrocontrollerA.kicad_sch"
 			(at 50.8 127.5846 0)
 			(effects
 				(font
@@ -608,7 +608,7 @@
 			)
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
 					(page "2")
 				)
@@ -640,7 +640,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "xu_lab_platform_ahrs.kicad_sch"
+		(property "Sheetfile" "AttitudeHeadingModule.kicad_sch"
 			(at 170.18 95.8346 0)
 			(effects
 				(font
@@ -730,7 +730,7 @@
 			)
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
 					(page "3")
 				)

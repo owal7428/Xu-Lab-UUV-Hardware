@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Attitude and Heading Module")
-		(date "2025-10-17")
+		(date "2025-10-21")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -2739,7 +2739,7 @@
 			(uuid "af82b2e7-5e31-41c1-9495-64a0adc79218")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "C18")
 					(unit 1)
@@ -2805,7 +2805,7 @@
 			(uuid "a6d07a3e-b845-4880-9a82-76336808a15c")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR035")
 					(unit 1)
@@ -2875,7 +2875,7 @@
 			(uuid "de39c285-8284-4585-8353-42c6816b372d")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "C17")
 					(unit 1)
@@ -2941,7 +2941,7 @@
 			(uuid "f6b87dcf-26f2-4274-b60e-99513e761456")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR027")
 					(unit 1)
@@ -3016,7 +3016,7 @@
 			(uuid "10ec6f68-d8c6-401d-a83c-13badc859b05")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "J2")
 					(unit 1)
@@ -3082,7 +3082,7 @@
 			(uuid "19ff1ac1-5ac9-4a2c-92c1-df5eba984676")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR042")
 					(unit 1)
@@ -3148,7 +3148,7 @@
 			(uuid "284c640c-a13f-4570-8ea6-ceaf8011e4b3")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR034")
 					(unit 1)
@@ -3218,7 +3218,7 @@
 			(uuid "e1256aee-2971-4067-a9fe-82a8395584eb")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "C13")
 					(unit 1)
@@ -3284,7 +3284,7 @@
 			(uuid "51b9795f-5ccd-43c1-bbc3-06727c7c1e81")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR040")
 					(unit 1)
@@ -3350,7 +3350,7 @@
 			(uuid "edd03429-f321-4c92-94c0-1efbc64e96e9")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR051")
 					(unit 1)
@@ -3416,7 +3416,7 @@
 			(uuid "ace483d0-421a-451f-b749-6cb5a62fcb13")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR048")
 					(unit 1)
@@ -3482,7 +3482,7 @@
 			(uuid "fe270cc4-3ae4-4d59-9e20-2fdc45a4987e")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR049")
 					(unit 1)
@@ -3617,7 +3617,7 @@
 			(uuid "917b628a-62e7-499f-a4d2-5afa0ae73eae")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "U2")
 					(unit 1)
@@ -3683,7 +3683,7 @@
 			(uuid "a5c43d29-e339-4320-b952-cfce05858a2e")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR033")
 					(unit 1)
@@ -3750,7 +3750,7 @@
 			(uuid "5861afab-7a25-4017-80f1-6d3ab67cc58c")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR045")
 					(unit 1)
@@ -3820,7 +3820,7 @@
 			(uuid "4a2d7277-e7e7-4f65-b2de-0299164f1882")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "C14")
 					(unit 1)
@@ -3886,7 +3886,7 @@
 			(uuid "2832b7aa-12b9-456a-9dac-ecea7784b1d2")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR041")
 					(unit 1)
@@ -3953,7 +3953,7 @@
 			(uuid "794933bf-6d07-48a8-836f-f646c8df215f")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR026")
 					(unit 1)
@@ -4019,7 +4019,7 @@
 			(uuid "43619202-5b9c-4d3e-a79c-75ab73394d5d")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR039")
 					(unit 1)
@@ -4085,7 +4085,7 @@
 			(uuid "d2784231-b448-4522-a7d1-736f0692f612")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR047")
 					(unit 1)
@@ -4150,7 +4150,7 @@
 			(uuid "347243fa-a290-414c-a01d-fd68e8f8aed1")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR050")
 					(unit 1)
@@ -4226,7 +4226,7 @@
 			(uuid "8b1b7460-bd51-423c-ad8d-05f8b50f4351")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "U3")
 					(unit 1)
@@ -4296,7 +4296,7 @@
 			(uuid "860379cf-422f-4f95-b2fe-e7f7c9486737")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "C19")
 					(unit 1)
@@ -4362,7 +4362,7 @@
 			(uuid "2bac613c-6a32-4128-b12f-88341fe5f5c7")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR043")
 					(unit 1)
@@ -4432,7 +4432,7 @@
 			(uuid "d44aacd4-13a3-4265-a279-d6f41703a369")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "C16")
 					(unit 1)
@@ -4498,7 +4498,7 @@
 			(uuid "fc5f103f-b1f6-4d47-b801-277711f1d899")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR036")
 					(unit 1)
@@ -4565,7 +4565,7 @@
 			(uuid "5e083b32-7bcb-4331-8764-867c7c76b370")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR037")
 					(unit 1)
@@ -4631,7 +4631,7 @@
 			(uuid "77207b85-aebb-4eca-b77e-883a7f87747b")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR029")
 					(unit 1)
@@ -4698,7 +4698,7 @@
 			(uuid "866ab9a0-72ad-4722-97e0-556b2e28816f")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR038")
 					(unit 1)
@@ -4765,7 +4765,7 @@
 			(uuid "2e4976e4-69f4-4ac9-a8f1-655db584b600")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR046")
 					(unit 1)
@@ -4831,7 +4831,7 @@
 			(uuid "2be40b24-71e9-450a-9816-a352c672706e")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR028")
 					(unit 1)
@@ -4897,7 +4897,7 @@
 			(uuid "513eb70a-ea7a-4512-b519-6dfdfd462342")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR030")
 					(unit 1)
@@ -4963,7 +4963,7 @@
 			(uuid "794b4307-8bcd-4a11-89bf-846c7d417e1c")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR044")
 					(unit 1)
@@ -5033,7 +5033,7 @@
 			(uuid "15d02bae-3c95-45df-9d01-4db75cbf58bf")
 		)
 		(instances
-			(project "xu_lab_platform"
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "C15")
 					(unit 1)
@@ -5099,7 +5099,7 @@
 			(uuid "30b59ba4-27cd-4048-8875-d35b89257829")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR032")
 					(unit 1)
@@ -5211,7 +5211,7 @@
 			(uuid "cb5e222b-6410-472c-8154-0da8519ac782")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "U4")
 					(unit 1)
@@ -5277,7 +5277,7 @@
 			(uuid "09349b45-8b04-4bd6-a292-b17f7d15ca51")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR031")
 					(unit 1)
@@ -5344,7 +5344,7 @@
 			(uuid "1169a66d-8b21-4938-8bb7-e0e4622e5994")
 		)
 		(instances
-			(project ""
+			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR025")
 					(unit 1)
