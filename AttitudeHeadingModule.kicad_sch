@@ -1307,26 +1307,6 @@
 		)
 		(uuid "16646634-8425-41f6-873e-e9ab4ea16676")
 	)
-	(text_box "Tying CS high puts this in I2C mode"
-		(exclude_from_sim no)
-		(at 53.34 133.35 0)
-		(size 38.1 3.81)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "3fc7a93c-459e-42ab-bdf6-333f6d43f0f6")
-	)
 	(junction
 		(at 81.28 34.29)
 		(diameter 0)
@@ -1338,12 +1318,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5439b098-df7f-4cf9-a308-4d5042df7bdb")
-	)
-	(junction
-		(at 43.18 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "860e1d89-ccfa-4527-8faf-7b764c8ca366")
 	)
 	(junction
 		(at 93.98 48.26)
@@ -1364,10 +1338,6 @@
 	(no_connect
 		(at 93.98 60.96)
 		(uuid "1e141cc1-9562-4dd4-b9f7-bd4ce8835e34")
-	)
-	(no_connect
-		(at 43.18 118.11)
-		(uuid "79abf08e-cea7-4532-a3ee-68153d8d803b")
 	)
 	(no_connect
 		(at 68.58 58.42)
@@ -1613,16 +1583,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 110.49) (xy 43.18 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "938e9fb7-afa8-4758-a909-414d6941715c")
-	)
-	(wire
-		(pts
 			(xy 116.84 107.95) (xy 119.38 107.95)
 		)
 		(stroke
@@ -1821,7 +1781,18 @@
 		)
 		(uuid "ff94ccf2-e7e0-48d9-934b-0088bbb43945")
 	)
-	(hierarchical_label "SPI1_CS1"
+	(hierarchical_label "MAG_SDO"
+		(shape output)
+		(at 43.18 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08ac3d8a-5a0e-4fa9-b935-f2bdd5dce097")
+	)
+	(hierarchical_label "IMU_CS"
 		(shape input)
 		(at 68.58 53.34 180)
 		(effects
@@ -1833,7 +1804,7 @@
 		(uuid "0bea4959-ca7a-4b44-a34e-7ae91b54f99c")
 	)
 	(hierarchical_label "MAG_SDA"
-		(shape bidirectional)
+		(shape input)
 		(at 119.38 107.95 0)
 		(effects
 			(font
@@ -1843,7 +1814,7 @@
 		)
 		(uuid "18067d24-03b3-48ad-9071-e7ed1ca478b5")
 	)
-	(hierarchical_label "SPI1_SCK"
+	(hierarchical_label "IMU_SCL"
 		(shape input)
 		(at 68.58 50.8 180)
 		(effects
@@ -1876,7 +1847,7 @@
 		)
 		(uuid "4da84777-e07e-4f25-9148-a510ec4ffd63")
 	)
-	(hierarchical_label "SPI1_MOSI"
+	(hierarchical_label "IMU_SDA"
 		(shape input)
 		(at 68.58 45.72 180)
 		(effects
@@ -1887,7 +1858,7 @@
 		)
 		(uuid "5c4459ca-b6de-4893-800d-2968c703f8ab")
 	)
-	(hierarchical_label "SPI1_MISO"
+	(hierarchical_label "IMU_SDO"
 		(shape output)
 		(at 68.58 48.26 180)
 		(effects
@@ -1899,7 +1870,7 @@
 		(uuid "96d4b452-62fe-4b18-ae0f-16658cf647c2")
 	)
 	(hierarchical_label "MAG_SCL"
-		(shape bidirectional)
+		(shape input)
 		(at 43.18 107.95 180)
 		(effects
 			(font
@@ -1908,6 +1879,17 @@
 			(justify right)
 		)
 		(uuid "d785c1c9-8933-4768-b2bb-93ad6a3059ad")
+	)
+	(hierarchical_label "MAG_CS"
+		(shape input)
+		(at 43.18 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f941a100-c026-4c93-b179-9eb4126f9a6d")
 	)
 	(symbol
 		(lib_id "power:GND")
