@@ -6,22 +6,20 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2025-10-21")
+		(date "2025-10-23")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
 	(lib_symbols)
-	(junction
-		(at 167.64 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b5105be-32d3-4585-9590-78598109a60a")
-	)
-	(junction
-		(at 167.64 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf837e04-045e-451f-a3b7-2368b269f25c")
+	(wire
+		(pts
+			(xy 158.75 64.77) (xy 170.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00443f0f-b248-4d8c-bdd9-86325e99702e")
 	)
 	(wire
 		(pts
@@ -35,6 +33,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 64.77) (xy 220.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e27628-39fa-4a17-8b68-69607ac2e1fb")
+	)
+	(wire
+		(pts
 			(xy 88.9 48.26) (xy 100.33 48.26)
 		)
 		(stroke
@@ -45,23 +53,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 170.18 68.58)
+			(xy 158.75 73.66) (xy 170.18 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3813d6a4-2339-4963-96a2-b533492cc83f")
-	)
-	(wire
-		(pts
-			(xy 170.18 72.39) (xy 167.64 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47f58835-6335-4a8e-a25e-dafd513c79bb")
+		(uuid "40409b26-fe82-45a8-9776-e06bbe71d7dd")
 	)
 	(wire
 		(pts
@@ -75,33 +73,33 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 64.77) (xy 167.64 64.77)
+			(xy 158.75 60.96) (xy 170.18 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "500b57c1-355f-4100-be07-8cfd980708b2")
+		(uuid "52bd9f79-c818-46b2-aaef-bc017492877d")
 	)
 	(wire
 		(pts
-			(xy 158.75 83.82) (xy 170.18 83.82)
+			(xy 158.75 68.58) (xy 170.18 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65f50d27-6931-48c6-9648-a1c8c0620fd0")
+		(uuid "5d6679e6-5a36-4706-bb0b-6ef428fe7892")
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 167.64 64.77)
+			(xy 158.75 77.47) (xy 170.18 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65fe862f-ffc3-46d4-a31f-6ad188c40c98")
+		(uuid "7618a6cf-b242-4420-b0f6-4440f8d55bb6")
 	)
 	(wire
 		(pts
@@ -115,13 +113,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 170.18 80.01)
+			(xy 88.9 59.69) (xy 100.33 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "952a6fbd-3f77-4b31-a371-56b936535024")
+		(uuid "795e4eca-677d-4c73-89c0-de39ce324dad")
 	)
 	(wire
 		(pts
@@ -135,63 +133,33 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 60.96) (xy 167.64 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad371ce1-8c64-48c3-9982-a7403f278832")
-	)
-	(wire
-		(pts
-			(xy 158.75 87.63) (xy 170.18 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3578dc3-2ae6-4cdc-ba80-c8ef92559592")
-	)
-	(wire
-		(pts
-			(xy 157.48 68.58) (xy 167.64 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c19e622f-2736-4658-bcaa-b3e228f7b9f1")
-	)
-	(wire
-		(pts
-			(xy 167.64 60.96) (xy 170.18 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6bd3cfb-b190-497b-b00f-73ab6d9cc6df")
-	)
-	(wire
-		(pts
 			(xy 209.55 60.96) (xy 220.98 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2104186-4acc-4788-9d79-186c25b7ef32")
+		(uuid "bff2fb7e-22e3-4f87-9735-f4fe33cc75d4")
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 167.64 72.39)
+			(xy 158.75 81.28) (xy 170.18 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f49578cd-bf08-4cd8-a325-bfd2da583237")
+		(uuid "c11c91a6-6d40-46a4-839b-7694000456df")
+	)
+	(wire
+		(pts
+			(xy 158.75 90.17) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3b7610-2aa8-4618-9616-f00c36ddb886")
 	)
 	(wire
 		(pts
@@ -203,15 +171,35 @@
 		)
 		(uuid "f582c2a1-3d66-4c21-af25-76a07b5fcc7b")
 	)
-	(label "SPI1_CS1"
-		(at 158.75 87.63 0)
+	(wire
+		(pts
+			(xy 158.75 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c89575-3ae8-466c-9fa0-ab538d3d7cd9")
+	)
+	(label "SPI1_MOSI"
+		(at 158.75 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "174587a7-ba76-4037-ba77-252be63943ca")
+		(uuid "145800fe-08e2-4e46-acb3-2047f310a251")
+	)
+	(label "SPI1_MISO"
+		(at 220.98 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a7f9569-ef4d-4b9a-af9c-cc80fc863a01")
 	)
 	(label "SPI1_MISO"
 		(at 38.1 48.26 0)
@@ -224,24 +212,14 @@
 		(uuid "1c1afdc3-0605-4a9e-80b0-9832a3ba035e")
 	)
 	(label "SPI1_MISO"
-		(at 220.98 60.96 180)
+		(at 220.98 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3297bb6a-ee4a-429c-91f0-526a1068bdc0")
-	)
-	(label "I2C1_SDA"
-		(at 157.48 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49bc22dc-7c9a-4dd7-a7a6-535a2e070d48")
+		(uuid "24f543a3-b19e-408f-9788-7f8e3e81ca0d")
 	)
 	(label "SPI1_CS1"
 		(at 100.33 55.88 180)
@@ -253,6 +231,16 @@
 		)
 		(uuid "4eb559f0-2c58-4b7a-8953-412114167a43")
 	)
+	(label "SPI1_SCK"
+		(at 158.75 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64f60c40-cd97-4d0f-b8e0-7ef384a67b5b")
+	)
 	(label "SPI1_MOSI"
 		(at 100.33 52.07 180)
 		(effects
@@ -263,15 +251,45 @@
 		)
 		(uuid "65ad6bd8-2250-41e1-b4bc-0bff4b6a3bdc")
 	)
-	(label "I2C1_SCL"
-		(at 157.48 60.96 0)
+	(label "SPI1_SCK"
+		(at 158.75 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7bb128a0-f443-411b-8406-c9805f52528b")
+		(uuid "6700a8e5-8187-466e-9cc0-e3fee1323138")
+	)
+	(label "SPI1_CS1"
+		(at 158.75 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85720712-c867-468d-b6d3-ee567739610a")
+	)
+	(label "I2C1_SCL"
+		(at 158.75 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a277454e-d202-4e08-b6bb-fd7bf4515b5d")
+	)
+	(label "SPI1_CS2"
+		(at 100.33 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2e55a14-503a-49ed-ac46-3fb8afce82c8")
 	)
 	(label "I2C1_SDA"
 		(at 100.33 67.31 180)
@@ -282,6 +300,26 @@
 			(justify right bottom)
 		)
 		(uuid "b0f400b7-1d32-45c6-a676-4fc4c15dcf22")
+	)
+	(label "SPI1_CS2"
+		(at 158.75 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbd764e7-44c1-424b-930b-e21e2f6acc78")
+	)
+	(label "I2C1_SDA"
+		(at 158.75 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d58240e1-ae23-4c91-91b7-3396a9105dc9")
 	)
 	(label ""
 		(at 97.79 48.26 0)
@@ -294,16 +332,6 @@
 		(uuid "d7a0ec81-d4a5-4c82-90d0-d597e7205b4d")
 	)
 	(label "SPI1_SCK"
-		(at 158.75 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da276214-1d98-4a87-8a8e-1db129f3f2b9")
-	)
-	(label "SPI1_SCK"
 		(at 100.33 48.26 180)
 		(effects
 			(font
@@ -314,14 +342,14 @@
 		(uuid "df528607-803f-47d1-b0a2-280df729d9a2")
 	)
 	(label "SPI1_MOSI"
-		(at 158.75 83.82 0)
+		(at 158.75 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e20714a1-2374-44db-97b6-e8a50c1fd53f")
+		(uuid "e1c24bbf-dee4-49d1-b1d5-f1d3355e588b")
 	)
 	(label "I2C1_SCL"
 		(at 100.33 63.5 180)
@@ -607,6 +635,16 @@
 				(justify right)
 			)
 		)
+		(pin "SPI1_CS2" output
+			(at 88.9 59.69 0)
+			(uuid "ad4f74cf-f75a-406c-b185-614b92aec3db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
@@ -649,9 +687,9 @@
 				(justify left top)
 			)
 		)
-		(pin "MAG_SCL" bidirectional
+		(pin "IMU_CS" input
 			(at 170.18 60.96 180)
-			(uuid "6cc07520-6e5c-47f3-a011-e66dc8d8f441")
+			(uuid "2df0e7ee-f690-4d49-bd05-675c8fbf19f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,9 +697,19 @@
 				(justify left)
 			)
 		)
-		(pin "MAG_SDA" bidirectional
+		(pin "IMU_SCL" input
+			(at 170.18 64.77 180)
+			(uuid "31d58bdd-5444-4c29-aeae-a8627cf3f046")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SDA" input
 			(at 170.18 68.58 180)
-			(uuid "86bf1202-e4bd-4cdd-b00f-a5c3dd949344")
+			(uuid "2522a02c-bc6f-4906-9051-63c5c4d89625")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,19 +717,9 @@
 				(justify left)
 			)
 		)
-		(pin "SPI1_CS1" input
-			(at 170.18 87.63 180)
-			(uuid "6160db6e-a292-4c54-9bd1-6450c4493de4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI1_MISO" output
+		(pin "IMU_SDO" output
 			(at 209.55 60.96 0)
-			(uuid "c01851fb-65cf-4b8f-ac44-1532b2a0f2a4")
+			(uuid "8415c528-5e12-487c-94cb-88c33f49d02d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,9 +727,9 @@
 				(justify right)
 			)
 		)
-		(pin "SPI1_MOSI" input
-			(at 170.18 83.82 180)
-			(uuid "731136dd-04a2-4654-bbee-91c1f4bb18a5")
+		(pin "MAG_CS" input
+			(at 170.18 73.66 180)
+			(uuid "3eb91461-4f5d-4629-b6ec-d3613c33493a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -699,19 +737,39 @@
 				(justify left)
 			)
 		)
-		(pin "SPI1_SCK" input
-			(at 170.18 80.01 180)
-			(uuid "3f23ddd4-7c53-4631-8941-707dcea3ceed")
+		(pin "MAG_SCL" input
+			(at 170.18 77.47 180)
+			(uuid "c8491a9f-3115-44f1-a408-10d124c0e6f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "MAG_SDA" input
+			(at 170.18 81.28 180)
+			(uuid "efe1463a-e33c-4726-a073-035afee9824e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG_SDO" output
+			(at 209.55 64.77 0)
+			(uuid "ff5c1c97-6492-4ddf-8771-3711fd63b924")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "PS_SCL" bidirectional
-			(at 170.18 64.77 180)
-			(uuid "4b855d89-b508-4c22-8d96-835bee60e4e6")
+			(at 170.18 86.36 180)
+			(uuid "59ecd6ab-1239-47eb-b772-862f883159f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,8 +778,8 @@
 			)
 		)
 		(pin "PS_SDA" bidirectional
-			(at 170.18 72.39 180)
-			(uuid "7e05f3a0-d00e-400c-a098-325a3add8f53")
+			(at 170.18 90.17 180)
+			(uuid "d6cec343-3243-4d08-b03b-adaaec48c008")
 			(effects
 				(font
 					(size 1.27 1.27)
