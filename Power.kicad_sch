@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "03d87a93-5f52-4f5e-95f3-001096e95bca")
+	(paper "A4")
+	(title_block
+		(title "Power")
+		(date "2025-10-24")
+		(rev "A")
+		(company "CU Boulder Senior Design Team 29 - Xu Lab")
+	)
+	(lib_symbols)
+)
