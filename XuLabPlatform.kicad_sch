@@ -362,6 +362,48 @@
 		(uuid "ef46b7ae-4b09-4440-852c-7060922e078a")
 	)
 	(sheet
+		(at 50.8 152.4)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16595639-dffe-4aa9-8e36-79b79804718e")
+		(property "Sheetname" "Power"
+			(at 50.8 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 50.8 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 50.8 38.1)
 		(size 38.1 88.9)
 		(exclude_from_sim no)
