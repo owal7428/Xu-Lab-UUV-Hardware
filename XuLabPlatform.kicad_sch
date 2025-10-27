@@ -405,7 +405,7 @@
 	)
 	(sheet
 		(at 50.8 38.1)
-		(size 38.1 88.9)
+		(size 38.1 83.82)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -429,7 +429,7 @@
 			)
 		)
 		(property "Sheetfile" "MicrocontrollerA.kicad_sch"
-			(at 50.8 127.5846 0)
+			(at 50.8 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -558,7 +558,7 @@
 			)
 		)
 		(pin "TIM2_CH1" output
-			(at 88.9 96.52 0)
+			(at 88.9 91.44 0)
 			(uuid "44fcbb64-828b-4797-93da-8f2ecba7430b")
 			(effects
 				(font
@@ -568,7 +568,7 @@
 			)
 		)
 		(pin "TIM2_CH2" output
-			(at 88.9 100.33 0)
+			(at 88.9 95.25 0)
 			(uuid "18d9a567-775b-4b7b-aa62-f734ea1d0206")
 			(effects
 				(font
@@ -578,7 +578,7 @@
 			)
 		)
 		(pin "TIM2_CH3" output
-			(at 88.9 104.14 0)
+			(at 88.9 99.06 0)
 			(uuid "06b24167-267c-41f5-a0ea-d079cc18a9a3")
 			(effects
 				(font
@@ -588,7 +588,7 @@
 			)
 		)
 		(pin "TIM2_CH4" output
-			(at 88.9 107.95 0)
+			(at 88.9 102.87 0)
 			(uuid "68772e8a-c939-4934-a9db-e6d18d05f7df")
 			(effects
 				(font
@@ -598,7 +598,7 @@
 			)
 		)
 		(pin "TIM3_CH1" output
-			(at 88.9 111.76 0)
+			(at 88.9 106.68 0)
 			(uuid "89128ad6-2040-453f-a25e-ec88a497e9aa")
 			(effects
 				(font
@@ -608,7 +608,7 @@
 			)
 		)
 		(pin "TIM3_CH2" output
-			(at 88.9 115.57 0)
+			(at 88.9 110.49 0)
 			(uuid "befde832-0b12-457d-9210-87079e1ed814")
 			(effects
 				(font
@@ -618,7 +618,7 @@
 			)
 		)
 		(pin "TIM3_CH3" output
-			(at 88.9 119.38 0)
+			(at 88.9 114.3 0)
 			(uuid "a4a63688-fa35-44d2-9193-79faaf21b54e")
 			(effects
 				(font
@@ -628,7 +628,7 @@
 			)
 		)
 		(pin "TIM3_CH4" output
-			(at 88.9 123.19 0)
+			(at 88.9 118.11 0)
 			(uuid "e5ff00d7-dead-4732-ba73-5ec894ae0635")
 			(effects
 				(font
@@ -650,16 +650,6 @@
 		(pin "UART4_TX" output
 			(at 88.9 86.36 0)
 			(uuid "33c62bd1-4a95-4458-a4f3-b6b8503ce825")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED_OUT" output
-			(at 88.9 91.44 0)
-			(uuid "2ead6cc4-602c-4590-8913-534bf476568c")
 			(effects
 				(font
 					(size 1.27 1.27)
