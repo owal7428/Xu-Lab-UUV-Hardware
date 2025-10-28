@@ -340,6 +340,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2098,7 +2248,7 @@
 		)
 	)
 	(junction
-		(at 88.9 48.26)
+		(at 96.52 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c6266fd-4583-406f-8572-865684fad288")
@@ -2140,19 +2290,19 @@
 		(uuid "4de5aad6-0be0-45ff-9d4c-3543a868c228")
 	)
 	(junction
-		(at 88.9 40.64)
+		(at 96.52 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5009bf8b-3f32-4006-8cf2-32c21dce8833")
 	)
 	(junction
-		(at 76.2 48.26)
+		(at 83.82 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73e3b04b-5479-486c-b2c1-5513e111da3b")
 	)
 	(junction
-		(at 76.2 40.64)
+		(at 83.82 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8309be2f-78e8-441b-917d-e173c83996c2")
@@ -2164,7 +2314,7 @@
 		(uuid "8c4d0c9b-6f29-42e5-bc16-c60feb3f19ff")
 	)
 	(junction
-		(at 68.58 40.64)
+		(at 76.2 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c9c29dd-138c-4402-a481-e4932cd1b3a1")
@@ -2194,7 +2344,7 @@
 		(uuid "da50b071-79d7-466c-9918-9780bcbe1966")
 	)
 	(junction
-		(at 101.6 40.64)
+		(at 109.22 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2cc002f-a233-4bf2-b3c0-04440cee1787")
@@ -2291,7 +2441,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 40.64) (xy 68.58 40.64)
+			(xy 58.42 40.64) (xy 63.5 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2441,6 +2591,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 40.64) (xy 76.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f9ea6b-44df-444b-85b8-217bf6a5ecfc")
+	)
+	(wire
+		(pts
 			(xy 143.51 114.3) (xy 127 114.3)
 		)
 		(stroke
@@ -2481,7 +2641,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 68.58 46.99)
+			(xy 76.2 40.64) (xy 76.2 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 68.58 60.96)
+			(xy 76.2 59.69) (xy 76.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2561,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 40.64) (xy 101.6 40.64)
+			(xy 96.52 40.64) (xy 109.22 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2661,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 88.9 48.26)
+			(xy 83.82 48.26) (xy 96.52 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2731,7 +2891,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 48.26) (xy 101.6 48.26)
+			(xy 96.52 48.26) (xy 109.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2931,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 101.6 40.64)
+			(xy 109.22 38.1) (xy 109.22 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2821,7 +2981,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 40.64) (xy 88.9 40.64)
+			(xy 83.82 40.64) (xy 96.52 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2841,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 48.26) (xy 76.2 48.26)
+			(xy 60.96 48.26) (xy 83.82 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3001,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 76.2 40.64)
+			(xy 76.2 40.64) (xy 83.82 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3071,7 +3231,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 101.6 44.45 0)
+		(at 109.22 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3080,7 +3240,7 @@
 		(fields_autoplaced yes)
 		(uuid "052f3b03-fa81-4e98-9b95-f2f1267fd75f")
 		(property "Reference" "C19"
-			(at 105.41 43.1799 0)
+			(at 113.03 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3249,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 105.41 45.7199 0)
+			(at 113.03 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.5652 48.26 0)
+			(at 110.1852 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,7 +3267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 44.45 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +3276,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 44.45 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3565,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 60.96 0)
+		(at 76.2 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3414,7 +3574,7 @@
 		(fields_autoplaced yes)
 		(uuid "25a74252-401b-4c19-a63a-e773295e5df1")
 		(property "Reference" "#PWR045"
-			(at 68.58 67.31 0)
+			(at 76.2 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3583,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 66.04 0)
+			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 60.96 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 60.96 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 60.96 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,8 +3966,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 67.31 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33ead29f-019c-4078-9aac-2e69f1053390")
+		(property "Reference" "D2"
+			(at 67.6275 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "75 A"
+			(at 67.6275 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-2_Vertical"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/APT60S20B_S(G)_E.PDF"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode - APT60S20BG"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2e9b670-d640-4231-a0cc-256b471647d1")
+		)
+		(pin "2"
+			(uuid "474dcaa1-9500-402a-8ca3-651a7c6411a5")
+		)
+		(instances
+			(project ""
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+7.5V")
-		(at 101.6 38.1 0)
+		(at 109.22 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3816,7 +4044,7 @@
 		(fields_autoplaced yes)
 		(uuid "35513413-b11f-4e74-bee0-eaf5e13f3390")
 		(property "Reference" "#PWR039"
-			(at 101.6 41.91 0)
+			(at 109.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,7 +4053,7 @@
 			)
 		)
 		(property "Value" "+7.4V"
-			(at 101.6 33.02 0)
+			(at 109.22 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +4061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 38.1 0)
+			(at 109.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +4070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 38.1 0)
+			(at 109.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +4079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 101.6 38.1 0)
+			(at 109.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4374,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 44.45 0)
+		(at 83.82 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4155,7 +4383,7 @@
 		(fields_autoplaced yes)
 		(uuid "69fd8cf5-1da4-4d8b-83a5-ffe4497f2cc0")
 		(property "Reference" "C17"
-			(at 80.01 43.1799 0)
+			(at 87.63 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4392,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 80.01 45.7199 0)
+			(at 87.63 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.1652 48.26 0)
+			(at 84.7852 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 44.45 0)
+			(at 83.82 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4419,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 44.45 0)
+			(at 83.82 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5814,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 88.9 44.45 0)
+		(at 96.52 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5595,7 +5823,7 @@
 		(fields_autoplaced yes)
 		(uuid "e588af23-b9f9-4a8d-b026-56f2a237192c")
 		(property "Reference" "C18"
-			(at 92.71 43.1799 0)
+			(at 100.33 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5832,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 92.71 45.7199 0)
+			(at 100.33 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.8652 48.26 0)
+			(at 97.4852 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 44.45 0)
+			(at 96.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5859,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 88.9 44.45 0)
+			(at 96.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6361,7 @@
 	)
 	(symbol
 		(lib_id "XuLab:SMBJ7.5A-13-F")
-		(at 68.58 53.34 90)
+		(at 76.2 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6142,7 +6370,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5df4017-f2c3-4948-979c-1eaf635ee4aa")
 		(property "Reference" "CR1"
-			(at 72.39 52.0699 90)
+			(at 80.01 52.0699 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6151,7 +6379,7 @@
 			)
 		)
 		(property "Value" "SMBJ7.5A-13-F"
-			(at 72.39 54.6099 90)
+			(at 80.01 54.6099 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6160,7 +6388,7 @@
 			)
 		)
 		(property "Footprint" "XuLab:SMB_DIO"
-			(at 77.216 53.594 0)
+			(at 84.836 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds19002.pdf"
-			(at 74.93 53.594 0)
+			(at 82.55 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +6408,7 @@
 			)
 		)
 		(property "Description" "7.5 V Reverse Standoff TVS"
-			(at 68.58 53.34 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
