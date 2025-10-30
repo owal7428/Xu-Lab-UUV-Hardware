@@ -2373,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "635bc41e-23c3-4175-ab6d-7f41fa71205d")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 143.51 118.1099 0)
 			(effects
 				(font
@@ -2427,7 +2427,7 @@
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2952,7 +2952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a95a01fe-9d49-4abd-a3e1-2dd7514f260d")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 124.46 50.7999 0)
 			(effects
 				(font
@@ -3006,7 +3006,7 @@
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3193,7 +3193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb4b5cf5-e7bf-4182-98ff-a9c645b4bb12")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 257.81 87.6299 0)
 			(effects
 				(font
@@ -3247,7 +3247,7 @@
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3465,7 +3465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecab7a8d-aa84-4fa2-be09-56d8e30265ac")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 137.16 50.7999 0)
 			(effects
 				(font
@@ -3519,7 +3519,7 @@
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
