@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2025-10-31")
+		(date "2025-11-01")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -20,14 +20,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
+			(property "Value" "Screw_Terminal_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,9 +80,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Screw_Terminal_01x03_1_1"
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 3.81)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -90,6 +90,18 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -107,6 +119,18 @@
 				(polyline
 					(pts
 						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -141,6 +165,17 @@
 					)
 				)
 				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
 					(center 0 0)
 					(radius 0.635)
 					(stroke
@@ -163,7 +198,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -181,7 +216,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -191,6 +226,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -497,6 +550,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+7.5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+7.5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+7.5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+7.5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -611,16 +789,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 129.54) (xy 234.95 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0169c360-68e2-41c5-b203-218966abb690")
-	)
-	(wire
-		(pts
 			(xy 256.54 111.76) (xy 260.35 111.76)
 		)
 		(stroke
@@ -661,33 +829,23 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 146.05) (xy 234.95 146.05)
+			(xy 182.88 132.08) (xy 184.15 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e93ecad-5904-44ee-9c54-a5904d51cf10")
+		(uuid "096178b0-6c52-4011-833b-309dc0a7fa84")
 	)
 	(wire
 		(pts
-			(xy 259.08 129.54) (xy 260.35 129.54)
+			(xy 259.08 148.59) (xy 259.08 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13a14099-bcbd-4c35-b161-93db3b512e00")
-	)
-	(wire
-		(pts
-			(xy 259.08 130.81) (xy 259.08 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d97654-337a-48e4-8800-e961cf9cd4e7")
+		(uuid "13d39c18-85aa-4cd2-a54f-d82edb78cc26")
 	)
 	(wire
 		(pts
@@ -701,13 +859,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 147.32) (xy 259.08 146.05)
+			(xy 234.95 148.59) (xy 233.68 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f4aafd6-defb-43b1-bbfb-52f9daf0f252")
+		(uuid "162ffaab-caab-4a30-8611-09f022710cd8")
 	)
 	(wire
 		(pts
@@ -721,7 +879,27 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 234.95 127)
+			(xy 209.55 148.59) (xy 208.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e0b2cb-c445-4dae-b1ca-b227b96c4f6b")
+	)
+	(wire
+		(pts
+			(xy 182.88 129.54) (xy 184.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d78be7f-01d5-4c08-b8bc-8e64c8b28fd9")
+	)
+	(wire
+		(pts
+			(xy 228.6 127) (xy 233.68 127)
 		)
 		(stroke
 			(width 0)
@@ -748,16 +926,6 @@
 			(type default)
 		)
 		(uuid "40409b26-fe82-45a8-9776-e06bbe71d7dd")
-	)
-	(wire
-		(pts
-			(xy 182.88 129.54) (xy 184.15 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40ae6428-0d2e-44c8-95a5-983831176382")
 	)
 	(wire
 		(pts
@@ -871,6 +1039,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 132.08) (xy 233.68 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e85d792-ee6d-4ea9-8a5b-a43992a9a81e")
+	)
+	(wire
+		(pts
 			(xy 158.75 77.47) (xy 170.18 77.47)
 		)
 		(stroke
@@ -891,6 +1069,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 148.59) (xy 182.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795cd64b-b9e6-4b50-96b7-c0eaf43ed24c")
+	)
+	(wire
+		(pts
 			(xy 88.9 59.69) (xy 100.33 59.69)
 		)
 		(stroke
@@ -898,36 +1086,6 @@
 			(type default)
 		)
 		(uuid "795e4eca-677d-4c73-89c0-de39ce324dad")
-	)
-	(wire
-		(pts
-			(xy 259.08 146.05) (xy 260.35 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f572b15-13f7-4581-9d7e-a2b1522e1ed3")
-	)
-	(wire
-		(pts
-			(xy 182.88 147.32) (xy 182.88 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803e1ff8-383b-4b79-b230-c462fcb72b02")
-	)
-	(wire
-		(pts
-			(xy 233.68 130.81) (xy 233.68 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8068328b-72e9-41d2-b17e-006179e5d342")
 	)
 	(wire
 		(pts
@@ -941,13 +1099,43 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 130.81) (xy 208.28 129.54)
+			(xy 233.68 148.59) (xy 233.68 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6714bb4-961b-4e7b-873c-eef3c777561f")
+		(uuid "87c8aa42-e42b-4740-9998-5eb69b3833cd")
+	)
+	(wire
+		(pts
+			(xy 182.88 132.08) (xy 182.88 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fcfc8e-7ddf-47b2-80f9-b0fce69140af")
+	)
+	(wire
+		(pts
+			(xy 209.55 132.08) (xy 208.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db1c22e-6349-431b-a57b-ab75b4f7ed84")
+	)
+	(wire
+		(pts
+			(xy 260.35 132.08) (xy 259.08 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d39b54-82ec-4519-bdb9-bdc304f9d0f3")
 	)
 	(wire
 		(pts
@@ -961,6 +1149,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 148.59) (xy 208.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad68735c-5e71-4202-b7e2-f02f5d117779")
+	)
+	(wire
+		(pts
 			(xy 88.9 121.92) (xy 97.79 121.92)
 		)
 		(stroke
@@ -971,6 +1169,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 129.54) (xy 260.35 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeea3918-6b29-4ff5-bc02-badc8b6596b7")
+	)
+	(wire
+		(pts
 			(xy 177.8 143.51) (xy 184.15 143.51)
 		)
 		(stroke
@@ -978,6 +1186,26 @@
 			(type default)
 		)
 		(uuid "afde4ad9-d87e-430f-a7fe-851bbbc3aec7")
+	)
+	(wire
+		(pts
+			(xy 259.08 146.05) (xy 260.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61c8d2b-77df-4f4a-a37a-0a9943121b62")
+	)
+	(wire
+		(pts
+			(xy 259.08 132.08) (xy 259.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8151ac7-8190-4cfc-85ba-9dbc10785b76")
 	)
 	(wire
 		(pts
@@ -1001,13 +1229,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 130.81) (xy 182.88 129.54)
+			(xy 182.88 148.59) (xy 182.88 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3396581-0c49-4ff6-8d17-688af65ee485")
+		(uuid "d42e3a17-6486-4515-8fa8-edd4ff2bfd9d")
 	)
 	(wire
 		(pts
@@ -1018,16 +1246,6 @@
 			(type default)
 		)
 		(uuid "d525fe62-185f-41a4-b780-f1e554cab4c4")
-	)
-	(wire
-		(pts
-			(xy 208.28 147.32) (xy 208.28 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8271a2a-dd38-49ee-a6d2-ec4332cc15c5")
 	)
 	(wire
 		(pts
@@ -1051,6 +1269,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 132.08) (xy 208.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd06319-7d74-405c-b7b1-e5714c4b0f32")
+	)
+	(wire
+		(pts
 			(xy 158.75 90.17) (xy 170.18 90.17)
 		)
 		(stroke
@@ -1058,6 +1286,26 @@
 			(type default)
 		)
 		(uuid "df3b7610-2aa8-4618-9616-f00c36ddb886")
+	)
+	(wire
+		(pts
+			(xy 260.35 148.59) (xy 259.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e291d10f-f5e4-4d3f-8ec7-4e59635411ae")
+	)
+	(wire
+		(pts
+			(xy 233.68 146.05) (xy 234.95 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48a285d-44f5-4aa5-8c70-f70472506ec9")
 	)
 	(wire
 		(pts
@@ -1071,13 +1319,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 147.32) (xy 233.68 146.05)
+			(xy 208.28 129.54) (xy 209.55 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6ef35c3-9d7d-4590-9407-3f7c087e482b")
+		(uuid "e6d69b6b-6bd1-4065-b5eb-7990840be9f8")
 	)
 	(wire
 		(pts
@@ -1098,16 +1346,6 @@
 			(type default)
 		)
 		(uuid "f0b565bf-d983-4ac6-aee9-b707cab29760")
-	)
-	(wire
-		(pts
-			(xy 208.28 129.54) (xy 209.55 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2239cbe-4dc1-4086-b6e8-05902b78753e")
 	)
 	(wire
 		(pts
@@ -1500,17 +1738,17 @@
 		(uuid "ef46b7ae-4b09-4440-852c-7060922e078a")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 259.08 147.32 0)
+		(lib_id "power:+7.5V")
+		(at 182.88 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "163fd224-fcd3-4f85-9591-b721394a25d4")
-		(property "Reference" "#PWR073"
-			(at 259.08 153.67 0)
+		(uuid "02f1612f-4636-46e2-87e2-5990ec4957df")
+		(property "Reference" "#PWR056"
+			(at 186.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,16 +1756,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 259.08 152.4 0)
+		(property "Value" "+7.4V"
+			(at 179.07 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 147.32 0)
+			(at 182.88 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1775,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 147.32 0)
+			(at 182.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 182.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ef7f856-bde2-4b1a-9724-57032f9a8d62")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "163fd224-fcd3-4f85-9591-b721394a25d4")
+		(property "Reference" "#PWR073"
+			(at 259.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 147.32 0)
+			(at 259.08 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,16 +1871,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 189.23 143.51 0)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 214.63 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "20d051ae-e58e-4eb1-bdb4-4048f2c1db44")
-		(property "Reference" "J16"
-			(at 191.77 143.5099 0)
+		(fields_autoplaced yes)
+		(uuid "1e14c629-15a4-4534-9652-00f44906112e")
+		(property "Reference" "J9"
+			(at 217.17 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,8 +1889,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo SGN 5"
-			(at 191.77 146.0499 0)
+		(property "Value" "Servo6"
+			(at 217.17 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,8 +1898,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 189.23 143.51 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,8 +1907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 189.23 143.51 0)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-3-508-1715734?type=pdf"
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,8 +1916,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 143.51 0)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,32 +1926,35 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1968796-4c19-44ea-887b-04b7e4667ff2")
+			(uuid "4dc4708a-15f4-449a-a7ce-05ace13b31e8")
 		)
 		(pin "2"
-			(uuid "ad7ac59b-d7d6-41f6-ad77-795a9e28ed48")
+			(uuid "7873941b-a3bf-4a7f-853d-83d35745a05b")
+		)
+		(pin "3"
+			(uuid "e2cdac9a-6d35-4ab7-b009-18f822f35761")
 		)
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "J16")
+					(reference "J9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 147.32 0)
+		(lib_id "power:+7.5V")
+		(at 208.28 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2faaa314-9d50-42bc-8c92-0f25774db842")
-		(property "Reference" "#PWR070"
-			(at 182.88 153.67 0)
+		(uuid "24626433-4cc6-4fc0-ad81-6e58835ee057")
+		(property "Reference" "#PWR055"
+			(at 212.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,16 +1962,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 182.88 152.4 0)
+		(property "Value" "+7.4V"
+			(at 204.47 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 147.32 0)
+			(at 208.28 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1981,213 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 147.32 0)
+			(at 208.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 208.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3edd88ea-87f7-4f66-b6e8-f7211715ea7f")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 189.23 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28264ecc-1186-4222-b364-0b284f0a3ef3")
+		(property "Reference" "J4"
+			(at 191.77 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Servo1"
+			(at 191.77 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 189.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-3-508-1715734?type=pdf"
+			(at 189.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6f021a6-8621-4ad2-ba95-3d85aac7e8bf")
+		)
+		(pin "2"
+			(uuid "37113a0f-fdef-45be-b8dd-52ad20bc551c")
+		)
+		(pin "3"
+			(uuid "eefcac49-a88f-49b8-85b0-2740c11436b9")
+		)
+		(instances
+			(project ""
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+7.5V")
+		(at 208.28 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2919d878-1135-43a3-aa6b-24e510c891ed")
+		(property "Reference" "#PWR047"
+			(at 212.09 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+7.4V"
+			(at 204.47 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7628b10-8372-44b6-90d3-eece87bc1169")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2faaa314-9d50-42bc-8c92-0f25774db842")
+		(property "Reference" "#PWR070"
+			(at 182.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +2196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 147.32 0)
+			(at 182.88 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,77 +2284,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 240.03 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "399a61f8-a772-40f1-bd38-3ea1cf0e9ac4")
-		(property "Reference" "J18"
-			(at 242.57 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Servo SGN 7"
-			(at 242.57 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 240.03 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 240.03 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d66e7436-948f-4d1a-8c63-9febdd5c4b30")
-		)
-		(pin "2"
-			(uuid "461015b8-0337-4d17-a58a-70a8f6d34d8a")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 208.28 130.81 0)
+		(at 208.28 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1847,7 +2294,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ef7ce97-8094-4976-b8a1-5d8d0bbd5629")
 		(property "Reference" "#PWR067"
-			(at 208.28 137.16 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +2303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 135.89 0)
+			(at 208.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +2311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 130.81 0)
+			(at 208.28 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +2320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 130.81 0)
+			(at 208.28 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +2329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 130.81 0)
+			(at 208.28 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +2351,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 147.32 0)
+		(at 233.68 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1913,7 +2360,7 @@
 		(fields_autoplaced yes)
 		(uuid "461bc069-d196-4a66-ae60-0c45211b0bb6")
 		(property "Reference" "#PWR072"
-			(at 233.68 153.67 0)
+			(at 233.68 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +2369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 152.4 0)
+			(at 233.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +2377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 147.32 0)
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +2386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 147.32 0)
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +2395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 147.32 0)
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,16 +2416,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 265.43 143.51 0)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 189.23 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5618a5f5-6ee0-4936-b57f-0515912df7b3")
-		(property "Reference" "J19"
-			(at 267.97 143.5099 0)
+		(fields_autoplaced yes)
+		(uuid "6693507d-98af-4b1a-b1a2-044190899c50")
+		(property "Reference" "J8"
+			(at 191.77 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,8 +2434,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo SGN 8"
-			(at 267.97 146.0499 0)
+		(property "Value" "Servo5"
+			(at 191.77 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,8 +2443,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 265.43 143.51 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,8 +2452,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 265.43 143.51 0)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-3-508-1715734?type=pdf"
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,8 +2461,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 143.51 0)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,31 +2471,35 @@
 			)
 		)
 		(pin "1"
-			(uuid "677431c3-9891-4706-a1ee-eb3b9ecc9878")
+			(uuid "ef56d023-9c79-4900-9f57-47b829cb376c")
 		)
 		(pin "2"
-			(uuid "ba308c10-1cfe-415c-abf2-0dc09d29d7ee")
+			(uuid "b7014e0a-7d22-4e8d-b4b3-d47f044e41db")
+		)
+		(pin "3"
+			(uuid "61e9f8dd-9c2e-467e-9231-cc13af0f9cff")
 		)
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "J19")
+					(reference "J8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 214.63 127 0)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 240.03 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5e49f5d7-693f-46d7-afcb-0259f0a059c4")
-		(property "Reference" "J13"
-			(at 217.17 126.9999 0)
+		(fields_autoplaced yes)
+		(uuid "6a282e07-693d-43e0-a4d2-088f71c57f7f")
+		(property "Reference" "J10"
+			(at 242.57 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,8 +2507,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo SGN 2"
-			(at 217.17 129.5399 0)
+		(property "Value" "Servo7"
+			(at 242.57 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,8 +2516,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 214.63 127 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,8 +2525,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 214.63 127 0)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-3-508-1715734?type=pdf"
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,8 +2534,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 214.63 127 0)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,15 +2544,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "52cdb907-8259-4c5a-96d4-985cbf5aa5aa")
+			(uuid "7db0a53e-79eb-4d8b-beee-6c9eadca2833")
 		)
 		(pin "2"
-			(uuid "2a3d69ed-e355-4837-8b65-be0d3026f3e8")
+			(uuid "d41eaabb-d7dd-4810-8c14-77ff323107c1")
+		)
+		(pin "3"
+			(uuid "d2f64aed-e5ab-4ff1-9b11-037807633919")
 		)
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "J13")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -2173,17 +2628,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 233.68 130.81 0)
+		(lib_id "power:+7.5V")
+		(at 259.08 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91d9ebcc-d408-4ea8-aed5-a8225e09af52")
-		(property "Reference" "#PWR068"
-			(at 233.68 137.16 0)
+		(uuid "89b44bc8-c091-4d23-be00-f48d2d769c32")
+		(property "Reference" "#PWR053"
+			(at 262.89 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,16 +2646,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 233.68 135.89 0)
+		(property "Value" "+7.4V"
+			(at 255.27 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 130.81 0)
+			(at 259.08 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2665,140 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 130.81 0)
+			(at 259.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 259.08 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1ce628d-00c4-4e94-ba02-cc3c9133d8f0")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+7.5V")
+		(at 259.08 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e12fa14-e11e-4dbd-ada3-cc6b2aff7791")
+		(property "Reference" "#PWR052"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+7.4V"
+			(at 255.27 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 259.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eac1272d-6769-49a3-97e5-2d96ba09c8fc")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91d9ebcc-d408-4ea8-aed5-a8225e09af52")
+		(property "Reference" "#PWR068"
+			(at 233.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 130.81 0)
+			(at 233.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,16 +2828,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 265.43 127 0)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 214.63 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9ba72dd2-898b-46ec-980a-ff0d0a29e30d")
-		(property "Reference" "J15"
-			(at 267.97 126.9999 0)
+		(fields_autoplaced yes)
+		(uuid "9bc4d20c-970f-4475-b7c4-c753e37809c0")
+		(property "Reference" "J5"
+			(at 217.17 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,8 +2846,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo SGN 4"
-			(at 267.97 129.5399 0)
+		(property "Value" "Servo2"
+			(at 217.17 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,8 +2855,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 265.43 127 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,8 +2864,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 265.43 127 0)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-3-508-1715734?type=pdf"
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,8 +2873,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 127 0)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,84 +2883,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bc3e70f-37cc-468e-950c-08c07800727f")
+			(uuid "83b12ceb-f5c4-4282-a2a9-d0bd8a590de7")
 		)
 		(pin "2"
-			(uuid "b4e99c82-6369-4875-b571-37f120c2493f")
+			(uuid "b67162ab-5c38-400e-93d0-3a80adc1e288")
+		)
+		(pin "3"
+			(uuid "a1582770-a978-46b7-8a58-3541a5afb7a0")
 		)
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 240.03 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5fc3436-9413-40a7-b116-3d38c37b8cd0")
-		(property "Reference" "J14"
-			(at 242.57 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Servo SGN 3"
-			(at 242.57 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 240.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 240.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d169c645-8630-4bdb-9ed4-bf3f54cffa51")
-		)
-		(pin "2"
-			(uuid "4843fc90-7420-462b-88f6-0ef014c51f39")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "J14")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2378,7 +2902,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 147.32 0)
+		(at 208.28 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2387,7 +2911,7 @@
 		(fields_autoplaced yes)
 		(uuid "ade3e7b7-dcaf-49ef-8d18-1e534460cac8")
 		(property "Reference" "#PWR071"
-			(at 208.28 153.67 0)
+			(at 208.28 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2920,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 152.4 0)
+			(at 208.28 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 147.32 0)
+			(at 208.28 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 147.32 0)
+			(at 208.28 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 147.32 0)
+			(at 208.28 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,6 +2967,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 265.43 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b33e0977-07d3-468e-87ec-02a8e3d788c3")
+		(property "Reference" "J7"
+			(at 267.97 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Servo4"
+			(at 267.97 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-3-508-1715734?type=pdf"
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30b000f2-08a7-4aab-aea7-c5533cc33c0d")
+		)
+		(pin "2"
+			(uuid "c9accd24-c6bd-4388-a379-4838ff32ad01")
+		)
+		(pin "3"
+			(uuid "c9f3747d-7081-4fcd-9aa1-a2ba5e615e54")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 238.76 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a09c07-f4c0-4907-af2a-7bbb78c1be12")
+		(property "Reference" "J6"
+			(at 241.3 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Servo3"
+			(at 241.3 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 238.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-3-508-1715734?type=pdf"
+			(at 238.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 238.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d27387d8-8d10-491e-ab68-69bb281a0a17")
+		)
+		(pin "2"
+			(uuid "8b60d4f5-c1b8-4654-a7f6-4b120ecea43a")
+		)
+		(pin "3"
+			(uuid "f1414179-57fa-402a-b028-009d1a4c6c70")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 265.43 111.76 0)
 		(unit 1)
@@ -2452,7 +3122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb4d33c5-3054-445a-8c82-428594c99c0f")
-		(property "Reference" "J20"
+		(property "Reference" "J12"
 			(at 267.97 110.4899 0)
 			(effects
 				(font
@@ -2509,75 +3179,6 @@
 		(instances
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 189.23 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd906586-8b73-4239-82a0-224efa83d4bc")
-		(property "Reference" "J12"
-			(at 191.77 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Servo SGN 1"
-			(at 191.77 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 189.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 189.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51e52207-4395-4a50-88e6-121f194bada8")
-		)
-		(pin "2"
-			(uuid "5a907303-94b1-4c63-ab2a-904ca588ad10")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
 					(reference "J12")
 					(unit 1)
 				)
@@ -2586,7 +3187,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 130.81 0)
+		(at 259.08 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2595,7 +3196,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb89b4be-3935-49ba-ad69-2f64946682a9")
 		(property "Reference" "#PWR069"
-			(at 259.08 137.16 0)
+			(at 259.08 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +3205,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 135.89 0)
+			(at 259.08 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +3213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 130.81 0)
+			(at 259.08 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +3222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 130.81 0)
+			(at 259.08 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +3231,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 130.81 0)
+			(at 259.08 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,86 +3252,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 214.63 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9519cec-1ede-4c1e-8117-1b0a7738d210")
-		(property "Reference" "J17"
-			(at 217.17 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Servo SGN 6"
-			(at 217.17 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 214.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/909/1935161.pdf"
-			(at 214.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 214.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cecc7927-a892-4c49-b185-8db79d0f6920")
-		)
-		(pin "2"
-			(uuid "4c0e7bac-adce-4a88-ab3b-10cf1275b30f")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 182.88 130.81 0)
+		(lib_id "power:+7.5V")
+		(at 233.68 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe3db865-d3a6-4dd8-a480-94d3f77dee37")
-		(property "Reference" "#PWR066"
-			(at 182.88 137.16 0)
+		(uuid "ccbe1923-96db-4de6-8d03-7ba2e389303f")
+		(property "Reference" "#PWR054"
+			(at 237.49 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,16 +3270,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 182.88 135.89 0)
+		(property "Value" "+7.4V"
+			(at 229.87 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 130.81 0)
+			(at 233.68 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +3289,280 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 130.81 0)
+			(at 233.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 233.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf3bbf7-5953-401f-a8ff-bee550bedf84")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 265.43 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e844f3b2-3971-4bb0-aa93-d89a6a5844a0")
+		(property "Reference" "J11"
+			(at 267.97 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Servo8"
+			(at 267.97 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-3-508-1715734?type=pdf"
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a58463b-ab64-4dfc-99ee-36e6d3066304")
+		)
+		(pin "2"
+			(uuid "839fd1c0-668f-40e1-acaa-28c9beeb9bd0")
+		)
+		(pin "3"
+			(uuid "da5b77ad-9317-4f9b-9ae8-afb99f920dad")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+7.5V")
+		(at 233.68 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e93cc565-1d27-41b8-9a74-d980f8e3618a")
+		(property "Reference" "#PWR048"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+7.4V"
+			(at 229.87 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 233.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "642522d5-74fd-47ed-a1b9-d08b2f68f772")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+7.5V")
+		(at 182.88 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f71b7f38-4190-49b4-bc1f-f0130a5a4683")
+		(property "Reference" "#PWR046"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+7.4V"
+			(at 179.07 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 182.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1efdcd7f-6e29-4424-bca4-9546883eb399")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe3db865-d3a6-4dd8-a480-94d3f77dee37")
+		(property "Reference" "#PWR066"
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +3571,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 130.81 0)
+			(at 182.88 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
