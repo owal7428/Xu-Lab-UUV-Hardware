@@ -1925,6 +1925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 214.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4dc4708a-15f4-449a-a7ce-05ace13b31e8")
 		)
@@ -2057,6 +2066,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
 			(at 189.23 129.54 0)
 			(effects
 				(font
@@ -2470,6 +2488,15 @@
 				(hide yes)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 189.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef56d023-9c79-4900-9f57-47b829cb376c")
 		)
@@ -2535,6 +2562,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
 			(at 240.03 146.05 0)
 			(effects
 				(font
@@ -2882,6 +2918,15 @@
 				(hide yes)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 214.63 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83b12ceb-f5c4-4282-a2a9-d0bd8a590de7")
 		)
@@ -3021,6 +3066,15 @@
 				(hide yes)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30b000f2-08a7-4aab-aea7-c5533cc33c0d")
 		)
@@ -3094,6 +3148,15 @@
 				(hide yes)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 238.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d27387d8-8d10-491e-ab68-69bb281a0a17")
 		)
@@ -3140,7 +3203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical"
 			(at 265.43 111.76 0)
 			(effects
 				(font
@@ -3149,7 +3212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf"
 			(at 265.43 111.76 0)
 			(effects
 				(font
@@ -3159,6 +3222,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3P-VH/926548"
 			(at 265.43 111.76 0)
 			(effects
 				(font
@@ -3365,6 +3437,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
 			(at 265.43 146.05 0)
 			(effects
 				(font

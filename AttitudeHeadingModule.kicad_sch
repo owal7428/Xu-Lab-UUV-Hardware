@@ -2182,7 +2182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST_GH:GH_B04B-GH-A_1x04_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
 			(at 231.394 74.93 0)
 			(effects
 				(font
@@ -2201,6 +2201,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 228.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM04B-GHS-TBT-LF-SN-N/807802"
 			(at 228.6 86.36 0)
 			(effects
 				(font
@@ -2391,7 +2400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6652 123.19 0)
 			(effects
 				(font
@@ -2400,7 +2409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B105KO8NNN"
 			(at 139.7 119.38 0)
 			(effects
 				(font
@@ -2410,6 +2419,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
 			(at 139.7 119.38 0)
 			(effects
 				(font
@@ -2657,7 +2675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MMC5983MA_MEM"
+		(property "Footprint" "XuLab:MMC5983MA_MEM"
 			(at 60.96 134.874 0)
 			(effects
 				(font
@@ -2678,6 +2696,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/memsic-inc/MMC5983MA/10452795"
 			(at 81.28 116.84 0)
 			(effects
 				(font
@@ -2970,7 +2997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.6152 55.88 0)
 			(effects
 				(font
@@ -2979,7 +3006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
 			(at 120.65 52.07 0)
 			(effects
 				(font
@@ -2989,6 +3016,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
 			(at 120.65 52.07 0)
 			(effects
 				(font
@@ -3060,6 +3096,15 @@
 		)
 		(property "Description" "iNEMO inertial module with embedded Machine Learning Core: always-on 3D accelerometer and 3D gyroscope with digital output for industrial applications, LGA-14"
 			(at 82.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/stmicroelectronics/ISM330DHCXTR/10409727?s=N4IgTCBcDaIJIGUCyBmFAGAIgCQMIA0QBdAXyA"
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 254.9652 92.71 0)
 			(effects
 				(font
@@ -3220,7 +3265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
 			(at 254 88.9 0)
 			(effects
 				(font
@@ -3230,6 +3275,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
 			(at 254 88.9 0)
 			(effects
 				(font
@@ -3281,7 +3335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 122.8852 130.81 0)
 			(effects
 				(font
@@ -3290,7 +3344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B106KAHNNNE_Spec.pdf"
 			(at 121.92 127 0)
 			(effects
 				(font
@@ -3300,6 +3354,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"
 			(at 121.92 127 0)
 			(effects
 				(font
@@ -3483,7 +3546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.3152 55.88 0)
 			(effects
 				(font
@@ -3492,7 +3555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
 			(at 133.35 52.07 0)
 			(effects
 				(font
@@ -3502,6 +3565,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
 			(at 133.35 52.07 0)
 			(effects
 				(font

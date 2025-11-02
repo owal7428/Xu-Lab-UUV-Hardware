@@ -2747,7 +2747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 48.26 0)
 			(effects
 				(font
@@ -2756,7 +2756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B105KO8NNN"
 			(at 109.22 44.45 0)
 			(effects
 				(font
@@ -2766,6 +2766,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
 			(at 109.22 44.45 0)
 			(effects
 				(font
@@ -3080,7 +3089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.3252 102.87 0)
 			(effects
 				(font
@@ -3089,7 +3098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H100GB01-01.pdf"
 			(at 86.36 99.06 0)
 			(effects
 				(font
@@ -3099,6 +3108,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H100GB01D/2592846"
 			(at 86.36 99.06 0)
 			(effects
 				(font
@@ -3167,6 +3185,15 @@
 			)
 		)
 		(property "Description" "Schottky diode - APT60S20BG"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/microchip-technology/APT60S20BG/1494822"
 			(at 67.31 40.64 0)
 			(effects
 				(font
@@ -3283,7 +3310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.2652 107.95 0)
 			(effects
 				(font
@@ -3292,7 +3319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2901/CL10A226MP8NUNC_Spec.pdf"
 			(at 114.3 104.14 0)
 			(effects
 				(font
@@ -3302,6 +3329,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932"
 			(at 114.3 104.14 0)
 			(effects
 				(font
@@ -3419,7 +3455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 84.7852 48.26 0)
 			(effects
 				(font
@@ -3428,7 +3464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/42/CL32A107MPVNNNE_Spec.pdf"
 			(at 83.82 44.45 0)
 			(effects
 				(font
@@ -3438,6 +3474,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A107MPVNNNE/3889022"
 			(at 83.82 44.45 0)
 			(effects
 				(font
@@ -3489,7 +3534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 37.1348 102.87 0)
 			(effects
 				(font
@@ -3498,7 +3543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B106KAHNNNE_Spec.pdf"
 			(at 38.1 99.06 0)
 			(effects
 				(font
@@ -3508,6 +3553,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"
 			(at 38.1 99.06 0)
 			(effects
 				(font
@@ -3557,7 +3611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 80.01 93.98 0)
 			(effects
 				(font
@@ -3566,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_decoupling_mlz2012-a_en.pdf"
 			(at 80.01 93.98 0)
 			(effects
 				(font
@@ -3577,6 +3631,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/tdk-corporation/MLZ2012M3R3ATD69/9605952"
+			(at 80.01 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 103.886 109.474 90)
 			(effects
 				(font
@@ -3636,7 +3699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 102.87 109.22 0)
 			(effects
 				(font
@@ -3646,6 +3709,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0710KL/726523"
 			(at 102.87 109.22 0)
 			(effects
 				(font
@@ -3722,6 +3794,15 @@
 				(hide yes)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP62301WU-7/12349279?s=N4IgTCBcDaIIIAUBsYDMAGAjAdQKogF0BfIA"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9291234f-27ca-4781-804a-9af725317bad")
 		)
@@ -3776,7 +3857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 107.95 0)
 			(effects
 				(font
@@ -3785,7 +3866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2901/CL10A226MP8NUNC_Spec.pdf"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -3795,6 +3876,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -3846,7 +3936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 103.886 99.314 90)
 			(effects
 				(font
@@ -3855,7 +3945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 102.87 99.06 0)
 			(effects
 				(font
@@ -3865,6 +3955,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 102.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402FT31K6/1714647"
 			(at 102.87 99.06 0)
 			(effects
 				(font
@@ -4011,6 +4110,15 @@
 				(hide yes)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/MSP3V3-M3-89A/2071748"
+			(at 143.51 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72c46c01-6984-4ecf-a564-8e98e7dcedfe")
 		)
@@ -4117,7 +4225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.93 87.9348 0)
 			(effects
 				(font
@@ -4126,7 +4234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
 			(at 71.12 88.9 0)
 			(effects
 				(font
@@ -4137,6 +4245,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+			(at 71.12 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 97.4852 48.26 0)
 			(effects
 				(font
@@ -4196,7 +4313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B106KAHNNNE_Spec.pdf"
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -4206,6 +4323,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -4286,6 +4412,15 @@
 				(hide yes)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1986660-2/4021603"
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2B"
 			(uuid "1290758d-741c-40ad-adca-b2f053f10088")
 		)
@@ -4357,6 +4492,15 @@
 		)
 		(property "Description" "7.5 V Reverse Standoff TVS"
 			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/diodes-incorporated/SMBJ7-5A-13-F/749992"
+			(at 76.2 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
