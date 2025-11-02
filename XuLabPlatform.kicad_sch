@@ -799,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 99.06) (xy 97.79 99.06)
+			(xy 88.9 85.09) (xy 96.52 85.09)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 97.79 91.44)
+			(xy 88.9 77.47) (xy 96.52 77.47)
 		)
 		(stroke
 			(width 0)
@@ -929,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 102.87) (xy 97.79 102.87)
+			(xy 88.9 88.9) (xy 96.52 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1029,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 118.11) (xy 97.79 118.11)
+			(xy 88.9 104.14) (xy 96.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1159,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 97.79 121.92)
+			(xy 88.9 107.95) (xy 96.52 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1249,7 +1249,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 106.68) (xy 97.79 106.68)
+			(xy 88.9 92.71) (xy 96.52 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 110.49) (xy 97.79 110.49)
+			(xy 88.9 96.52) (xy 96.52 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1329,7 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 95.25) (xy 97.79 95.25)
+			(xy 88.9 81.28) (xy 96.52 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 114.3) (xy 97.79 114.3)
+			(xy 88.9 100.33) (xy 96.52 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1428,7 @@
 		(uuid "3f68bf13-5e57-4a27-ad67-72aadeefc5f6")
 	)
 	(label "PWM_8"
-		(at 97.79 118.11 180)
+		(at 96.52 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1498,7 +1498,7 @@
 		(uuid "6700a8e5-8187-466e-9cc0-e3fee1323138")
 	)
 	(label "PWM_5"
-		(at 97.79 106.68 180)
+		(at 96.52 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1508,7 +1508,7 @@
 		(uuid "789abe50-5477-4bb9-8f9a-b21a8a910528")
 	)
 	(label "PWM_9"
-		(at 97.79 121.92 180)
+		(at 96.52 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1558,7 +1558,7 @@
 		(uuid "92e7ce10-f9d0-42fe-903c-3dddb1eb2835")
 	)
 	(label "PWM_4"
-		(at 97.79 102.87 180)
+		(at 96.52 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1568,7 +1568,7 @@
 		(uuid "9c1385cb-6508-4cf2-82bd-5bcab7f48c82")
 	)
 	(label "PWM_7"
-		(at 97.79 114.3 180)
+		(at 96.52 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1618,7 +1618,7 @@
 		(uuid "b0f400b7-1d32-45c6-a676-4fc4c15dcf22")
 	)
 	(label "PWM_2"
-		(at 97.79 95.25 180)
+		(at 96.52 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1628,7 +1628,7 @@
 		(uuid "b26d891a-0d9b-4794-a3c9-adebdb81cee3")
 	)
 	(label "PWM_1"
-		(at 97.79 91.44 180)
+		(at 96.52 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 		(uuid "bbd764e7-44c1-424b-930b-e21e2f6acc78")
 	)
 	(label "PWM_6"
-		(at 97.79 110.49 180)
+		(at 96.52 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1678,7 +1678,7 @@
 		(uuid "c74dd1b4-e0cb-4c20-ade7-13f4572b4568")
 	)
 	(label "PWM_3"
-		(at 97.79 99.06 180)
+		(at 96.52 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3635,7 +3635,7 @@
 	)
 	(sheet
 		(at 50.8 38.1)
-		(size 38.1 87.63)
+		(size 38.1 74.93)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3659,7 +3659,7 @@
 			)
 		)
 		(property "Sheetfile" "MicrocontrollerA.kicad_sch"
-			(at 50.8 126.3146 0)
+			(at 50.8 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,46 +3717,6 @@
 				(justify right)
 			)
 		)
-		(pin "I2C2_SCL" bidirectional
-			(at 88.9 71.12 0)
-			(uuid "49f0a9ea-3ba0-4538-a749-7e7a907e2908")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C2_SDA" bidirectional
-			(at 88.9 74.93 0)
-			(uuid "c59efb2a-bc48-43c4-b0b0-29bd927663bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C3_SCL" bidirectional
-			(at 88.9 78.74 0)
-			(uuid "c0d083cc-f64f-4b03-9431-95b54112b6ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C3_SDA" bidirectional
-			(at 88.9 82.55 0)
-			(uuid "86f094b7-e0df-4833-a06f-4d8b51da9705")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SPI1_MISO" input
 			(at 50.8 48.26 180)
 			(uuid "a4dd8ca6-0e76-452c-8f37-56b792f7ac4c")
@@ -3788,7 +3748,7 @@
 			)
 		)
 		(pin "TIM2_CH1" output
-			(at 88.9 91.44 0)
+			(at 88.9 77.47 0)
 			(uuid "44fcbb64-828b-4797-93da-8f2ecba7430b")
 			(effects
 				(font
@@ -3798,7 +3758,7 @@
 			)
 		)
 		(pin "TIM2_CH2" output
-			(at 88.9 95.25 0)
+			(at 88.9 81.28 0)
 			(uuid "18d9a567-775b-4b7b-aa62-f734ea1d0206")
 			(effects
 				(font
@@ -3808,7 +3768,7 @@
 			)
 		)
 		(pin "TIM2_CH3" output
-			(at 88.9 99.06 0)
+			(at 88.9 85.09 0)
 			(uuid "06b24167-267c-41f5-a0ea-d079cc18a9a3")
 			(effects
 				(font
@@ -3818,7 +3778,7 @@
 			)
 		)
 		(pin "TIM2_CH4" output
-			(at 88.9 102.87 0)
+			(at 88.9 88.9 0)
 			(uuid "68772e8a-c939-4934-a9db-e6d18d05f7df")
 			(effects
 				(font
@@ -3828,7 +3788,7 @@
 			)
 		)
 		(pin "TIM3_CH1" output
-			(at 88.9 106.68 0)
+			(at 88.9 92.71 0)
 			(uuid "89128ad6-2040-453f-a25e-ec88a497e9aa")
 			(effects
 				(font
@@ -3838,7 +3798,7 @@
 			)
 		)
 		(pin "TIM3_CH2" output
-			(at 88.9 110.49 0)
+			(at 88.9 96.52 0)
 			(uuid "befde832-0b12-457d-9210-87079e1ed814")
 			(effects
 				(font
@@ -3848,7 +3808,7 @@
 			)
 		)
 		(pin "TIM3_CH3" output
-			(at 88.9 114.3 0)
+			(at 88.9 100.33 0)
 			(uuid "a4a63688-fa35-44d2-9193-79faaf21b54e")
 			(effects
 				(font
@@ -3858,7 +3818,7 @@
 			)
 		)
 		(pin "TIM3_CH4" output
-			(at 88.9 118.11 0)
+			(at 88.9 104.14 0)
 			(uuid "e5ff00d7-dead-4732-ba73-5ec894ae0635")
 			(effects
 				(font
@@ -3878,7 +3838,7 @@
 			)
 		)
 		(pin "UART4_TX" output
-			(at 88.9 86.36 0)
+			(at 88.9 72.39 0)
 			(uuid "33c62bd1-4a95-4458-a4f3-b6b8503ce825")
 			(effects
 				(font
@@ -3908,7 +3868,7 @@
 			)
 		)
 		(pin "TIM12_CH2" output
-			(at 88.9 121.92 0)
+			(at 88.9 107.95 0)
 			(uuid "9229cf5c-44fc-4cc8-953c-61d7090070c5")
 			(effects
 				(font
