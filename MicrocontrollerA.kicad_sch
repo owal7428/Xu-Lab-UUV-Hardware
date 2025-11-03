@@ -8684,7 +8684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b559a34-a744-4fb5-9043-8ceb1948c3a1")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 50.8 146.0499 0)
 			(effects
 				(font
@@ -8747,7 +8747,7 @@
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -12382,7 +12382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c40143c9-d254-4963-b8d1-48f6d3b99b64")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 212.09 139.6999 0)
 			(effects
 				(font
@@ -12445,7 +12445,7 @@
 		(instances
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
