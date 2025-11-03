@@ -3928,6 +3928,397 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:TVS0500DRV"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TVS0500DRV"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+				(at 5.08 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tvs0500.pdf"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Flat-Clamp Surge Protection Device. 5Vrwm, WSON-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "EMI, ESD, TVS protection transient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.65mm*EP1x1.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TVS0500DRV_0_0"
+				(rectangle
+					(start -11.43 2.54)
+					(end -5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.255 2.54) (xy -8.255 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.255 -2.54) (xy -8.255 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Det &"
+					(at -8.255 0.635 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Drv"
+					(at -8.255 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "TVS0500DRV_0_1"
+				(rectangle
+					(start -12.065 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.397) (xy -2.286 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.889 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -1.27) (xy -1.143 -1.651) (xy -1.143 -0.889) (xy -0.127 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TVS0500DRV_1_1"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4721,6 +5112,12 @@
 		(uuid "465e1d4a-923e-46e2-906f-e4fcc01cc93f")
 	)
 	(junction
+		(at 36.83 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "466e0e1c-128f-4132-9570-861936449c98")
+	)
+	(junction
 		(at 34.29 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5234,7 +5631,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 113.03) (xy 49.53 116.84)
+			(xy 49.53 113.03) (xy 49.53 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5404,6 +5801,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 154.94) (xy 36.83 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51633c9d-22fc-46c7-beec-6052e8a15baa")
+	)
+	(wire
+		(pts
 			(xy 168.91 104.14) (xy 171.45 104.14)
 		)
 		(stroke
@@ -5471,16 +5878,6 @@
 			(type default)
 		)
 		(uuid "63323e06-f2d4-4d22-b229-5d9b4fd24e68")
-	)
-	(wire
-		(pts
-			(xy 46.99 127) (xy 46.99 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64f62109-381a-40b9-9c4b-54d314badc40")
 	)
 	(wire
 		(pts
@@ -5574,6 +5971,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 151.13) (xy 46.99 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722c7863-321f-43ed-bc75-fdd22a52634e")
+	)
+	(wire
+		(pts
 			(xy 124.46 140.97) (xy 124.46 142.24)
 		)
 		(stroke
@@ -5631,6 +6038,16 @@
 			(type default)
 		)
 		(uuid "75e767be-723d-48e6-a0cf-2adc0452ad5f")
+	)
+	(wire
+		(pts
+			(xy 46.99 138.43) (xy 46.99 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d1fbde-5080-433d-842f-6be9391468b0")
 	)
 	(wire
 		(pts
@@ -6004,7 +6421,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 107.95) (xy 44.45 116.84)
+			(xy 44.45 107.95) (xy 44.45 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6201,6 +6618,16 @@
 			(type default)
 		)
 		(uuid "b0a3aa9c-c9f4-4111-a40e-f9d98aef8e55")
+	)
+	(wire
+		(pts
+			(xy 36.83 138.43) (xy 36.83 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dc80d7-922e-457f-9bf3-27e652a3882c")
 	)
 	(wire
 		(pts
@@ -6674,6 +7101,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 156.21) (xy 46.99 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a7a522-b87e-4fc5-9c35-b177fc2ad39f")
+	)
+	(wire
+		(pts
 			(xy 168.91 86.36) (xy 181.61 86.36)
 		)
 		(stroke
@@ -6714,6 +7151,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 138.43) (xy 46.99 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab1c02e-099a-4cff-8873-57a5eb0e3cd0")
+	)
+	(wire
+		(pts
 			(xy 198.12 73.66) (xy 208.28 73.66)
 		)
 		(stroke
@@ -6751,6 +7198,16 @@
 			(type default)
 		)
 		(uuid "ef484403-5f48-4133-8283-a1befd35a396")
+	)
+	(wire
+		(pts
+			(xy 46.99 127) (xy 46.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1332ff2-acb1-4cd4-ae55-d43acebe346b")
 	)
 	(wire
 		(pts
@@ -6931,6 +7388,16 @@
 			(justify right bottom)
 		)
 		(uuid "14217068-631f-4222-889b-a90efaccec37")
+	)
+	(label "USB_VBUS"
+		(at 46.99 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17a48347-b75a-4ae9-ab0e-a940234e581c")
 	)
 	(label "TIM3_CH4"
 		(at 179.07 111.76 180)
@@ -8208,6 +8675,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 46.99 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b559a34-a744-4fb5-9043-8ceb1948c3a1")
+		(property "Reference" "C26"
+			(at 50.8 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 50.8 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 47.9552 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95a17881-d134-43ac-adec-54dfa1d1b396")
+		)
+		(pin "1"
+			(uuid "bd1c5f81-a603-4ffc-b457-e20108f6d44d")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 46.99 171.45 0)
 		(unit 1)
@@ -8357,7 +8903,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:RCLAMP0582B")
-		(at 46.99 121.92 90)
+		(at 46.99 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8366,7 +8912,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fb78326-b547-4945-8fe9-891e9abbbc3d")
 		(property "Reference" "D3"
-			(at 52.07 120.5864 90)
+			(at 52.07 119.3164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,7 +8921,7 @@
 			)
 		)
 		(property "Value" "RCLAMP0582B"
-			(at 52.07 123.1264 90)
+			(at 52.07 121.8564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +8930,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-			(at 54.61 121.92 0)
+			(at 54.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +8939,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
-			(at 44.45 120.65 0)
+			(at 44.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8948,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
-			(at 46.99 121.92 0)
+			(at 46.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8957,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/semtech-corporation/RCLAMP0582B-TCT/4626644"
-			(at 46.99 121.92 90)
+			(at 46.99 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8584,7 +9130,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 128.27 0)
+		(at 46.99 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8593,7 +9139,7 @@
 		(fields_autoplaced yes)
 		(uuid "13b81dcd-99f6-4a6e-8793-a3c25e3e72b2")
 		(property "Reference" "#PWR022"
-			(at 46.99 134.62 0)
+			(at 46.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +9148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 133.35 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +9156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 128.27 0)
+			(at 46.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8619,7 +9165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 128.27 0)
+			(at 46.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,7 +9174,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 128.27 0)
+			(at 46.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,6 +10271,97 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:TVS0500DRV")
+		(at 36.83 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "656453f5-c2e4-484f-b55c-6f7b7e4c2468")
+		(property "Reference" "U5"
+			(at 28.448 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TVS0500DRV"
+			(at 28.448 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+			(at 41.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tvs0500.pdf"
+			(at 34.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flat-Clamp Surge Protection Device. 5Vrwm, WSON-6"
+			(at 36.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/texas-instruments/TVS0500DRVR/8538263"
+			(at 36.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d73c9d3-c8c0-482b-a079-834e8046b25c")
+		)
+		(pin "5"
+			(uuid "99461134-fecc-446b-ae35-6a78efd02764")
+		)
+		(pin "3"
+			(uuid "a31a1923-bd89-48e1-86a7-5bbf7352e134")
+		)
+		(pin "4"
+			(uuid "6a804a1d-f86a-4107-b271-17071e5d2a65")
+		)
+		(pin "6"
+			(uuid "63ce4107-1dad-45f6-9c9f-89b811bd44d9")
+		)
+		(pin "7"
+			(uuid "6178365a-75db-4a93-b98d-679fbae67d4f")
+		)
+		(pin "1"
+			(uuid "90df0c4f-11c3-47d7-9f68-74545567b9c2")
+		)
+		(instances
+			(project ""
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11809,6 +12446,72 @@
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7ddeb81-b190-4b6f-86bf-97a74f23d7d8")
+		(property "Reference" "#PWR059"
+			(at 36.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07f8f372-a703-4bac-8234-0ea1bbba35cb")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
