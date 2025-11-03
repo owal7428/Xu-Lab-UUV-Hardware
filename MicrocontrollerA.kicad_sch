@@ -4819,6 +4819,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 107.95) (xy 53.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0455f274-3a24-4a74-a9d6-46eee3e930b6")
+	)
+	(wire
+		(pts
 			(xy 151.13 152.4) (xy 151.13 153.67)
 		)
 		(stroke
@@ -4826,6 +4836,16 @@
 			(type default)
 		)
 		(uuid "0466fda2-4be6-48e6-9ba8-1a47514ce1b5")
+	)
+	(wire
+		(pts
+			(xy 63.5 107.95) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e9229c-00a3-4701-8014-23732ac8f756")
 	)
 	(wire
 		(pts
@@ -4929,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 107.95) (xy 86.36 107.95)
+			(xy 81.28 107.95) (xy 88.9 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5179,16 +5199,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 113.03) (xy 54.61 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b3c632-ed16-4300-9b95-47a252aee309")
-	)
-	(wire
-		(pts
 			(xy 168.91 127) (xy 179.07 127)
 		)
 		(stroke
@@ -5306,16 +5316,6 @@
 			(type default)
 		)
 		(uuid "5a0872d0-c1a7-467c-829a-7a1804021d31")
-	)
-	(wire
-		(pts
-			(xy 64.77 113.03) (xy 69.85 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bbd9861-4567-4b49-97dc-c24ec7419901")
 	)
 	(wire
 		(pts
@@ -5599,16 +5599,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 107.95) (xy 69.85 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8321dc94-17d8-4b25-9145-ae52d274336c")
-	)
-	(wire
-		(pts
 			(xy 168.91 119.38) (xy 180.34 119.38)
 		)
 		(stroke
@@ -5749,6 +5739,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 113.03) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1b35a6-aa85-4eca-bbc6-86a0b11a8c2b")
+	)
+	(wire
+		(pts
 			(xy 209.55 144.78) (xy 209.55 146.05)
 		)
 		(stroke
@@ -5776,6 +5776,16 @@
 			(type default)
 		)
 		(uuid "8f63f002-2dcb-4b15-acea-d1bc72967abe")
+	)
+	(wire
+		(pts
+			(xy 63.5 113.03) (xy 73.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f65f90e-612b-40ac-9bc2-661a6c8a87c1")
 	)
 	(wire
 		(pts
@@ -6429,7 +6439,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 113.03) (xy 86.36 113.03)
+			(xy 81.28 113.03) (xy 88.9 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6456,16 +6466,6 @@
 			(type default)
 		)
 		(uuid "df21d379-f973-412c-8014-88c4040e048d")
-	)
-	(wire
-		(pts
-			(xy 44.45 107.95) (xy 54.61 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df443a69-4895-499a-9294-28d53100ec68")
 	)
 	(wire
 		(pts
@@ -6777,6 +6777,16 @@
 		)
 		(uuid "0aee57da-f991-4881-ab60-500cc4643d21")
 	)
+	(label "USB_D_M-"
+		(at 73.66 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14217068-631f-4222-889b-a90efaccec37")
+	)
 	(label "TIM3_CH4"
 		(at 179.07 111.76 180)
 		(effects
@@ -6998,7 +7008,7 @@
 		(uuid "59d33a32-1657-4761-8316-5579b9fe97e0")
 	)
 	(label "USB_D-"
-		(at 86.36 113.03 180)
+		(at 88.9 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7016,6 +7026,26 @@
 			(justify left bottom)
 		)
 		(uuid "5e00d12c-997b-41e8-9a77-43c31ca6d498")
+	)
+	(label "USB_D_M+"
+		(at 73.66 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e016034-df92-4467-9bfe-ebbd7ef35358")
+	)
+	(label "USB_D_I+"
+		(at 53.34 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63007f46-4f8a-4114-8217-b49bc525bc6d")
 	)
 	(label "TIM3_CH1"
 		(at 198.12 81.28 0)
@@ -7098,7 +7128,7 @@
 		(uuid "9d377921-73d0-461c-af3c-84f53a4c991f")
 	)
 	(label "USB_D+"
-		(at 86.36 107.95 180)
+		(at 88.9 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7446,6 +7476,16 @@
 			(justify left bottom)
 		)
 		(uuid "fbee33cd-e4d6-4366-bc4a-e8c3ea3db59e")
+	)
+	(label "USB_D_I-"
+		(at 53.34 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd7811f2-4db1-4f51-8e53-fb9cbda7673a")
 	)
 	(hierarchical_label "TIM2_CH1"
 		(shape output)
@@ -9856,7 +9896,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 73.66 113.03 270)
+		(at 77.47 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9864,14 +9904,6 @@
 		(dnp no)
 		(uuid "72fd3752-24fe-4473-8c85-9ecdfe164689")
 		(property "Reference" "R7"
-			(at 71.882 110.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
 			(at 75.692 110.744 90)
 			(effects
 				(font
@@ -9879,8 +9911,16 @@
 				)
 			)
 		)
+		(property "Value" "22"
+			(at 79.502 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.406 114.046 90)
+			(at 77.216 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,7 +9929,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 73.66 113.03 0)
+			(at 77.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,7 +9938,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 73.66 113.03 0)
+			(at 77.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9907,7 +9947,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0722RL/726562"
-			(at 73.66 113.03 90)
+			(at 77.47 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,16 +10275,15 @@
 	)
 	(symbol
 		(lib_id "Device:Filter_EMI_LL_1423")
-		(at 59.69 110.49 0)
+		(at 58.42 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77636988-e500-4bd3-9f9b-0b2f1927d0c7")
 		(property "Reference" "FL1"
-			(at 59.309 102.87 0)
+			(at 58.166 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10252,7 +10291,7 @@
 			)
 		)
 		(property "Value" "0805USB-502MLC"
-			(at 59.309 105.41 0)
+			(at 58.166 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,7 +10299,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0805USB"
-			(at 59.69 116.84 0)
+			(at 58.42 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10269,7 +10308,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/995/1/0805usb.pdf"
-			(at 59.69 109.474 90)
+			(at 58.42 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10278,7 +10317,7 @@
 			)
 		)
 		(property "Description" "EMI 2-inductor filter, pin-connections 1-4 and 2-3"
-			(at 59.69 110.49 0)
+			(at 58.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10326,7 @@
 			)
 		)
 		(property "Listing" "https://www.mouser.com/ProductDetail/Coilcraft/0805USB-502MLC?qs=ZYnrCdKdyedkPvN2m7gZXA%3D%3D"
-			(at 59.69 110.49 0)
+			(at 58.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,7 +11173,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 73.66 107.95 270)
+		(at 77.47 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11142,14 +11181,6 @@
 		(dnp no)
 		(uuid "ba316815-09bc-4b8f-a7b3-e94de737a573")
 		(property "Reference" "R6"
-			(at 71.882 105.664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
 			(at 75.692 105.664 90)
 			(effects
 				(font
@@ -11157,8 +11188,16 @@
 				)
 			)
 		)
+		(property "Value" "22"
+			(at 79.502 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.406 108.966 90)
+			(at 77.216 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11167,7 +11206,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 73.66 107.95 0)
+			(at 77.47 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11215,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 73.66 107.95 0)
+			(at 77.47 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,7 +11224,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0722RL/726562"
-			(at 73.66 107.95 90)
+			(at 77.47 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
