@@ -869,16 +869,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 48.26) (xy 100.33 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20338701-eddc-434d-bdaa-31e23e1a409e")
-	)
-	(wire
-		(pts
 			(xy 209.55 148.59) (xy 208.28 148.59)
 		)
 		(stroke
@@ -1229,6 +1219,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 48.26) (xy 100.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4494a5-4dc1-4e7d-9589-5e532e511a00")
+	)
+	(wire
+		(pts
 			(xy 182.88 148.59) (xy 182.88 149.86)
 		)
 		(stroke
@@ -1497,6 +1497,16 @@
 		)
 		(uuid "6700a8e5-8187-466e-9cc0-e3fee1323138")
 	)
+	(label "SPI1_SCK"
+		(at 100.33 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72dd0997-cb11-412c-9bec-dd1ac990228c")
+	)
 	(label "PWM_5"
 		(at 96.52 92.71 180)
 		(effects
@@ -1696,26 +1706,6 @@
 			(justify left bottom)
 		)
 		(uuid "d58240e1-ae23-4c91-91b7-3396a9105dc9")
-	)
-	(label ""
-		(at 97.79 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7a0ec81-d4a5-4c82-90d0-d597e7205b4d")
-	)
-	(label "SPI1_SCK"
-		(at 100.33 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df528607-803f-47d1-b0a2-280df729d9a2")
 	)
 	(label "SPI1_MOSI"
 		(at 158.75 68.58 0)
@@ -3818,16 +3808,6 @@
 				(justify right)
 			)
 		)
-		(pin "SPI1_SCK" output
-			(at 88.9 48.26 0)
-			(uuid "74e96e3c-f9de-4390-ac81-fe5fbad54d61")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "TIM2_CH1" output
 			(at 88.9 77.47 0)
 			(uuid "44fcbb64-828b-4797-93da-8f2ecba7430b")
@@ -3951,6 +3931,16 @@
 		(pin "TIM12_CH2" output
 			(at 88.9 107.95 0)
 			(uuid "9229cf5c-44fc-4cc8-953c-61d7090070c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 88.9 48.26 0)
+			(uuid "b6716b25-22fd-4c63-ad8c-a90daf38bb19")
 			(effects
 				(font
 					(size 1.27 1.27)

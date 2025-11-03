@@ -7629,6 +7629,16 @@
 		)
 		(uuid "5a5a78c1-e4d9-42c5-adb9-744930a25783")
 	)
+	(label "SPI1_SCK"
+		(at 179.07 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cfa2391-53ee-4c94-a497-b6e61ccc7f3e")
+	)
 	(label "TIM3_CH2"
 		(at 198.12 83.82 0)
 		(effects
@@ -8009,16 +8019,6 @@
 		)
 		(uuid "dd3e4238-8231-49c8-91a8-46234fe15f70")
 	)
-	(label "SPI1_SCK"
-		(at 179.07 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ddd2ae4b-2d5e-45f9-8d4e-36341cbd8ca4")
-	)
 	(label "SW_CLK"
 		(at 179.07 101.6 180)
 		(effects
@@ -8163,7 +8163,7 @@
 			)
 			(justify left)
 		)
-		(uuid "73fc1f12-1408-42d9-990a-ad8767a5ca62")
+		(uuid "7de4de31-c6f9-414d-a20d-6ec779ee7636")
 	)
 	(hierarchical_label "SPI1_MISO"
 		(shape input)
