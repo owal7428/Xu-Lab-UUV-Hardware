@@ -1647,6 +1647,16 @@
 		)
 		(uuid "4eb559f0-2c58-4b7a-8953-412114167a43")
 	)
+	(label "I2C1_SCL"
+		(at 251.46 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5194b23f-6666-49ce-a7fb-17780f36f9d4")
+	)
 	(label "PWM_2"
 		(at 203.2 127 0)
 		(effects
@@ -1656,16 +1666,6 @@
 			(justify left bottom)
 		)
 		(uuid "5c620593-ca12-4cba-9fff-33ba51fdda3f")
-	)
-	(label "UART_RX"
-		(at 251.46 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62fdc575-e82f-404c-ad4d-e672b490e783")
 	)
 	(label "SPI1_SCK"
 		(at 158.75 77.47 0)
@@ -1717,6 +1717,16 @@
 		)
 		(uuid "72dd0997-cb11-412c-9bec-dd1ac990228c")
 	)
+	(label "UART_RX"
+		(at 251.46 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7562f7da-b1ba-4836-9e5e-47eb805ca90e")
+	)
 	(label "PWM_5"
 		(at 96.52 92.71 180)
 		(effects
@@ -1757,16 +1767,6 @@
 		)
 		(uuid "80be4467-e3b1-42d8-847b-880b477bdc68")
 	)
-	(label "I2C1_SCL"
-		(at 251.46 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83c18834-e4ad-42db-a380-30fdeea17313")
-	)
 	(label "SPI1_CS1"
 		(at 158.75 60.96 0)
 		(effects
@@ -1796,6 +1796,16 @@
 			(justify left bottom)
 		)
 		(uuid "93312567-e762-423f-991f-5118fef2af96")
+	)
+	(label "I2C1_SDA"
+		(at 251.46 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "995188a7-4ea1-44b4-a73d-34f9a1593dd1")
 	)
 	(label "PWM_4"
 		(at 96.52 88.9 180)
@@ -1858,16 +1868,6 @@
 		(uuid "a2e55a14-503a-49ed-ac46-3fb8afce82c8")
 	)
 	(label "I2C1_SDA"
-		(at 251.46 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0744780-f3cd-4585-a44c-bab55a53007c")
-	)
-	(label "I2C1_SDA"
 		(at 100.33 67.31 180)
 		(effects
 			(font
@@ -1896,6 +1896,16 @@
 			(justify right bottom)
 		)
 		(uuid "b78e187a-1bfb-4465-94ba-dadcfa460717")
+	)
+	(label "UART_TX"
+		(at 251.46 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9cac844-19c8-40d1-ac75-a935fc4242fe")
 	)
 	(label "SPI1_CS2"
 		(at 158.75 73.66 0)
@@ -1926,16 +1936,6 @@
 			(justify left bottom)
 		)
 		(uuid "be2ddb5c-7252-4eaf-a804-24015cec191c")
-	)
-	(label "UART_TX"
-		(at 251.46 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2aa3362-87e3-4466-ab0f-7087a69443a9")
 	)
 	(label "PWM_5"
 		(at 177.8 143.51 0)
@@ -2205,15 +2205,15 @@
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 214.63 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e14c629-15a4-4534-9652-00f44906112e")
 		(property "Reference" "J9"
-			(at 217.17 144.7799 0)
+			(at 217.17 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2222,7 @@
 			)
 		)
 		(property "Value" "Servo6"
-			(at 217.17 147.3199 0)
+			(at 217.17 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,15 +2982,15 @@
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 189.23 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6693507d-98af-4b1a-b1a2-044190899c50")
 		(property "Reference" "J8"
-			(at 191.77 144.7799 0)
+			(at 191.77 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +2999,7 @@
 			)
 		)
 		(property "Value" "Servo5"
-			(at 191.77 147.3199 0)
+			(at 191.77 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,15 +3064,15 @@
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 240.03 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a282e07-693d-43e0-a4d2-088f71c57f7f")
 		(property "Reference" "J10"
-			(at 242.57 144.7799 0)
+			(at 242.57 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3081,7 @@
 			)
 		)
 		(property "Value" "Servo7"
-			(at 242.57 147.3199 0)
+			(at 242.57 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,15 +3872,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 265.43 111.76 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb4d33c5-3054-445a-8c82-428594c99c0f")
 		(property "Reference" "J12"
-			(at 267.97 110.4899 0)
+			(at 267.97 113.0301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3889,7 @@
 			)
 		)
 		(property "Value" "Thruster SGN"
-			(at 267.97 113.0299 0)
+			(at 267.97 110.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,15 +4087,15 @@
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 265.43 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e844f3b2-3971-4bb0-aa93-d89a6a5844a0")
 		(property "Reference" "J11"
-			(at 267.97 144.7799 0)
+			(at 267.97 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4104,7 @@
 			)
 		)
 		(property "Value" "Servo8"
-			(at 267.97 147.3199 0)
+			(at 267.97 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
