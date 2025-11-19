@@ -151,7 +151,7 @@
 			(mirror no)
 			(drillshape 1)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Outputs/Drills/")
 		)
 	)
 	(net 0 "")
