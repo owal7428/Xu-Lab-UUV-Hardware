@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power")
-		(date "2025-11-01")
+		(date "2025-11-26")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -1647,480 +1647,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "XuLab:MSP3V3-M3_89A"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CR"
-				(at 0 7.112 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "MSP3V3-M3/89A"
-				(at 0 4.572 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "XuLab:DO-219AD_VIS"
-				(at -0.254 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/doc?88486"
-				(at 0.254 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3V3 Reverse Standoff TVS"
-				(at 0 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "MSP3V3-M3/89A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DO-219AD_VIS DO-219AD_VIS-M DO-219AD_VIS-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MSP3V3-M3_89A_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.2225) (xy -2.54 -2.2225)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.2225) (xy -2.2225 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.2225) (xy -2.8575 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "XuLab:SMBJ7.5A-13-F"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CR"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SMBJ7.5A-13-F"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "XuLab:SMB_DIO"
-				(at -0.254 -8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds19002.pdf"
-				(at -0.254 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "7.5 V Reverse Standoff TVS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMBJ7.5A-13-F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SMB_DIO SMB_DIO-M SMB_DIO-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMBJ7.5A-13-F_1_1"
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.905) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.905) (xy 1.27 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 0 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SMBJ7.5A-13-F_1_2"
-				(polyline
-					(pts
-						(xy -1.905 3.81) (xy 1.905 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy -1.905 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 0 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 6.35) (xy -1.905 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 3.81) (xy 0 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2510,10 +2036,10 @@
 		(uuid "61c1cdce-9913-45fe-8d51-46e9f702d0af")
 	)
 	(junction
-		(at 104.14 58.42)
+		(at 104.14 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77acd20e-8a2d-45a8-85a6-00c8f04d3c7c")
+		(uuid "799215fd-e531-4166-bf9e-001a0efdb1f6")
 	)
 	(junction
 		(at 60.96 48.26)
@@ -2522,10 +2048,16 @@
 		(uuid "8c4d0c9b-6f29-42e5-bc16-c60feb3f19ff")
 	)
 	(junction
-		(at 100.33 114.3)
+		(at 118.11 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c80051b-6fff-4611-80f2-1b7467cc4325")
+		(uuid "9c90cfec-9ea0-4a64-af8f-727c31abcbf3")
+	)
+	(junction
+		(at 100.33 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a145de1f-b297-4ef1-8d75-bd587995dfc8")
 	)
 	(junction
 		(at 74.93 93.98)
@@ -2546,18 +2078,6 @@
 		(uuid "c261e07b-10b3-48c9-82f6-e64e89f87302")
 	)
 	(junction
-		(at 87.63 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbd14c96-3450-4621-b0d9-3885e91047ea")
-	)
-	(junction
-		(at 90.17 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6792160-1965-4f27-a280-7b8a08f01a9c")
-	)
-	(junction
 		(at 104.14 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2570,10 +2090,22 @@
 		(uuid "da50b071-79d7-466c-9918-9780bcbe1966")
 	)
 	(junction
+		(at 87.63 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a9d7bf-aab2-4172-94ed-c4e727dd09fa")
+	)
+	(junction
 		(at 100.33 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e78ba2a8-be08-4c8d-9d36-79722c9f103f")
+	)
+	(junction
+		(at 90.17 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec55ff5c-75c2-4e24-afef-9cfcd97e5f4a")
 	)
 	(junction
 		(at 118.11 40.64)
@@ -2587,15 +2119,9 @@
 		(color 0 0 0 0)
 		(uuid "f41ccbc0-a818-4552-b45d-78f0345ec82e")
 	)
-	(junction
-		(at 118.11 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd903831-ec58-462c-b4eb-87de56ba76d4")
-	)
 	(wire
 		(pts
-			(xy 118.11 58.42) (xy 132.08 58.42)
+			(xy 118.11 50.8) (xy 132.08 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2605,13 +2131,33 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 107.95) (xy 87.63 114.3)
+			(xy 87.63 107.95) (xy 87.63 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "02efecd5-b2a1-456b-9357-f5d00b3257a8")
+	)
+	(wire
+		(pts
+			(xy 104.14 50.8) (xy 104.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e772dae-12dd-482f-a829-1f72a8307720")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f30c4d4-47d0-4f69-b029-ad1fd6bc7ba4")
 	)
 	(wire
 		(pts
@@ -2645,7 +2191,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 100.33 114.3)
+			(xy 100.33 105.41) (xy 100.33 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2662,6 +2208,16 @@
 			(type default)
 		)
 		(uuid "2ef5ed38-e1b3-41a7-982f-152b0a8861e9")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3249eb9c-0f66-4d15-83c5-e6e8ae311768")
 	)
 	(wire
 		(pts
@@ -2692,16 +2248,6 @@
 			(type default)
 		)
 		(uuid "45b2ccb0-490b-4dd6-9b66-7d42eeb4a85f")
-	)
-	(wire
-		(pts
-			(xy 104.14 58.42) (xy 104.14 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47351b85-1d95-44ec-a95d-454fe545ef93")
 	)
 	(wire
 		(pts
@@ -2765,17 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 40.64) (xy 90.17 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56a5d989-b993-41eb-8050-3d162ce26d80")
-	)
-	(wire
-		(pts
-			(xy 118.11 40.64) (xy 118.11 45.72)
+			(xy 118.11 40.64) (xy 118.11 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2795,7 +2331,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 45.72) (xy 132.08 40.64)
+			(xy 87.63 109.22) (xy 87.63 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec8803a-15f2-4f15-8c7b-8559172b38c3")
+	)
+	(wire
+		(pts
+			(xy 132.08 41.91) (xy 132.08 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2825,16 +2371,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 55.88) (xy 90.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711114f4-31db-4b76-b2b5-3dd684295a21")
-	)
-	(wire
-		(pts
 			(xy 58.42 40.64) (xy 58.42 45.72)
 		)
 		(stroke
@@ -2845,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 114.3) (xy 113.03 114.3)
+			(xy 100.33 109.22) (xy 113.03 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2875,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 40.64) (xy 104.14 45.72)
+			(xy 104.14 40.64) (xy 104.14 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2892,6 +2428,16 @@
 			(type default)
 		)
 		(uuid "864d74f6-87d9-49a6-ae0b-9d01a5cd91ae")
+	)
+	(wire
+		(pts
+			(xy 118.11 50.8) (xy 118.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870975e8-a60a-4ed3-8571-958504d1031e")
 	)
 	(wire
 		(pts
@@ -2915,17 +2461,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 60.96) (xy 90.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ded9da4-1398-48e9-9ae0-eb9ba7c10e65")
-	)
-	(wire
-		(pts
-			(xy 90.17 58.42) (xy 104.14 58.42)
+			(xy 90.17 50.8) (xy 104.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2955,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 93.98) (xy 100.33 100.33)
+			(xy 100.33 93.98) (xy 100.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3025,23 +2561,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 58.42) (xy 132.08 53.34)
+			(xy 132.08 50.8) (xy 132.08 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab5ab034-35ec-43ee-9127-8e20119ce8d4")
-	)
-	(wire
-		(pts
-			(xy 113.03 96.52) (xy 113.03 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca0f1a0-4537-4c12-a824-dcac3c20afe8")
 	)
 	(wire
 		(pts
@@ -3065,7 +2591,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 113.03 114.3)
+			(xy 113.03 105.41) (xy 113.03 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3085,13 +2611,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 114.3) (xy 100.33 114.3)
+			(xy 87.63 109.22) (xy 100.33 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ca89a7c9-0865-40ec-a98a-d4a16ba58531")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 113.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3090938-d62b-4d8b-80cd-7843ba7a3049")
 	)
 	(wire
 		(pts
@@ -3115,7 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 58.42) (xy 118.11 58.42)
+			(xy 104.14 50.8) (xy 118.11 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3135,13 +2671,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 115.57) (xy 87.63 114.3)
+			(xy 90.17 40.64) (xy 90.17 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4f0230d-b284-48ed-a4bd-ddfedef21ac2")
+		(uuid "df8048cc-51a9-4f51-ad3a-908bf6cba26d")
 	)
 	(wire
 		(pts
@@ -3183,19 +2719,9 @@
 		)
 		(uuid "f4e80be0-d0cf-40ba-a077-b27a075eb092")
 	)
-	(wire
-		(pts
-			(xy 118.11 58.42) (xy 118.11 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffd8dbc2-fee9-4872-a363-fef16619cc4e")
-	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 49.53 0)
+		(at 132.08 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3204,7 +2730,7 @@
 		(fields_autoplaced yes)
 		(uuid "052f3b03-fa81-4e98-9b95-f2f1267fd75f")
 		(property "Reference" "C20"
-			(at 135.89 48.2599 0)
+			(at 135.89 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +2739,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 135.89 50.7999 0)
+			(at 135.89 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +2748,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.0452 53.34 0)
+			(at 133.0452 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +2757,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B105KO8NNN"
-			(at 132.08 49.53 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +2766,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 49.53 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +2775,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
-			(at 132.08 49.53 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 60.96 0)
+		(at 90.17 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3615,7 +3141,7 @@
 		(fields_autoplaced yes)
 		(uuid "25a74252-401b-4c19-a63a-e773295e5df1")
 		(property "Reference" "#PWR045"
-			(at 90.17 67.31 0)
+			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 66.04 0)
+			(at 90.17 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 60.96 0)
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 60.96 0)
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +3176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 60.96 0)
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,6 +3191,85 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 90.17 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fe2fa1d-e48a-43df-9c68-09ad450563e3")
+		(property "Reference" "D4"
+			(at 92.71 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7.5V"
+			(at 92.71 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds19002.pdf"
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/diodes-incorporated/SMBJ7-5A-13-F/749992"
+			(at 90.17 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f55761c2-c7c2-4419-987d-edaf8f75f70d")
+		)
+		(pin "2"
+			(uuid "340fdb50-4284-4629-a65d-c75816922299")
+		)
+		(instances
+			(project ""
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4029,7 +3634,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 104.14 49.53 0)
+		(at 104.14 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4038,7 +3643,7 @@
 		(fields_autoplaced yes)
 		(uuid "69fd8cf5-1da4-4d8b-83a5-ffe4497f2cc0")
 		(property "Reference" "C18"
-			(at 107.95 48.2599 0)
+			(at 107.95 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +3652,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 107.95 50.7999 0)
+			(at 107.95 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +3661,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 105.1052 53.34 0)
+			(at 105.1052 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +3670,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/42/CL32A107MPVNNNE_Spec.pdf"
-			(at 104.14 49.53 0)
+			(at 104.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +3679,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 104.14 49.53 0)
+			(at 104.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +3688,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A107MPVNNNE/3889022"
-			(at 104.14 49.53 0)
+			(at 104.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +3869,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 104.14 0)
+		(at 100.33 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4272,7 +3877,7 @@
 		(dnp no)
 		(uuid "7fd12da3-0caa-4082-a87a-697d153e2640")
 		(property "Reference" "C24"
-			(at 104.14 102.8699 0)
+			(at 104.14 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +3886,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 104.14 105.4099 0)
+			(at 104.14 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +3895,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 101.2952 107.95 0)
+			(at 101.2952 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +3904,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2901/CL10A226MP8NUNC_Spec.pdf"
-			(at 100.33 104.14 0)
+			(at 100.33 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +3913,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 104.14 0)
+			(at 100.33 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +3922,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932"
-			(at 100.33 104.14 0)
+			(at 100.33 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +3955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a7bf8a9-6895-479d-9fac-b07e42c0ebfe")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 81.28 43.1799 90)
 			(effects
 				(font
@@ -4413,7 +4018,7 @@
 		(instances
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4569,6 +4174,85 @@
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 113.03 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a16e8dec-6e4d-4009-9fa0-881ba3e2eda9")
+		(property "Reference" "D5"
+			(at 115.57 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 115.57 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MicroSMP_KA"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?88486"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/MSP3V3-M3-89A/2071748"
+			(at 113.03 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb9110f-7690-4ce5-ba68-4aa06bab5c72")
+		)
+		(pin "2"
+			(uuid "38a3858f-3027-4b6c-85c4-492561d1fb0d")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4769,87 +4453,6 @@
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XuLab:MSP3V3-M3_89A")
-		(at 113.03 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c421a4d1-68f6-42f1-8b46-ecf5ab735367")
-		(property "Reference" "CR2"
-			(at 116.84 102.7111 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 116.84 105.2511 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "XuLab:DO-219AD_VIS"
-			(at 105.41 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?88486"
-			(at 102.87 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3V3 Reverse Standoff TVS"
-			(at 108.204 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/MSP3V3-M3-89A/2071748"
-			(at 113.03 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72c46c01-6984-4ecf-a564-8e98e7dcedfe")
-		)
-		(pin "1"
-			(uuid "4648984a-9ab5-4caa-84f5-497eea3db37d")
-		)
-		(instances
-			(project ""
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
-					(reference "CR2")
 					(unit 1)
 				)
 			)
@@ -5066,7 +4669,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 49.53 0)
+		(at 118.11 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5075,7 +4678,7 @@
 		(fields_autoplaced yes)
 		(uuid "e588af23-b9f9-4a8d-b026-56f2a237192c")
 		(property "Reference" "C19"
-			(at 121.92 48.2599 0)
+			(at 121.92 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +4687,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 121.92 50.7999 0)
+			(at 121.92 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 119.0752 53.34 0)
+			(at 119.0752 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +4705,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B106KAHNNNE_Spec.pdf"
-			(at 118.11 49.53 0)
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +4714,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 49.53 0)
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +4723,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"
-			(at 118.11 49.53 0)
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,86 +4907,6 @@
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XuLab:SMBJ7.5A-13-F")
-		(at 90.17 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5df4017-f2c3-4948-979c-1eaf635ee4aa")
-		(property "Reference" "CR1"
-			(at 93.98 48.2599 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7.5V"
-			(at 93.98 50.7999 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "XuLab:SMB_DIO"
-			(at 98.806 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds19002.pdf"
-			(at 96.52 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "7.5 V Reverse Standoff TVS"
-			(at 90.17 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/diodes-incorporated/SMBJ7-5A-13-F/749992"
-			(at 90.17 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85ccd38d-af11-4788-8dec-757feefbbb9b")
-		)
-		(pin "2"
-			(uuid "4e686256-efa1-4030-b81c-ace377db51f3")
-		)
-		(instances
-			(project ""
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
-					(reference "CR1")
 					(unit 1)
 				)
 			)

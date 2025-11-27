@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MCU A - STM32F446RCT6")
-		(date "2025-11-12")
+		(date "2025-11-26")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -8928,7 +8928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fb78326-b547-4945-8fe9-891e9abbbc3d")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 52.07 119.3164 90)
 			(effects
 				(font
@@ -8994,7 +8994,7 @@
 		(instances
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
