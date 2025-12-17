@@ -4319,146 +4319,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV1117-33"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV1117-33"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV1117-33_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV1117-33_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -5035,131 +4895,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+7.5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+7.5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+7.5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+7.5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5367,13 +5102,7 @@
 		(uuid "09b78e57-ad08-452e-be99-2624b1ff152c")
 	)
 	(junction
-		(at 101.6 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e312025-e200-4728-a617-de3ebf0b7571")
-	)
-	(junction
-		(at 165.1 25.4)
+		(at 119.38 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15c9a7a5-8aba-427f-b41b-1a8c98d11d2b")
@@ -5409,7 +5138,13 @@
 		(uuid "514f5c4d-02cf-4bdd-a2c5-7a7d70e7d4d0")
 	)
 	(junction
-		(at 152.4 25.4)
+		(at 88.9 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51a062ed-e40c-42bf-9bb9-7c1bb7d651d2")
+	)
+	(junction
+		(at 106.68 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5219691d-d027-45df-b5cb-4e2ae151bf29")
@@ -5419,6 +5154,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "642f2b48-0729-48e4-9817-b74fe2ef9caf")
+	)
+	(junction
+		(at 88.9 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a9bd7ae-908c-44f3-9e70-b086f32a59cc")
 	)
 	(junction
 		(at 209.55 127)
@@ -5433,12 +5174,6 @@
 		(uuid "71b1804c-7973-40fe-83eb-ff3f3a5594ff")
 	)
 	(junction
-		(at 134.62 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8499b93b-3e8c-44ed-b6b6-21986722fcb1")
-	)
-	(junction
 		(at 46.99 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5449,12 +5184,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a796d041-b325-4903-a2ae-18e766ede80c")
-	)
-	(junction
-		(at 101.6 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8080379-a74a-4533-9e3e-9bd433a1cdd0")
 	)
 	(junction
 		(at 76.2 25.4)
@@ -5481,19 +5210,13 @@
 		(uuid "b1231a9c-8870-4546-9d66-29f7cc416ab1")
 	)
 	(junction
-		(at 118.11 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b271672c-6564-4381-bbe9-f1ef2a648bdc")
-	)
-	(junction
 		(at 63.5 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b81e9c8e-1dab-4cf5-b29f-9e359dcedff5")
 	)
 	(junction
-		(at 152.4 35.56)
+		(at 106.68 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b925838b-8450-40fe-a422-f4de62051af1")
@@ -5509,12 +5232,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2e77002-22f0-4c8b-bce1-748f9ce2fce9")
-	)
-	(junction
-		(at 134.62 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c86d96a8-5228-4e06-8f32-4a8d9cf210ca")
 	)
 	(junction
 		(at 44.45 113.03)
@@ -5738,7 +5455,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 34.29) (xy 152.4 35.56)
+			(xy 106.68 34.29) (xy 106.68 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5878,7 +5595,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 35.56) (xy 152.4 35.56)
+			(xy 88.9 35.56) (xy 106.68 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5938,7 +5655,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 21.59) (xy 165.1 25.4)
+			(xy 119.38 21.59) (xy 119.38 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5965,16 +5682,6 @@
 			(type default)
 		)
 		(uuid "2888b596-cd2c-4764-a710-85a5a2e8e2c3")
-	)
-	(wire
-		(pts
-			(xy 101.6 38.1) (xy 101.6 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b67e644-ac96-4da0-806b-6e042725b43a")
 	)
 	(wire
 		(pts
@@ -6128,7 +5835,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 25.4) (xy 165.1 25.4)
+			(xy 106.68 25.4) (xy 119.38 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6195,16 +5902,6 @@
 			(type default)
 		)
 		(uuid "4f1cd64b-a028-4823-8c3f-89e149976aa5")
-	)
-	(wire
-		(pts
-			(xy 125.73 25.4) (xy 134.62 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fab0290-d0e9-4723-a4f9-5583f4cb95cd")
 	)
 	(wire
 		(pts
@@ -6375,16 +6072,6 @@
 			(type default)
 		)
 		(uuid "6f002a45-6770-424b-aa63-d2a2bd60d0c6")
-	)
-	(wire
-		(pts
-			(xy 118.11 35.56) (xy 134.62 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f50ac96-42db-477b-9aa3-a87fec748eac")
 	)
 	(wire
 		(pts
@@ -6668,7 +6355,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 34.29) (xy 165.1 35.56)
+			(xy 119.38 34.29) (xy 119.38 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6938,7 +6625,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 35.56) (xy 165.1 35.56)
+			(xy 106.68 35.56) (xy 119.38 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7015,16 +6702,6 @@
 			(type default)
 		)
 		(uuid "acfa8b48-77c6-45e0-8c5c-bd802d216aa1")
-	)
-	(wire
-		(pts
-			(xy 101.6 25.4) (xy 101.6 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adc6e3cb-aa9b-4028-b95f-50fde4d7a76e")
 	)
 	(wire
 		(pts
@@ -7158,16 +6835,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 26.67) (xy 134.62 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba62ffd9-c6a5-4689-a722-ba42a3a99a3d")
-	)
-	(wire
-		(pts
 			(xy 260.35 72.39) (xy 261.62 72.39)
 		)
 		(stroke
@@ -7185,16 +6852,6 @@
 			(type default)
 		)
 		(uuid "bbe03ff3-bfcb-406d-95ff-7a70d88a7154")
-	)
-	(wire
-		(pts
-			(xy 118.11 33.02) (xy 118.11 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdad4616-f7b2-4743-a3f3-e84878178db5")
 	)
 	(wire
 		(pts
@@ -7218,7 +6875,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 99.06 76.2)
+			(xy 88.9 76.2) (xy 100.33 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7338,16 +6995,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 34.29) (xy 101.6 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc0e7b2b-8356-425c-b23f-fd35189d08e3")
-	)
-	(wire
-		(pts
 			(xy 168.91 71.12) (xy 179.07 71.12)
 		)
 		(stroke
@@ -7408,7 +7055,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 26.67) (xy 165.1 25.4)
+			(xy 119.38 26.67) (xy 119.38 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7488,7 +7135,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 25.4) (xy 152.4 26.67)
+			(xy 106.68 25.4) (xy 106.68 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7568,16 +7215,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 21.59) (xy 101.6 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b19801-138c-4d95-9423-2de953e851cb")
-	)
-	(wire
-		(pts
 			(xy 146.05 57.15) (xy 143.51 57.15)
 		)
 		(stroke
@@ -7618,7 +7255,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 25.4) (xy 152.4 25.4)
+			(xy 101.6 25.4) (xy 106.68 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7678,16 +7315,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 34.29) (xy 134.62 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec5affba-2127-46c3-bb83-bcdeb3dc99d9")
-	)
-	(wire
-		(pts
 			(xy 168.91 66.04) (xy 179.07 66.04)
 		)
 		(stroke
@@ -7695,16 +7322,6 @@
 			(type default)
 		)
 		(uuid "eda55c24-748f-4c96-8a52-0620066d2767")
-	)
-	(wire
-		(pts
-			(xy 101.6 25.4) (xy 110.49 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee32ad1d-317c-47b4-802d-cd7a660aa1b1")
 	)
 	(wire
 		(pts
@@ -7808,7 +7425,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 99.06 66.04)
+			(xy 88.9 66.04) (xy 100.33 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7858,17 +7475,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 35.56) (xy 118.11 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff191d2c-b0da-4d8b-966b-31cd5296c0e3")
-	)
-	(wire
-		(pts
-			(xy 134.62 25.4) (xy 139.7 25.4)
+			(xy 88.9 25.4) (xy 93.98 25.4)
 		)
 		(stroke
 			(width 0)
@@ -8117,7 +7724,7 @@
 		(uuid "4f9e109b-fad3-42f8-afba-ea32f6363e85")
 	)
 	(label "CAN1_RX"
-		(at 99.06 66.04 180)
+		(at 100.33 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8217,7 +7824,7 @@
 		(uuid "704b10b5-bae2-4706-b823-95eee562b044")
 	)
 	(label "UART4_RX"
-		(at 99.06 76.2 180)
+		(at 100.33 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9147,7 +8754,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 143.51 25.4 270)
+		(at 97.79 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9156,7 +8763,7 @@
 		(fields_autoplaced yes)
 		(uuid "0454c321-f289-4e96-a878-7a202d461718")
 		(property "Reference" "FB1"
-			(at 143.5608 17.78 90)
+			(at 97.8408 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,7 +8771,7 @@
 			)
 		)
 		(property "Value" "120 Ohms @ 100 MHz"
-			(at 143.5608 20.32 90)
+			(at 97.8408 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9172,7 +8779,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 143.51 23.622 90)
+			(at 97.79 23.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9181,7 +8788,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf"
-			(at 143.51 25.4 0)
+			(at 97.79 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9190,7 +8797,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 143.51 25.4 0)
+			(at 97.79 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +8806,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/murata-electronics/BLM21AG121SN1D/584249"
-			(at 143.51 25.4 90)
+			(at 97.79 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10089,88 +9696,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV1117-33")
-		(at 118.11 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b94165f-2684-4a14-bf93-c033ee1bc27e")
-		(property "Reference" "U6"
-			(at 118.11 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV1117-33"
-			(at 118.11 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 118.11 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv1117.pdf?ts=1751350710342&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV1123"
-			(at 118.11 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223-4"
-			(at 118.11 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/texas-instruments/TLV1117-33IDCYR/1216719"
-			(at 118.11 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5ff32724-bc02-44a0-a340-044d8685154e")
-		)
-		(pin "1"
-			(uuid "68e1fbfa-457e-49f1-a44b-e20bd15abc38")
-		)
-		(pin "2"
-			(uuid "ea2ebcee-37a6-4edc-a1c4-fbc9d5b74f71")
-		)
-		(instances
-			(project ""
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
-		(at 165.1 21.59 0)
+		(at 119.38 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10179,7 +9706,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bba7dfd-758e-4156-b9e5-06a929650d70")
 		(property "Reference" "#PWR078"
-			(at 165.1 25.4 0)
+			(at 119.38 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10188,7 +9715,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 165.1 16.51 0)
+			(at 119.38 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +9723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 21.59 0)
+			(at 119.38 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +9732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 21.59 0)
+			(at 119.38 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +9741,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 165.1 21.59 0)
+			(at 119.38 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10296,72 +9823,6 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+7.5V")
-		(at 101.6 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30585031-7986-47aa-91ad-7f0ddab508dd")
-		(property "Reference" "#PWR076"
-			(at 101.6 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+7.4V"
-			(at 101.6 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 101.6 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c4d5208-118d-4f86-b4b2-631399f1c148")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -10672,7 +10133,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 30.48 0)
+		(at 119.38 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10680,8 +10141,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bebef57-a93b-4590-8df4-2e932b677356")
-		(property "Reference" "C27"
-			(at 168.91 29.2099 0)
+		(property "Reference" "C8"
+			(at 123.19 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,7 +10151,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 168.91 31.7499 0)
+			(at 123.19 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,7 +10160,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 166.0652 34.29 0)
+			(at 120.3452 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +10169,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
-			(at 165.1 30.48 0)
+			(at 119.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +10178,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 165.1 30.48 0)
+			(at 119.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +10187,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
-			(at 165.1 30.48 0)
+			(at 119.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,7 +10204,7 @@
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "C27")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11966,74 +11427,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82e65c56-885f-4186-bcc0-4b32a3ccdf07")
-		(property "Reference" "#PWR049"
-			(at 101.6 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e82c1cb6-59cb-4c14-b321-470a2cfdfbd7")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 152.4 30.48 0)
+		(at 106.68 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12041,8 +11436,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8314cd84-6098-440e-9617-188587c76052")
-		(property "Reference" "C26"
-			(at 156.21 29.2099 0)
+		(property "Reference" "C7"
+			(at 110.49 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12051,7 +11446,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 156.21 31.7499 0)
+			(at 110.49 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12060,7 +11455,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 153.3652 34.29 0)
+			(at 107.6452 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12069,7 +11464,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B105KO8NNN"
-			(at 152.4 30.48 0)
+			(at 106.68 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +11473,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 152.4 30.48 0)
+			(at 106.68 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12087,7 +11482,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
-			(at 152.4 30.48 0)
+			(at 106.68 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12104,7 +11499,7 @@
 		(instances
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "C26")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12419,85 +11814,6 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 101.6 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c250c72-201d-4335-bb31-ac5316acf6c7")
-		(property "Reference" "C7"
-			(at 105.41 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 105.41 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 102.5652 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B106KAHNNNE_Spec.pdf"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fd048f6-6fa1-448c-8ba4-ce3c1dd45011")
-		)
-		(pin "2"
-			(uuid "9ee17f60-b46a-4834-84e2-c7f6892d364b")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -13155,85 +12471,6 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 134.62 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bebac2d1-b989-4824-9fac-25b225627f5b")
-		(property "Reference" "C8"
-			(at 138.43 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 138.43 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 135.5852 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B106KAHNNNE_Spec.pdf"
-			(at 134.62 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 134.62 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"
-			(at 134.62 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ea9ed67-283d-4ad8-a2f2-7a21557bbee8")
-		)
-		(pin "2"
-			(uuid "a2fd746e-3806-4953-971c-f47c5d9894e5")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
-					(reference "C8")
 					(unit 1)
 				)
 			)
