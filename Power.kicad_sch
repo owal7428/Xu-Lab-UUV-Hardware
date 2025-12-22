@@ -2783,6 +2783,15 @@
 				(hide yes)
 			)
 		)
+		(property "Interchangeable" "Yes"
+			(at 132.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "acef7752-83d0-4db5-8008-102c65d54b8f")
 		)
@@ -2977,6 +2986,15 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "N/A"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -3260,6 +3278,15 @@
 				(hide yes)
 			)
 		)
+		(property "Interchangeable" "Yes"
+			(at 90.17 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f55761c2-c7c2-4419-987d-edaf8f75f70d")
 		)
@@ -3329,6 +3356,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TPH1R712MD-L1Q/5323102"
+			(at 68.58 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 68.58 43.18 90)
 			(effects
 				(font
@@ -3484,6 +3520,15 @@
 				(hide yes)
 			)
 		)
+		(property "Interchangeable" "Yes"
+			(at 87.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60dff52e-acbd-43db-9249-fb107a688b20")
 		)
@@ -3620,6 +3665,15 @@
 				(hide yes)
 			)
 		)
+		(property "Interchangeable" "N/A"
+			(at 228.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2396bf71-dab2-480a-99a4-3c8a807c7de5")
 		)
@@ -3688,6 +3742,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A107MPVNNNE/3889022"
+			(at 104.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
 			(at 104.14 45.72 0)
 			(effects
 				(font
@@ -3775,6 +3838,15 @@
 				(hide yes)
 			)
 		)
+		(property "Interchangeable" "Yes"
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "450ca2ac-679c-442c-b6a5-abb53674d3dd")
 		)
@@ -3844,6 +3916,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/pulse-electronics/PA4334-392NLT/5980539"
+			(at 81.28 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 81.28 93.98 90)
 			(effects
 				(font
@@ -3930,6 +4011,15 @@
 				(hide yes)
 			)
 		)
+		(property "Interchangeable" "Yes"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e52ac01-8858-4b0d-9abe-b1cb17a8fa85")
 		)
@@ -4001,6 +4091,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/diodes-incorporated/BZT52C12-13-F/768854"
+			(at 78.74 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
 			(at 78.74 44.45 90)
 			(effects
 				(font
@@ -4152,6 +4251,15 @@
 				(hide yes)
 			)
 		)
+		(property "Interchangeable" "No"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fc5ba6d4-8adf-463f-882a-d687c819399a")
 		)
@@ -4235,6 +4343,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/MSP3V3-M3-89A/2071748"
+			(at 113.03 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
 			(at 113.03 101.6 90)
 			(effects
 				(font
@@ -4372,6 +4489,15 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "N/A"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -4585,6 +4711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Interchangeable" "Yes"
+			(at 71.12 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6557ba2d-a3c9-4469-b746-7a08b55dd301")
 		)
@@ -4731,6 +4866,15 @@
 				(hide yes)
 			)
 		)
+		(property "Interchangeable" "Yes"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86d6e3ad-d2ba-42ad-8203-4215eeddeb4c")
 		)
@@ -4802,6 +4946,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73B2BTTD101J/10248278"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -4883,6 +5036,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1986660-2/4021603"
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 44.45 44.45 0)
 			(effects
 				(font

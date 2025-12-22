@@ -2289,7 +2289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://drawings-pdf.s3.amazonaws.com/10483.pdf"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -2307,7 +2307,16 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" ""
+		(property "Listing" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPPN031BFCN-RC/804805"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -2419,7 +2428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo6"
+		(property "Value" "Servo"
 			(at 217.17 144.7801 0)
 			(effects
 				(font
@@ -2456,6 +2465,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 214.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 214.63 146.05 0)
 			(effects
 				(font
@@ -2634,7 +2652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo1"
+		(property "Value" "Servo"
 			(at 191.77 130.8099 0)
 			(effects
 				(font
@@ -2671,6 +2689,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 189.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 189.23 129.54 0)
 			(effects
 				(font
@@ -3132,7 +3159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://drawings-pdf.s3.amazonaws.com/10483.pdf"
 			(at 265.43 48.26 0)
 			(effects
 				(font
@@ -3150,7 +3177,16 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" ""
+		(property "Listing" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPPN031BFCN-RC/804805"
+			(at 265.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
 			(at 265.43 48.26 0)
 			(effects
 				(font
@@ -3196,7 +3232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo5"
+		(property "Value" "Servo"
 			(at 191.77 144.7801 0)
 			(effects
 				(font
@@ -3233,6 +3269,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 189.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 189.23 146.05 0)
 			(effects
 				(font
@@ -3278,7 +3323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo7"
+		(property "Value" "Servo"
 			(at 242.57 144.7801 0)
 			(effects
 				(font
@@ -3315,6 +3360,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 240.03 146.05 0)
 			(effects
 				(font
@@ -3692,7 +3746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo2"
+		(property "Value" "Servo"
 			(at 217.17 130.8099 0)
 			(effects
 				(font
@@ -3729,6 +3783,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 214.63 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 214.63 129.54 0)
 			(effects
 				(font
@@ -3792,7 +3855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://drawings-pdf.s3.amazonaws.com/10483.pdf"
 			(at 265.43 67.31 0)
 			(effects
 				(font
@@ -3810,7 +3873,16 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" ""
+		(property "Listing" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPPN031BFCN-RC/804805"
+			(at 265.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
 			(at 265.43 67.31 0)
 			(effects
 				(font
@@ -3922,7 +3994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo4"
+		(property "Value" "Servo"
 			(at 267.97 130.8099 0)
 			(effects
 				(font
@@ -3959,6 +4031,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 265.43 129.54 0)
 			(effects
 				(font
@@ -4004,7 +4085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo3"
+		(property "Value" "Servo"
 			(at 241.3 130.8099 0)
 			(effects
 				(font
@@ -4041,6 +4122,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 238.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 238.76 129.54 0)
 			(effects
 				(font
@@ -4086,7 +4176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thruster SGN"
+		(property "Value" "Thruster"
 			(at 267.97 110.4901 0)
 			(effects
 				(font
@@ -4123,6 +4213,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3P-VH/926548"
+			(at 265.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 265.43 111.76 0)
 			(effects
 				(font
@@ -4301,7 +4400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo8"
+		(property "Value" "Servo"
 			(at 267.97 144.7801 0)
 			(effects
 				(font
@@ -4338,6 +4437,15 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632"
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
 			(at 265.43 146.05 0)
 			(effects
 				(font
