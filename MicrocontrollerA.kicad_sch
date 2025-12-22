@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MCU A - STM32F446RCT6")
-		(date "2025-12-04")
+		(date "2025-12-21")
 		(rev "A")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -5019,7 +5019,7 @@
 	)
 	(text_box "I2C1 is high speed (400 kHz)"
 		(exclude_from_sim no)
-		(at 222.25 107.95 0)
+		(at 222.25 110.49 0)
 		(size 21.59 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5312,10 +5312,6 @@
 		(uuid "6cc5882f-b256-452e-8d26-6dce6ccc0ce3")
 	)
 	(no_connect
-		(at 125.73 93.98)
-		(uuid "6fa7dc8b-bf72-4fa3-ad91-d97d47444beb")
-	)
-	(no_connect
 		(at 125.73 127)
 		(uuid "6fc709bf-33fd-4819-8bf7-8a21acba731d")
 	)
@@ -5340,10 +5336,6 @@
 		(uuid "9ba77125-2f84-4e6f-a3b2-864154468e94")
 	)
 	(no_connect
-		(at 125.73 96.52)
-		(uuid "af6445cd-8fda-4b00-94c2-3ba0e92d2e73")
-	)
-	(no_connect
 		(at 171.45 76.2)
 		(uuid "b9fab38f-4ac5-433c-8a81-95f8b9414918")
 	)
@@ -5354,10 +5346,6 @@
 	(no_connect
 		(at 125.73 104.14)
 		(uuid "dfdbbf9b-321c-4f14-99d3-61a0adf3d677")
-	)
-	(no_connect
-		(at 125.73 111.76)
-		(uuid "ec48b096-9b4b-4384-b44e-1c6fc597a1c8")
 	)
 	(no_connect
 		(at 125.73 101.6)
@@ -5382,16 +5370,6 @@
 			(type default)
 		)
 		(uuid "00e5f8b0-d886-4f97-ad19-5078edd2a33f")
-	)
-	(wire
-		(pts
-			(xy 125.73 111.76) (xy 128.27 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02c93a9c-9037-4a6c-9a7b-67309dc9c04c")
 	)
 	(wire
 		(pts
@@ -5502,6 +5480,16 @@
 			(type default)
 		)
 		(uuid "11ee785b-80e1-4b38-a84c-325dfb37151c")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fdbef8-886b-4899-aa4d-c98b77255d86")
 	)
 	(wire
 		(pts
@@ -5645,16 +5633,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "251ca31a-a921-4028-8004-0ec8a8dcf1e5")
-	)
-	(wire
-		(pts
 			(xy 119.38 21.59) (xy 119.38 25.4)
 		)
 		(stroke
@@ -5722,6 +5700,16 @@
 			(type default)
 		)
 		(uuid "2dc85b72-f69a-41e7-b807-ad3ad53d8b59")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303a2c74-e4e6-45f0-8883-7412119df8f5")
 	)
 	(wire
 		(pts
@@ -5812,6 +5800,16 @@
 			(type default)
 		)
 		(uuid "45bb2447-5ba0-4f63-8927-332884ba6923")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46deaead-cadd-4246-b32b-1541e33891f5")
 	)
 	(wire
 		(pts
@@ -6055,6 +6053,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 96.52) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c42774-2c9a-441b-810e-1a1c8655be2f")
+	)
+	(wire
+		(pts
 			(xy 125.73 83.82) (xy 128.27 83.82)
 		)
 		(stroke
@@ -6152,16 +6160,6 @@
 			(type default)
 		)
 		(uuid "75e767be-723d-48e6-a0cf-2adc0452ad5f")
-	)
-	(wire
-		(pts
-			(xy 125.73 96.52) (xy 128.27 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b9499f-d069-4a52-b1db-2eac5a4a0749")
 	)
 	(wire
 		(pts
@@ -6435,7 +6433,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 111.76) (xy 208.28 111.76)
+			(xy 198.12 114.3) (xy 208.28 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6495,7 +6493,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 116.84) (xy 208.28 116.84)
+			(xy 198.12 119.38) (xy 208.28 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6755,6 +6753,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 106.68) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b381ce35-3c7a-4878-b669-f018cb47e82c")
+	)
+	(wire
+		(pts
 			(xy 266.7 33.02) (xy 264.16 33.02)
 		)
 		(stroke
@@ -6845,6 +6853,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 111.76) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb0be87-12e2-45da-8db8-e1f8b5575560")
+	)
+	(wire
+		(pts
 			(xy 151.13 57.15) (xy 151.13 58.42)
 		)
 		(stroke
@@ -6895,7 +6913,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 109.22) (xy 208.28 109.22)
+			(xy 198.12 111.76) (xy 208.28 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7465,7 +7483,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 99.06) (xy 208.28 99.06)
+			(xy 198.12 99.06) (xy 208.28 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7484,7 +7502,7 @@
 		(uuid "ff7d1da7-f516-4719-ab5a-0fb64457ddc7")
 	)
 	(label "I2C1_SDA"
-		(at 198.12 111.76 0)
+		(at 198.12 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7512,6 +7530,26 @@
 			(justify right bottom)
 		)
 		(uuid "0aee57da-f991-4881-ab60-500cc4643d21")
+	)
+	(label "GPIO_EXTI3"
+		(at 116.84 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ba708d9-f2ac-46a0-bdd9-0adf3b6f0ff9")
+	)
+	(label "GPIO_EXTI3"
+		(at 100.33 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0bdebb63-1daa-4495-83b3-32eee1a82880")
 	)
 	(label "USB_D_M-"
 		(at 73.66 113.03 180)
@@ -7602,6 +7640,16 @@
 			(justify right bottom)
 		)
 		(uuid "2418aafb-53e5-4594-aa45-d026d8709001")
+	)
+	(label "SPI1_CS3"
+		(at 118.11 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "253df321-8b9e-443d-8952-e85ea3f54ea9")
 	)
 	(label "I2C1_SCL"
 		(at 179.07 124.46 180)
@@ -7793,6 +7841,16 @@
 		)
 		(uuid "5e016034-df92-4467-9bfe-ebbd7ef35358")
 	)
+	(label "GPIO_EXTI2"
+		(at 116.84 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6226c0bd-c83a-4d9e-8076-ceb18d6fc186")
+	)
 	(label "USB_D_I+"
 		(at 53.34 107.95 180)
 		(effects
@@ -7812,6 +7870,16 @@
 			(justify left bottom)
 		)
 		(uuid "68457bc1-1a65-4a85-bd4c-0a8eb2556a00")
+	)
+	(label "SPI1_CS3"
+		(at 198.12 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ca481a5-46ff-453b-8a74-21dc1bbc8ce4")
 	)
 	(label "SW_CLK"
 		(at 267.97 67.31 180)
@@ -7953,6 +8021,16 @@
 		)
 		(uuid "ae9b745f-bf0b-458c-9b6f-07ba9e29111e")
 	)
+	(label "GPIO_EXTI2"
+		(at 100.33 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af9f4d54-2dd4-4296-b67b-1d71d83ef980")
+	)
 	(label "BOOT1"
 		(at 176.53 114.3 180)
 		(effects
@@ -8064,7 +8142,7 @@
 		(uuid "c4f5ab6f-1fe4-4471-a313-4c945a27d2d6")
 	)
 	(label "UART4_TX"
-		(at 198.12 116.84 0)
+		(at 198.12 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8074,7 +8152,7 @@
 		(uuid "c58a68b7-fd1c-45ba-b4ba-f083feb92f0e")
 	)
 	(label "I2C1_SCL"
-		(at 198.12 109.22 0)
+		(at 198.12 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8094,7 +8172,7 @@
 		(uuid "cf1c8d21-98d4-45bc-be3e-9bb5b63646de")
 	)
 	(label "SPI1_MOSI"
-		(at 196.85 99.06 0)
+		(at 198.12 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8278,7 +8356,7 @@
 	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
-		(at 208.28 111.76 0)
+		(at 208.28 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8297,6 +8375,17 @@
 			(justify left)
 		)
 		(uuid "62023463-69b3-46f6-8e5f-e018467a20ad")
+	)
+	(hierarchical_label "GPIO_EXTI2"
+		(shape input)
+		(at 88.9 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a5d16e5-64a1-432a-adc1-e7399ae8aeb4")
 	)
 	(hierarchical_label "SPI1_SCK"
 		(shape output)
@@ -8364,6 +8453,17 @@
 		)
 		(uuid "956c8f13-6017-444b-8684-9c35706a83e1")
 	)
+	(hierarchical_label "GPIO_EXTI3"
+		(shape input)
+		(at 88.9 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c0de8a8-9cc6-4aae-982a-ecf7d15e628e")
+	)
 	(hierarchical_label "TIM3_CH3"
 		(shape output)
 		(at 208.28 86.36 0)
@@ -8377,7 +8477,7 @@
 	)
 	(hierarchical_label "UART4_TX"
 		(shape output)
-		(at 208.28 116.84 0)
+		(at 208.28 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8421,7 +8521,7 @@
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape bidirectional)
-		(at 208.28 109.22 0)
+		(at 208.28 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8451,6 +8551,17 @@
 			(justify left)
 		)
 		(uuid "e2d6f40c-6386-4330-87e4-db8cad881c05")
+	)
+	(hierarchical_label "SPI1_CS3"
+		(shape output)
+		(at 208.28 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e43d82d8-7532-45aa-873e-f0af09221c73")
 	)
 	(hierarchical_label "TIM12_CH2"
 		(shape output)
