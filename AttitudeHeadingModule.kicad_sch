@@ -2309,7 +2309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
 			(at 231.394 74.93 0)
 			(effects
 				(font
@@ -2336,7 +2336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM04B-GHS-TBT-LF-SN-N/807802"
+		(property "Listing" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788"
 			(at 228.6 86.36 0)
 			(effects
 				(font
