@@ -10011,7 +10011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/600L.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402JRNPO9BN220"
 			(at 59.69 184.15 0)
 			(effects
 				(font
@@ -10029,7 +10029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/kyocera-avx/600L220JT200T4K/3905158"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN220/302752"
 			(at 59.69 184.15 0)
 			(effects
 				(font
@@ -10187,7 +10187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/600L.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402JRNPO9BN220"
 			(at 34.29 184.15 0)
 			(effects
 				(font
@@ -10205,7 +10205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/kyocera-avx/600L220JT200T4K/3905158"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN220/302752"
 			(at 34.29 184.15 0)
 			(effects
 				(font
