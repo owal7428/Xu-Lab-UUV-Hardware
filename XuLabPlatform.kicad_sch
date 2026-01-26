@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2025-12-21")
-		(rev "A")
+		(date "2026-01-25")
+		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
 	(lib_symbols
@@ -2037,7 +2037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -2046,7 +2046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://drawings-pdf.s3.amazonaws.com/10483.pdf"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/530/53048/530480310_sd.pdf?inline"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -2064,7 +2064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPPN031BFCN-RC/804805"
+		(property "Listing" "https://www.digikey.com/en/products/detail/molex/0530480310/242865"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -2073,7 +2073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Interchangeable" "Yes"
+		(property "Interchangeable" "No"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -3271,7 +3271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal"
 			(at 265.43 48.26 0)
 			(effects
 				(font
@@ -3280,7 +3280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://drawings-pdf.s3.amazonaws.com/10483.pdf"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/530/53048/530480310_sd.pdf?inline"
 			(at 265.43 48.26 0)
 			(effects
 				(font
@@ -3298,7 +3298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPPN031BFCN-RC/804805"
+		(property "Listing" "https://www.digikey.com/en/products/detail/molex/0530480310/242865"
 			(at 265.43 48.26 0)
 			(effects
 				(font
@@ -3307,7 +3307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Interchangeable" "Yes"
+		(property "Interchangeable" "No"
 			(at 265.43 48.26 0)
 			(effects
 				(font
@@ -3694,7 +3694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal"
 			(at 265.43 67.31 0)
 			(effects
 				(font
@@ -3703,7 +3703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://drawings-pdf.s3.amazonaws.com/10483.pdf"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/530/53048/530480310_sd.pdf?inline"
 			(at 265.43 67.31 0)
 			(effects
 				(font
@@ -3721,7 +3721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPPN031BFCN-RC/804805"
+		(property "Listing" "https://www.digikey.com/en/products/detail/molex/0530480310/242865"
 			(at 265.43 67.31 0)
 			(effects
 				(font
@@ -3730,7 +3730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Interchangeable" "Yes"
+		(property "Interchangeable" "No"
 			(at 265.43 67.31 0)
 			(effects
 				(font
