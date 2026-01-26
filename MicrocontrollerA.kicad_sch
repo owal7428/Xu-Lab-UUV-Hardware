@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MCU A - STM32F446RCT6")
-		(date "2026-01-23")
+		(date "2026-01-25")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -10812,7 +10812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -10821,7 +10821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://multimedia.3m.com/mws/media/330367O/3m-four-wall-header-2500-series-ts-0770.pdf"
+		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE94-95%20.050%20MALE%20HDR%20ST%20RA%20SMT.pdf"
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -10839,7 +10839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/3m/N2510-6002-RB/755176?msockid=2d45f8e4e5ba669a2195ea01e40967ef"
+		(property "Listing" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/GRPB052VWVN-RC/1786455"
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -10848,7 +10848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Interchangeable" "No"
+		(property "Interchangeable" "Yes"
 			(at 252.73 69.85 0)
 			(effects
 				(font
