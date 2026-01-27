@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MCU A - STM32F446RCT6")
-		(date "2026-01-25")
+		(date "2026-01-27")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -5159,6 +5159,10 @@
 		(uuid "0a420b5b-2d27-4800-9f2c-e51a34c24c43")
 	)
 	(no_connect
+		(at 171.45 129.54)
+		(uuid "1bdb5199-0de6-4564-ab1b-a588a362213e")
+	)
+	(no_connect
 		(at 171.45 91.44)
 		(uuid "21b96dfd-032a-49ef-96da-e5b4d58abbf0")
 	)
@@ -5221,6 +5225,10 @@
 	(no_connect
 		(at 125.73 104.14)
 		(uuid "dfdbbf9b-321c-4f14-99d3-61a0adf3d677")
+	)
+	(no_connect
+		(at 171.45 132.08)
+		(uuid "ea090237-49a3-48ea-883a-3a7514ff5cdd")
 	)
 	(no_connect
 		(at 125.73 101.6)
@@ -5405,6 +5413,16 @@
 			(type default)
 		)
 		(uuid "189c52ba-9dd7-4224-9bee-e0d53cafb01d")
+	)
+	(wire
+		(pts
+			(xy 168.91 129.54) (xy 171.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d7fc1f-6af2-4bbb-a653-b119c38f63d4")
 	)
 	(wire
 		(pts
@@ -5778,6 +5796,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 132.08) (xy 171.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5091d751-756c-4e75-8a60-3573356503ef")
+	)
+	(wire
+		(pts
 			(xy 168.91 104.14) (xy 171.45 104.14)
 		)
 		(stroke
@@ -6075,16 +6103,6 @@
 			(type default)
 		)
 		(uuid "7c9e3358-6bfb-4adf-b75c-558a8c990699")
-	)
-	(wire
-		(pts
-			(xy 198.12 66.04) (xy 208.28 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e17d854-49eb-41e5-be12-74a189628c68")
 	)
 	(wire
 		(pts
@@ -6608,16 +6626,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 132.08) (xy 179.07 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeb63439-3541-4c28-b7f5-c0e867bb8ba8")
-	)
-	(wire
-		(pts
 			(xy 25.4 34.29) (xy 25.4 35.56)
 		)
 		(stroke
@@ -6685,16 +6693,6 @@
 			(type default)
 		)
 		(uuid "b6bd6d39-ea28-434b-8d93-e56b899a15c6")
-	)
-	(wire
-		(pts
-			(xy 168.91 129.54) (xy 179.07 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b71bf7b4-8e00-4947-8ef4-4c8276f50c85")
 	)
 	(wire
 		(pts
@@ -7308,16 +7306,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 100.33 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f928bec2-f8e2-4a1c-9059-2c8ea203f551")
-	)
-	(wire
-		(pts
 			(xy 88.9 34.29) (xy 88.9 35.56)
 		)
 		(stroke
@@ -7586,16 +7574,6 @@
 		)
 		(uuid "35f29c2d-2f1b-4a78-a111-57012a053758")
 	)
-	(label "CAN1_TX"
-		(at 179.07 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "416e2d17-072b-4d33-bf5b-68aedb9bd5f7")
-	)
 	(label "LED_OUT"
 		(at 179.07 137.16 180)
 		(effects
@@ -7625,26 +7603,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f9e109b-fad3-42f8-afba-ea32f6363e85")
-	)
-	(label "CAN1_RX"
-		(at 100.33 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5006c974-491f-4f24-aee5-98d72151a930")
-	)
-	(label "CAN1_TX"
-		(at 198.12 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51fe3034-fd9f-4925-abc9-549d8b688196")
 	)
 	(label "SW_O"
 		(at 175.26 116.84 180)
@@ -7986,16 +7944,6 @@
 		)
 		(uuid "c1f0ad5e-9179-40fb-a1db-bf4939e0fd71")
 	)
-	(label "CAN1_RX"
-		(at 179.07 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4f5ab6f-1fe4-4471-a313-4c945a27d2d6")
-	)
 	(label "UART4_TX"
 		(at 198.12 119.38 0)
 		(effects
@@ -8198,17 +8146,6 @@
 		)
 		(uuid "2be52707-0b8e-458e-8655-8b4dde49972e")
 	)
-	(hierarchical_label "CAN1_RX"
-		(shape input)
-		(at 88.9 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3539867f-6395-405c-a9f8-7d9432d5d1f2")
-	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 208.28 114.3 0)
@@ -8219,17 +8156,6 @@
 			(justify left)
 		)
 		(uuid "50d73546-30f3-4893-a0e0-a7bf36120080")
-	)
-	(hierarchical_label "CAN1_TX"
-		(shape output)
-		(at 208.28 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "62023463-69b3-46f6-8e5f-e018467a20ad")
 	)
 	(hierarchical_label "GPIO_EXTI2"
 		(shape input)

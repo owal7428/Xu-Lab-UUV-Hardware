@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2026-01-25")
+		(date "2026-01-27")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -724,16 +724,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 43.18) (xy 50.8 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39def856-b54c-4f96-a247-51a0723dc359")
-	)
-	(wire
-		(pts
 			(xy 209.55 83.82) (xy 220.98 83.82)
 		)
 		(stroke
@@ -984,16 +974,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 31.75) (xy 259.08 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "853a51d4-cf43-46d5-a18b-6ed99f7fe05f")
-	)
-	(wire
-		(pts
 			(xy 158.75 78.74) (xy 170.18 78.74)
 		)
 		(stroke
@@ -1021,16 +1001,6 @@
 			(type default)
 		)
 		(uuid "87fcfc8e-7ddf-47b2-80f9-b0fce69140af")
-	)
-	(wire
-		(pts
-			(xy 251.46 26.67) (xy 260.35 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b61b4dc-ec25-472e-a449-bf56c3ca5573")
 	)
 	(wire
 		(pts
@@ -1134,16 +1104,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 29.21) (xy 260.35 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c668cc-da4a-49ee-a39b-3a8a9775af73")
-	)
-	(wire
-		(pts
 			(xy 88.9 52.07) (xy 100.33 52.07)
 		)
 		(stroke
@@ -1214,16 +1174,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 31.75) (xy 259.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53c95fb-79ff-4556-a0b5-c43f2ff76a88")
-	)
-	(wire
-		(pts
 			(xy 259.08 146.05) (xy 260.35 146.05)
 		)
 		(stroke
@@ -1231,16 +1181,6 @@
 			(type default)
 		)
 		(uuid "b61c8d2b-77df-4f4a-a37a-0a9943121b62")
-	)
-	(wire
-		(pts
-			(xy 88.9 43.18) (xy 99.06 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7ef8a7f-3ce2-491e-b07a-ff74228d0abf")
 	)
 	(wire
 		(pts
@@ -1512,26 +1452,6 @@
 		)
 		(uuid "2b83e405-1a3c-4ccc-a196-ebd6771b91a1")
 	)
-	(label "CAN1_TX"
-		(at 99.06 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ff96bb6-8d4d-471a-aedc-e36d087d2063")
-	)
-	(label "CAN1_TX"
-		(at 251.46 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3355cf96-c1a5-4fb5-891e-387349477300")
-	)
 	(label "SPI1_CS2"
 		(at 158.75 78.74 0)
 		(effects
@@ -1631,16 +1551,6 @@
 			(justify right bottom)
 		)
 		(uuid "65ad6bd8-2250-41e1-b4bc-0bff4b6a3bdc")
-	)
-	(label "CAN1_RX"
-		(at 251.46 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "667e9af8-6545-48ca-90ad-ba006ff8615a")
 	)
 	(label "SPI1_CS3"
 		(at 158.75 82.55 0)
@@ -1771,16 +1681,6 @@
 			(justify right bottom)
 		)
 		(uuid "9c1385cb-6508-4cf2-82bd-5bcab7f48c82")
-	)
-	(label "CAN1_RX"
-		(at 39.37 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ead3a03-3901-49b6-abb4-403f065bae1e")
 	)
 	(label "PWM_7"
 		(at 96.52 104.14 180)
@@ -2004,97 +1904,6 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 265.43 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a4546a1-127d-4c0a-a0b4-1c1685dcf80d")
-		(property "Reference" "J14"
-			(at 267.97 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN"
-			(at 267.97 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal"
-			(at 265.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/530/53048/530480310_sd.pdf?inline"
-			(at 265.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/molex/0530480310/242865"
-			(at 265.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interchangeable" "No"
-			(at 265.43 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b58f5246-4876-46c6-8de7-a0cc9e683ca9")
-		)
-		(pin "3"
-			(uuid "2661307c-92d5-46a2-9a26-2f0229708b76")
-		)
-		(pin "1"
-			(uuid "2b855fcf-64b1-4315-ad56-dba56a714024")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2501,72 +2310,6 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 259.08 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26b930dd-a356-4d5a-ab87-91ea09e0d7fd")
-		(property "Reference" "#PWR061"
-			(at 259.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7ab1eb5-32c4-48f6-9586-4b1a699f1b87")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4472,8 +4215,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 38.1)
-		(size 38.1 78.74)
+		(at 50.8 43.18)
+		(size 38.1 73.66)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4488,7 +4231,7 @@
 		)
 		(uuid "4b34bde8-cf26-4b12-b362-4972fe9ac1d6")
 		(property "Sheetname" "MCU A"
-			(at 50.8 37.3884 0)
+			(at 50.8 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,26 +4246,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "CAN1_RX" input
-			(at 50.8 43.18 180)
-			(uuid "4bf67a01-088d-4c6e-b817-873c08bf5319")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN1_TX" output
-			(at 88.9 43.18 0)
-			(uuid "6cb56f5d-abeb-425e-a7a9-be5b84a41dc8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "GPIO_EXTI1" input
