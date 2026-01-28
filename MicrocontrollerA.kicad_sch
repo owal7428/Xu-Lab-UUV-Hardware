@@ -5183,10 +5183,6 @@
 		(uuid "49b71cba-5827-4593-9549-152b341bf149")
 	)
 	(no_connect
-		(at 125.73 88.9)
-		(uuid "4e11c03d-60bb-41cb-acdb-f81027598d64")
-	)
-	(no_connect
 		(at 171.45 134.62)
 		(uuid "6cc5882f-b256-452e-8d26-6dce6ccc0ce3")
 	)
@@ -5197,6 +5193,10 @@
 	(no_connect
 		(at 171.45 142.24)
 		(uuid "79c093a5-35fb-46d2-9463-2d854aeffbb3")
+	)
+	(no_connect
+		(at 125.73 96.52)
+		(uuid "884ac2e2-0dc9-481b-a07b-73d4b13b1ec1")
 	)
 	(no_connect
 		(at 125.73 119.38)
@@ -5373,6 +5373,16 @@
 			(type default)
 		)
 		(uuid "13fdbef8-886b-4899-aa4d-c98b77255d86")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142ddb57-5e69-4721-87ca-7d724db679b2")
 	)
 	(wire
 		(pts
@@ -5696,6 +5706,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 96.52) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4605c995-54f1-49fc-b929-9af02f3b1c34")
+	)
+	(wire
+		(pts
 			(xy 88.9 88.9) (xy 100.33 88.9)
 		)
 		(stroke
@@ -5953,16 +5973,6 @@
 			(type default)
 		)
 		(uuid "687c29b3-047a-45af-bfab-f8032b5b6070")
-	)
-	(wire
-		(pts
-			(xy 116.84 96.52) (xy 128.27 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c42774-2c9a-441b-810e-1a1c8655be2f")
 	)
 	(wire
 		(pts
@@ -6876,16 +6886,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 128.27 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c97627e6-317e-4bb7-bc33-6fb25fda3e3f")
-	)
-	(wire
-		(pts
 			(xy 168.91 71.12) (xy 179.07 71.12)
 		)
 		(stroke
@@ -7374,17 +7374,7 @@
 		)
 		(uuid "0aee57da-f991-4881-ab60-500cc4643d21")
 	)
-	(label "GPIO_EXTI3"
-		(at 116.84 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ba708d9-f2ac-46a0-bdd9-0adf3b6f0ff9")
-	)
-	(label "GPIO_EXTI3"
+	(label "GPIO_EXTI2"
 		(at 100.33 88.9 180)
 		(effects
 			(font
@@ -7463,6 +7453,16 @@
 			(justify left bottom)
 		)
 		(uuid "20a444a6-4005-4e53-b46b-ffac2953a3c3")
+	)
+	(label "GPIO_EXTI0"
+		(at 116.84 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "217b90b1-7011-4f2b-b445-0723c2ec8505")
 	)
 	(label "TIM2_CH4"
 		(at 179.07 73.66 180)
@@ -7754,7 +7754,7 @@
 		)
 		(uuid "8f938ee6-f93f-4718-b681-0af0b626684a")
 	)
-	(label "GPIO_EXTI1"
+	(label "GPIO_EXTI0"
 		(at 100.33 81.28 180)
 		(effects
 			(font
@@ -7834,7 +7834,7 @@
 		)
 		(uuid "ae9b745f-bf0b-458c-9b6f-07ba9e29111e")
 	)
-	(label "GPIO_EXTI2"
+	(label "GPIO_EXTI1"
 		(at 100.33 85.09 180)
 		(effects
 			(font
@@ -8157,7 +8157,7 @@
 		)
 		(uuid "50d73546-30f3-4893-a0e0-a7bf36120080")
 	)
-	(hierarchical_label "GPIO_EXTI2"
+	(hierarchical_label "GPIO_EXTI1"
 		(shape input)
 		(at 88.9 85.09 180)
 		(effects
@@ -8234,7 +8234,7 @@
 		)
 		(uuid "956c8f13-6017-444b-8684-9c35706a83e1")
 	)
-	(hierarchical_label "GPIO_EXTI3"
+	(hierarchical_label "GPIO_EXTI2"
 		(shape input)
 		(at 88.9 88.9 180)
 		(effects
@@ -8289,7 +8289,7 @@
 		)
 		(uuid "b55bdb93-ed34-4ddd-a918-9f76f79b2d25")
 	)
-	(hierarchical_label "GPIO_EXTI1"
+	(hierarchical_label "GPIO_EXTI0"
 		(shape input)
 		(at 88.9 81.28 180)
 		(effects

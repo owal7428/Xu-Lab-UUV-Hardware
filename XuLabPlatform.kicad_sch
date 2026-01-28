@@ -1522,7 +1522,7 @@
 		)
 		(uuid "5194b23f-6666-49ce-a7fb-17780f36f9d4")
 	)
-	(label "GPIO_EXTI1"
+	(label "GPIO_EXTI0"
 		(at 39.37 58.42 0)
 		(effects
 			(font
@@ -1822,7 +1822,7 @@
 		)
 		(uuid "d58240e1-ae23-4c91-91b7-3396a9105dc9")
 	)
-	(label "GPIO_EXTI1"
+	(label "GPIO_EXTI0"
 		(at 220.98 83.82 180)
 		(effects
 			(font
@@ -4248,7 +4248,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_EXTI1" input
+		(pin "GPIO_EXTI0" input
 			(at 50.8 58.42 180)
 			(uuid "88d6e637-907a-41da-9162-1e7550cc63cf")
 			(effects
@@ -4438,7 +4438,7 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_EXTI2" input
+		(pin "GPIO_EXTI1" input
 			(at 50.8 63.5 180)
 			(uuid "a9d49941-3df1-4c04-9275-1b02e3521afa")
 			(effects
@@ -4448,7 +4448,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO_EXTI3" input
+		(pin "GPIO_EXTI2" input
 			(at 50.8 68.58 180)
 			(uuid "e4cd92a0-6414-4e63-bc93-afd7725d1f3d")
 			(effects
