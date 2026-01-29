@@ -782,18 +782,6 @@
 		(uuid "e4e19f8b-ab85-4576-bbd1-9812bf58f3de")
 	)
 	(no_connect
-		(at 48.26 77.47)
-		(uuid "17ad87ba-f77b-4653-a8cd-9b318849ebcd")
-	)
-	(no_connect
-		(at 48.26 82.55)
-		(uuid "b9fb66b5-8f1b-41f4-9904-1cc2f8f22745")
-	)
-	(no_connect
-		(at 194.31 64.77)
-		(uuid "c060995f-ee9d-4550-a74e-98fcf6f1d1c9")
-	)
-	(no_connect
 		(at 194.31 68.58)
 		(uuid "c1b5dc45-87d5-4d40-8f96-e6bce5e29db3")
 	)
@@ -1020,16 +1008,6 @@
 			(type default)
 		)
 		(uuid "3d4b606e-831f-4b27-b95e-a7753456efe9")
-	)
-	(wire
-		(pts
-			(xy 48.26 77.47) (xy 50.8 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b07928-cb7d-4791-bd15-d4f2623e90c6")
 	)
 	(wire
 		(pts
@@ -1313,6 +1291,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 80.01) (xy 203.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782437be-4bc5-4d5b-98c6-076bc2d34748")
+	)
+	(wire
+		(pts
 			(xy 184.15 148.59) (xy 182.88 148.59)
 		)
 		(stroke
@@ -1350,6 +1338,16 @@
 			(type default)
 		)
 		(uuid "7b3bb235-80d9-4826-8893-e4065393033d")
+	)
+	(wire
+		(pts
+			(xy 39.37 76.2) (xy 50.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d307a2b-700a-4e18-befe-dd46b1d4a5bd")
 	)
 	(wire
 		(pts
@@ -1613,23 +1611,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 64.77) (xy 194.31 64.77)
+			(xy 191.77 64.77) (xy 203.2 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bfb44d81-c42e-4f2f-95a7-dca849ab3119")
-	)
-	(wire
-		(pts
-			(xy 48.26 82.55) (xy 50.8 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4583c0b-3b94-45de-bb96-fbd66ac728a0")
 	)
 	(wire
 		(pts
@@ -1650,6 +1638,16 @@
 			(type default)
 		)
 		(uuid "ce1fd6d6-d4a0-40f5-84ac-5763ac3e04e0")
+	)
+	(wire
+		(pts
+			(xy 39.37 80.01) (xy 50.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefd3e27-952b-4cec-a2ce-6e58ba1d159d")
 	)
 	(wire
 		(pts
@@ -2021,6 +2019,16 @@
 		)
 		(uuid "4516bf87-3b91-4e1f-97cd-65e69ec61f98")
 	)
+	(label "GPIO_EXTI2"
+		(at 39.37 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "481658d2-023c-48c6-9e14-438d30023c27")
+	)
 	(label "UART1_TX"
 		(at 100.33 86.36 180)
 		(effects
@@ -2160,6 +2168,16 @@
 			(justify right bottom)
 		)
 		(uuid "789abe50-5477-4bb9-8f9a-b21a8a910528")
+	)
+	(label "GPIO_EXTI1"
+		(at 39.37 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "791a53d3-b032-4628-a8e3-d5435dbea477")
 	)
 	(label "SPI2_SCK"
 		(at 250.19 63.5 0)
@@ -2441,6 +2459,16 @@
 		)
 		(uuid "be2ddb5c-7252-4eaf-a804-24015cec191c")
 	)
+	(label "GPIO_EXTI2"
+		(at 203.2 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1fbc129-3c4d-490a-b42b-297955d5ded3")
+	)
 	(label "UART2_TX"
 		(at 251.46 46.99 0)
 		(effects
@@ -2481,6 +2509,16 @@
 		)
 		(uuid "cec88d6d-a06d-4ddb-ad43-08e8522cc503")
 	)
+	(label "GPIO_EXTI0"
+		(at 203.2 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3bf4e2a-4b84-44a7-ae47-507a8be1a4ae")
+	)
 	(label "I2C1_SDA"
 		(at 140.97 80.01 0)
 		(effects
@@ -2501,7 +2539,7 @@
 		)
 		(uuid "dcc5f010-4a63-47f2-908f-071029e8a3fb")
 	)
-	(label "GPIO_EXTI0"
+	(label "GPIO_EXTI1"
 		(at 203.2 72.39 180)
 		(effects
 			(font
@@ -5768,7 +5806,7 @@
 			)
 		)
 		(pin "GPIO_EXTI1" input
-			(at 50.8 77.47 180)
+			(at 50.8 76.2 180)
 			(uuid "a9d49941-3df1-4c04-9275-1b02e3521afa")
 			(effects
 				(font
@@ -5778,7 +5816,7 @@
 			)
 		)
 		(pin "GPIO_EXTI2" input
-			(at 50.8 82.55 180)
+			(at 50.8 80.01 180)
 			(uuid "e4cd92a0-6414-4e63-bc93-afd7725d1f3d")
 			(effects
 				(font
@@ -6052,6 +6090,16 @@
 		(pin "MAG_SDO" output
 			(at 191.77 52.07 0)
 			(uuid "69831766-4345-4cd6-b329-4a4237269704")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAG_INT" input
+			(at 191.77 80.01 0)
+			(uuid "6f376a69-f273-4b8c-a124-d7cc51d6ae55")
 			(effects
 				(font
 					(size 1.27 1.27)

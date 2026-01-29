@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Attitude and Heading Module")
-		(date "2025-12-21")
-		(rev "A")
+		(date "2026-01-28")
+		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
 	(lib_symbols
@@ -1369,10 +1369,6 @@
 		(color 0 0 0 0)
 		(uuid "e4322d77-ca13-49fc-aa20-c425d0bd2254")
 	)
-	(no_connect
-		(at 119.38 110.49)
-		(uuid "02597abb-d7f7-473d-bb5b-5f890bdcf72d")
-	)
 	(wire
 		(pts
 			(xy 223.52 92.71) (xy 223.52 91.44)
@@ -1973,6 +1969,17 @@
 			(justify right)
 		)
 		(uuid "60693675-e349-4f51-8d86-d5a4eb9daf60")
+	)
+	(hierarchical_label "MAG_INT"
+		(shape input)
+		(at 119.38 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7944ab19-6e1a-44fe-93ff-4ac1f88fa337")
 	)
 	(hierarchical_label "IMU_SDI"
 		(shape input)
