@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MCU A - STM32F446RCT6")
-		(date "2026-01-27")
+		(date "2026-01-28")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -5167,10 +5167,6 @@
 		(uuid "21b96dfd-032a-49ef-96da-e5b4d58abbf0")
 	)
 	(no_connect
-		(at 125.73 83.82)
-		(uuid "35c8972c-c1e4-4333-b932-34aef101defa")
-	)
-	(no_connect
 		(at 261.62 72.39)
 		(uuid "416e7ffe-4a44-45c7-a342-858da07c6961")
 	)
@@ -5185,10 +5181,6 @@
 	(no_connect
 		(at 125.73 127)
 		(uuid "6fc709bf-33fd-4819-8bf7-8a21acba731d")
-	)
-	(no_connect
-		(at 125.73 119.38)
-		(uuid "953475d4-7d97-423a-84da-9710af5dfe70")
 	)
 	(no_connect
 		(at 181.61 86.36)
@@ -5350,7 +5342,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 90.17) (xy 100.33 90.17)
+			(xy 88.9 92.71) (xy 100.33 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5700,7 +5692,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 93.98) (xy 100.33 93.98)
+			(xy 88.9 96.52) (xy 100.33 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5827,6 +5819,16 @@
 			(type default)
 		)
 		(uuid "5567e3f9-beb7-4916-b3a1-4daa22c3a961")
+	)
+	(wire
+		(pts
+			(xy 198.12 120.65) (xy 208.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577359a6-6260-40a8-837c-d490c91f1419")
 	)
 	(wire
 		(pts
@@ -5967,16 +5969,6 @@
 			(type default)
 		)
 		(uuid "687c29b3-047a-45af-bfab-f8032b5b6070")
-	)
-	(wire
-		(pts
-			(xy 125.73 83.82) (xy 128.27 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a3969b0-7d41-43a6-9761-24efbfb8f6cb")
 	)
 	(wire
 		(pts
@@ -6230,16 +6222,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 119.38) (xy 128.27 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bdb9205-869a-4ff1-b01e-374793d56809")
-	)
-	(wire
-		(pts
 			(xy 125.73 127) (xy 128.27 127)
 		)
 		(stroke
@@ -6337,6 +6319,16 @@
 			(type default)
 		)
 		(uuid "8fce638c-6edf-4f5c-861d-567718c6a052")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 128.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fed2507-f208-4b26-93d5-c280b1f361aa")
 	)
 	(wire
 		(pts
@@ -6720,6 +6712,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 119.38) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99d6fa7-c925-4f6f-82d2-6d22b5e0488d")
+	)
+	(wire
+		(pts
 			(xy 260.35 72.39) (xy 261.62 72.39)
 		)
 		(stroke
@@ -7100,7 +7102,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 86.36) (xy 100.33 86.36)
+			(xy 88.9 83.82) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fd2f4e-0f9c-4ba8-a614-fc75cffb3618")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 100.33 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7399,7 +7411,7 @@
 		(uuid "0aee57da-f991-4881-ab60-500cc4643d21")
 	)
 	(label "GPIO_EXTI2"
-		(at 100.33 93.98 180)
+		(at 100.33 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7427,6 +7439,16 @@
 			(justify right bottom)
 		)
 		(uuid "17a48347-b75a-4ae9-ab0e-a940234e581c")
+	)
+	(label "UART5_RX"
+		(at 100.33 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17ff61ea-4c76-4aa9-8526-cf1a98cd7c74")
 	)
 	(label "TIM3_CH4"
 		(at 179.07 111.76 180)
@@ -7537,6 +7559,16 @@
 			(justify right bottom)
 		)
 		(uuid "290cb096-6494-47c2-8616-4901486c0e10")
+	)
+	(label "UART5_TX"
+		(at 198.12 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "291f350e-1e1c-4c1e-b464-e0b12147172d")
 	)
 	(label "USB_D-"
 		(at 179.07 93.98 180)
@@ -7687,6 +7719,16 @@
 			(justify right bottom)
 		)
 		(uuid "5cfa2391-53ee-4c94-a497-b6e61ccc7f3e")
+	)
+	(label "UART5_RX"
+		(at 118.11 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d0ca8a3-d6c6-4fc6-bf6a-52f9a6def760")
 	)
 	(label "TIM3_CH2"
 		(at 198.12 77.47 0)
@@ -7839,7 +7881,7 @@
 		(uuid "8f938ee6-f93f-4718-b681-0af0b626684a")
 	)
 	(label "GPIO_EXTI0"
-		(at 100.33 86.36 180)
+		(at 100.33 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7919,7 +7961,7 @@
 		(uuid "ae9b745f-bf0b-458c-9b6f-07ba9e29111e")
 	)
 	(label "GPIO_EXTI1"
-		(at 100.33 90.17 180)
+		(at 100.33 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8188,6 +8230,16 @@
 		)
 		(uuid "ee4f2fa6-e4cf-4df7-9fb8-2005bd4f5016")
 	)
+	(label "UART5_TX"
+		(at 118.11 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eed754ba-4791-4309-a577-4a99a91f8bd6")
+	)
 	(label "TIM3_CH4"
 		(at 198.12 82.55 0)
 		(effects
@@ -8227,6 +8279,17 @@
 			(justify right bottom)
 		)
 		(uuid "fd7811f2-4db1-4f51-8e53-fb9cbda7673a")
+	)
+	(hierarchical_label "UART5_RX"
+		(shape input)
+		(at 88.9 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12beab36-7a45-493d-a99a-dd1ac78c695c")
 	)
 	(hierarchical_label "TIM2_CH1"
 		(shape output)
@@ -8274,7 +8337,7 @@
 	)
 	(hierarchical_label "GPIO_EXTI1"
 		(shape input)
-		(at 88.9 90.17 180)
+		(at 88.9 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8362,7 +8425,7 @@
 	)
 	(hierarchical_label "GPIO_EXTI2"
 		(shape input)
-		(at 88.9 93.98 180)
+		(at 88.9 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8381,6 +8444,17 @@
 			(justify left)
 		)
 		(uuid "a2266182-fc4e-466b-94ea-d1e92b4d7666")
+	)
+	(hierarchical_label "UART5_TX"
+		(shape output)
+		(at 208.28 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5afddf2-5950-4134-b3cd-9f68c4d65d24")
 	)
 	(hierarchical_label "UART4_TX"
 		(shape output)
@@ -8417,7 +8491,7 @@
 	)
 	(hierarchical_label "GPIO_EXTI0"
 		(shape input)
-		(at 88.9 86.36 180)
+		(at 88.9 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
