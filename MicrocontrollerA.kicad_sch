@@ -4900,7 +4900,7 @@
 	)
 	(text_box "I2C1 is high speed (400 kHz)"
 		(exclude_from_sim no)
-		(at 222.25 109.22 0)
+		(at 222.25 111.76 0)
 		(size 21.59 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5203,10 +5203,6 @@
 		(uuid "dc35b045-d356-4450-bb7a-a192d49ac515")
 	)
 	(no_connect
-		(at 125.73 104.14)
-		(uuid "dfdbbf9b-321c-4f14-99d3-61a0adf3d677")
-	)
-	(no_connect
 		(at 125.73 101.6)
 		(uuid "f41c63b1-0001-4d8b-9534-9cfa2cf68a17")
 	)
@@ -5412,7 +5408,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 105.41) (xy 208.28 105.41)
+			(xy 198.12 107.95) (xy 208.28 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5439,6 +5435,16 @@
 			(type default)
 		)
 		(uuid "19dae49e-9c37-4619-a7f1-9d9c52d76118")
+	)
+	(wire
+		(pts
+			(xy 118.11 104.14) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e9271a-d4df-448a-ab00-9dab742ebd96")
 	)
 	(wire
 		(pts
@@ -5632,7 +5638,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 95.25) (xy 208.28 95.25)
+			(xy 198.12 97.79) (xy 208.28 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5822,7 +5828,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 120.65) (xy 208.28 120.65)
+			(xy 198.12 123.19) (xy 208.28 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5942,7 +5948,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 97.79) (xy 208.28 97.79)
+			(xy 198.12 100.33) (xy 208.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6092,6 +6098,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 95.25) (xy 208.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be616ee-b3f3-4d49-956e-0b3e06ca7f77")
+	)
+	(wire
+		(pts
 			(xy 168.91 91.44) (xy 171.45 91.44)
 		)
 		(stroke
@@ -6109,16 +6125,6 @@
 			(type default)
 		)
 		(uuid "7e20e6aa-277c-4075-89d3-1e8ba00b9a25")
-	)
-	(wire
-		(pts
-			(xy 125.73 104.14) (xy 128.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80a34894-75a8-4252-9532-6d6c103e2b58")
 	)
 	(wire
 		(pts
@@ -6272,7 +6278,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 144.78) (xy 209.55 146.05)
+			(xy 252.73 144.78) (xy 252.73 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6282,7 +6288,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 127) (xy 209.55 127)
+			(xy 241.3 127) (xy 252.73 127)
 		)
 		(stroke
 			(width 0)
@@ -6312,7 +6318,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 113.03) (xy 208.28 113.03)
+			(xy 198.12 115.57) (xy 208.28 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6382,7 +6388,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 118.11) (xy 208.28 118.11)
+			(xy 198.12 120.65) (xy 208.28 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6632,7 +6638,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 100.33) (xy 208.28 100.33)
+			(xy 198.12 102.87) (xy 208.28 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6802,7 +6808,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 110.49) (xy 208.28 110.49)
+			(xy 198.12 113.03) (xy 208.28 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6872,7 +6878,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 135.89) (xy 209.55 137.16)
+			(xy 252.73 135.89) (xy 252.73 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6982,7 +6988,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 127) (xy 209.55 128.27)
+			(xy 252.73 127) (xy 252.73 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7381,7 +7387,7 @@
 		(uuid "ff83efc1-94c9-41cc-a485-cea29db9f015")
 	)
 	(label "I2C1_SDA"
-		(at 198.12 113.03 0)
+		(at 198.12 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7491,7 +7497,7 @@
 		(uuid "1d962e90-26ad-4728-9c72-fed2cae7cd5e")
 	)
 	(label "SPI1_CS1"
-		(at 198.12 95.25 0)
+		(at 198.12 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7561,7 +7567,7 @@
 		(uuid "290cb096-6494-47c2-8616-4901486c0e10")
 	)
 	(label "UART5_TX"
-		(at 198.12 120.65 0)
+		(at 198.12 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7651,7 +7657,7 @@
 		(uuid "48c2bc8f-705b-4161-9f4e-1d1b6df6eaaf")
 	)
 	(label "SPI1_CS2"
-		(at 198.12 97.79 0)
+		(at 198.12 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7701,7 +7707,7 @@
 		(uuid "5a5a78c1-e4d9-42c5-adb9-744930a25783")
 	)
 	(label "SPI2_MISO"
-		(at 198.12 105.41 0)
+		(at 198.12 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7781,7 +7787,7 @@
 		(uuid "68457bc1-1a65-4a85-bd4c-0a8eb2556a00")
 	)
 	(label "SPI1_CS3"
-		(at 198.12 100.33 0)
+		(at 198.12 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7890,6 +7896,16 @@
 		)
 		(uuid "902831dc-48cf-4015-876e-abc1d9d25e6b")
 	)
+	(label "SPI1_CS0"
+		(at 118.11 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c7f2fe5-ae54-4f9b-bcb2-12eb6553f8c1")
+	)
 	(label "TIM3_CH1"
 		(at 179.07 81.28 180)
 		(effects
@@ -7949,6 +7965,16 @@
 			(justify left bottom)
 		)
 		(uuid "a6a71fe8-cdf1-4329-84d0-76c78e070909")
+	)
+	(label "SPI1_CS0"
+		(at 198.12 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6d5e342-ba34-445b-a23f-195659ccb361")
 	)
 	(label "USB_D+"
 		(at 179.07 96.52 180)
@@ -8021,7 +8047,7 @@
 		(uuid "b86a0add-9af9-4d2a-986a-27b875a38af6")
 	)
 	(label "LED_OUT"
-		(at 199.39 127 0)
+		(at 241.3 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8071,7 +8097,7 @@
 		(uuid "c1f0ad5e-9179-40fb-a1db-bf4939e0fd71")
 	)
 	(label "UART4_TX"
-		(at 198.12 118.11 0)
+		(at 198.12 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8081,7 +8107,7 @@
 		(uuid "c58a68b7-fd1c-45ba-b4ba-f083feb92f0e")
 	)
 	(label "I2C1_SCL"
-		(at 198.12 110.49 0)
+		(at 198.12 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8315,7 +8341,7 @@
 	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
-		(at 208.28 113.03 0)
+		(at 208.28 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8412,6 +8438,17 @@
 		)
 		(uuid "8e2a987c-ced7-4288-a56c-50a114696cb0")
 	)
+	(hierarchical_label "SPI1_CS0"
+		(shape output)
+		(at 208.28 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "916305b4-5b90-4233-9bb2-58247758859d")
+	)
 	(hierarchical_label "TIM2_CH4"
 		(shape output)
 		(at 208.28 72.39 0)
@@ -8447,7 +8484,7 @@
 	)
 	(hierarchical_label "UART5_TX"
 		(shape output)
-		(at 208.28 120.65 0)
+		(at 208.28 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8458,7 +8495,7 @@
 	)
 	(hierarchical_label "UART4_TX"
 		(shape output)
-		(at 208.28 118.11 0)
+		(at 208.28 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8502,7 +8539,7 @@
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape bidirectional)
-		(at 208.28 110.49 0)
+		(at 208.28 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8524,7 +8561,7 @@
 	)
 	(hierarchical_label "SPI1_CS1"
 		(shape output)
-		(at 208.28 95.25 0)
+		(at 208.28 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8546,7 +8583,7 @@
 	)
 	(hierarchical_label "SPI1_CS3"
 		(shape output)
-		(at 208.28 100.33 0)
+		(at 208.28 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8557,7 +8594,7 @@
 	)
 	(hierarchical_label "SPI2_MISO"
 		(shape output)
-		(at 208.28 105.41 0)
+		(at 208.28 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8579,7 +8616,7 @@
 	)
 	(hierarchical_label "SPI1_CS2"
 		(shape output)
-		(at 208.28 97.79 0)
+		(at 208.28 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12035,7 +12072,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 209.55 132.08 90)
+		(at 252.73 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12044,7 +12081,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1444f01-fad5-4416-8c27-f716c0c56d0a")
 		(property "Reference" "D1"
-			(at 213.36 132.3974 90)
+			(at 256.54 132.3974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12053,7 +12090,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 213.36 134.9374 90)
+			(at 256.54 134.9374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12062,7 +12099,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 209.55 132.08 0)
+			(at 252.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12071,7 +12108,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf"
-			(at 209.55 132.08 0)
+			(at 252.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12080,7 +12117,7 @@
 			)
 		)
 		(property "Description" "Red light emitting diode"
-			(at 209.55 132.08 0)
+			(at 252.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12089,7 +12126,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 132.08 0)
+			(at 252.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12098,7 +12135,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KRKT/386817"
-			(at 209.55 132.08 90)
+			(at 252.73 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12107,7 +12144,7 @@
 			)
 		)
 		(property "Interchangeable" "Yes"
-			(at 209.55 132.08 90)
+			(at 252.73 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12736,7 +12773,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 209.55 140.97 0)
+		(at 252.73 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12745,7 +12782,7 @@
 		(fields_autoplaced yes)
 		(uuid "c40143c9-d254-4963-b8d1-48f6d3b99b64")
 		(property "Reference" "R8"
-			(at 212.09 139.6999 0)
+			(at 255.27 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12754,7 +12791,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 212.09 142.2399 0)
+			(at 255.27 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12763,7 +12800,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 210.566 141.224 90)
+			(at 253.746 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12772,7 +12809,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 209.55 140.97 0)
+			(at 252.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12781,7 +12818,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 209.55 140.97 0)
+			(at 252.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12790,7 +12827,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-0775RL/726505"
-			(at 209.55 140.97 0)
+			(at 252.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12799,7 +12836,7 @@
 			)
 		)
 		(property "Interchangeable" "Yes"
-			(at 209.55 140.97 0)
+			(at 252.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13198,7 +13235,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 146.05 0)
+		(at 252.73 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13207,7 +13244,7 @@
 		(fields_autoplaced yes)
 		(uuid "f37a68be-8fd5-47e1-a0cc-1dcc5de69c17")
 		(property "Reference" "#PWR065"
-			(at 209.55 152.4 0)
+			(at 252.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13216,7 +13253,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,7 +13261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 146.05 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13233,7 +13270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 146.05 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13242,7 +13279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 146.05 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
