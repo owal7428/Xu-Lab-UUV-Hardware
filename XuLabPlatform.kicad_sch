@@ -11,6 +11,148 @@
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -961,6 +1103,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 101.6) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337cb056-61e6-4604-8ed7-8676dc50b2be")
+	)
+	(wire
+		(pts
 			(xy 88.9 95.25) (xy 96.52 95.25)
 		)
 		(stroke
@@ -968,6 +1120,16 @@
 			(type default)
 		)
 		(uuid "33bc6c6f-d40b-4bb8-a096-3cb2362280a2")
+	)
+	(wire
+		(pts
+			(xy 166.37 101.6) (xy 179.07 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33dcee69-bc53-4204-a03f-776e1193f29b")
 	)
 	(wire
 		(pts
@@ -1068,6 +1230,16 @@
 			(type default)
 		)
 		(uuid "4a6d811f-befb-4a6d-b617-e3dfb547fcd1")
+	)
+	(wire
+		(pts
+			(xy 177.8 104.14) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9d005f-240f-4432-95bb-3852ae2d3b90")
 	)
 	(wire
 		(pts
@@ -1291,6 +1463,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 101.6) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f8a58d-c027-4121-ab74-f960f39ba95a")
+	)
+	(wire
+		(pts
 			(xy 191.77 80.01) (xy 203.2 80.01)
 		)
 		(stroke
@@ -1328,6 +1510,16 @@
 			(type default)
 		)
 		(uuid "7a24106c-3971-424c-a134-dd3e3a1d36d4")
+	)
+	(wire
+		(pts
+			(xy 38.1 87.63) (xy 50.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8ba7c2-16a3-4b9b-a179-549300be78ba")
 	)
 	(wire
 		(pts
@@ -1481,6 +1673,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c2b6967-bd3c-443a-94f1-fee94980dbfd")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c405cd2-c5aa-4f83-973b-390ebe3f2ec7")
+	)
+	(wire
+		(pts
 			(xy 194.31 52.07) (xy 194.31 48.26)
 		)
 		(stroke
@@ -1508,6 +1720,16 @@
 			(type default)
 		)
 		(uuid "a31137fd-60ec-4acd-ab63-8f901802cb1b")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 50.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70835e3-3136-44a3-b9cf-c63551354b6d")
 	)
 	(wire
 		(pts
@@ -1568,6 +1790,16 @@
 			(type default)
 		)
 		(uuid "afde4ad9-d87e-430f-a7fe-851bbbc3aec7")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 208.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06ccfa7-0407-437d-97ee-cc04004d43f7")
 	)
 	(wire
 		(pts
@@ -1638,6 +1870,16 @@
 			(type default)
 		)
 		(uuid "ce1fd6d6-d4a0-40f5-84ac-5763ac3e04e0")
+	)
+	(wire
+		(pts
+			(xy 209.55 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5cb02e-3d38-4d7a-a8d0-0ea7b932ffad")
 	)
 	(wire
 		(pts
@@ -1718,6 +1960,16 @@
 			(type default)
 		)
 		(uuid "de2c2086-5c7d-45d7-8ff9-2d965dced4db")
+	)
+	(wire
+		(pts
+			(xy 38.1 91.44) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9a7676-db7b-4948-8645-7dd6eed08da3")
 	)
 	(wire
 		(pts
@@ -1841,6 +2093,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ec0774-1003-42bc-b6d2-173950f2bf3e")
+	)
+	(wire
+		(pts
 			(xy 88.9 77.47) (xy 100.33 77.47)
 		)
 		(stroke
@@ -1949,6 +2211,16 @@
 		)
 		(uuid "09ca0e71-a487-4bdb-a9ad-895d0cda1b48")
 	)
+	(label "GPIO_EXTI15"
+		(at 196.85 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e0431a0-e646-4a88-a9bf-d7d4d31222fa")
+	)
 	(label "SPI1_CS3"
 		(at 100.33 67.31 180)
 		(effects
@@ -1978,6 +2250,16 @@
 			(justify right bottom)
 		)
 		(uuid "2b83e405-1a3c-4ccc-a196-ebd6771b91a1")
+	)
+	(label "GPIO_EXTI14"
+		(at 166.37 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fc42d17-ba77-4f54-bde5-81deab7c1976")
 	)
 	(label "SPI1_CS2"
 		(at 140.97 67.31 0)
@@ -2179,6 +2461,16 @@
 		)
 		(uuid "791a53d3-b032-4628-a8e3-d5435dbea477")
 	)
+	(label "GPIO_EXTI15"
+		(at 38.1 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7af1558c-83cc-4478-b625-e969f91c2bf3")
+	)
 	(label "SPI2_SCK"
 		(at 250.19 63.5 0)
 		(effects
@@ -2329,6 +2621,16 @@
 		)
 		(uuid "9c1385cb-6508-4cf2-82bd-5bcab7f48c82")
 	)
+	(label "GPIO_EXTI13"
+		(at 135.89 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1207ffd-b586-4bb9-97d2-944efcb784b4")
+	)
 	(label "PWM_7"
 		(at 96.52 118.11 180)
 		(effects
@@ -2388,6 +2690,16 @@
 			(justify right bottom)
 		)
 		(uuid "a8c11ed7-f073-4a2c-a91a-2584d145c2f1")
+	)
+	(label "GPIO_EXTI13"
+		(at 38.1 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aba9ba1c-cc39-4b74-8843-147a90f4762c")
 	)
 	(label "I2C1_SDA"
 		(at 100.33 81.28 180)
@@ -2528,6 +2840,16 @@
 			(justify left bottom)
 		)
 		(uuid "d58240e1-ae23-4c91-91b7-3396a9105dc9")
+	)
+	(label "GPIO_EXTI14"
+		(at 38.1 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db70e78c-38cf-4cc5-9d2f-6926bc96f290")
 	)
 	(label "SPI2_SCK"
 		(at 39.37 52.07 0)
@@ -3036,6 +3358,94 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 214.63 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bc76d3a-83bc-4de2-8b0f-5c2dfd477b4a")
+		(property "Reference" "J22"
+			(at 217.17 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Interrupt"
+			(at 217.17 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22272021?display=pdf"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/molex/0022272021/1130577"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5297742a-553f-43ac-a0d4-a7abe87e3bbe")
+		)
+		(pin "1"
+			(uuid "53c3bcbb-cb9e-454e-8084-d2ea237624e4")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -3551,6 +3961,94 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 184.15 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4330e442-01fc-4e0c-a50f-1400a682d204")
+		(property "Reference" "J21"
+			(at 186.69 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Interrupt"
+			(at 186.69 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22272021?display=pdf"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/molex/0022272021/1130577"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83e54ccf-1ef2-4e5f-b1a9-9a07cc26b12a")
+		)
+		(pin "1"
+			(uuid "8433f823-1cae-4e54-a762-e7f270278a4d")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -4294,6 +4792,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d010290-fad9-4f92-b25e-3d6cc07afcbd")
+		(property "Reference" "#PWR058"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dffe2a31-a5ac-452d-8ead-29a4f88de4aa")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0166a6-8c65-4504-b176-c6357d7feae9")
+		(property "Reference" "#PWR057"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7116090e-22e9-4991-8ce3-753abc9a9a22")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 240.03 46.99 0)
 		(unit 1)
@@ -4784,6 +5414,160 @@
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc727c9b-d4bf-40d4-91b9-bb7f557fecad")
+		(property "Reference" "#PWR049"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e38a6db-7b6e-4c1f-8194-b9bc3058d284")
+		)
+		(instances
+			(project "XuLabPlatform"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 153.67 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd40ef92-901b-44a0-b9d2-31227f1dc292")
+		(property "Reference" "J20"
+			(at 156.21 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Interrupt"
+			(at 156.21 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22272021?display=pdf"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/molex/0022272021/1130577"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "733ac639-5cc7-4dcf-8b89-110cc99755f0")
+		)
+		(pin "1"
+			(uuid "7ca2d031-0ca9-4124-8ee1-b41261e873b0")
+		)
+		(instances
+			(project ""
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -5903,6 +6687,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GPIO_EXTI13" input
+			(at 50.8 83.82 180)
+			(uuid "8a4bea11-76f5-45bd-8a5c-6892aab1fdd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_EXTI14" input
+			(at 50.8 87.63 180)
+			(uuid "d298bf7e-c9e9-4e89-a3f3-6b669d25ae33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_EXTI15" input
+			(at 50.8 91.44 180)
+			(uuid "80342a48-0ec8-4a3d-a41e-70ee36e9ce69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
