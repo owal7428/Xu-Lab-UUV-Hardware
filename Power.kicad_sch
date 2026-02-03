@@ -6,130 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Power")
-		(date "2025-11-26")
-		(rev "A")
+		(date "2026-01-23")
+		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint_Flag"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 3.429 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Flag"
-				(at 3.302 4.191 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point (alternative flag-style design)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Flag_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.889 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.889 2.794)
-					(end 5.842 0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TestPoint_Flag_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2261,16 +2142,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 44.45) (xy 228.6 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a404c1f-45ee-4b10-8949-c912e3aebd68")
-	)
-	(wire
-		(pts
 			(xy 55.88 45.72) (xy 58.42 45.72)
 		)
 		(stroke
@@ -2511,16 +2382,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 50.8) (xy 228.6 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961f7016-9168-426f-b8a7-a27e55a3b258")
-	)
-	(wire
-		(pts
 			(xy 87.63 93.98) (xy 100.33 93.98)
 		)
 		(stroke
@@ -2598,16 +2459,6 @@
 			(type default)
 		)
 		(uuid "b8458416-dfab-4165-87fe-6aff3c20df1f")
-	)
-	(wire
-		(pts
-			(xy 223.52 38.1) (xy 228.6 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d4b9ca-d76d-44af-baaf-29dfa1cee651")
 	)
 	(wire
 		(pts
@@ -2940,82 +2791,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 228.6 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "189f5a3d-20f3-4c8b-abb4-f97f68d0fc8d")
-		(property "Reference" "TP3"
-			(at 236.22 48.1329 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 236.22 50.6729 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 233.68 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 228.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interchangeable" "N/A"
-			(at 228.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff46c83d-17bb-4ad6-90de-1aecee31dabc")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 38.1 105.41 0)
 		(unit 1)
@@ -3076,73 +2851,6 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 223.52 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25a3cf83-84bf-4c67-8302-1cccf9235d12")
-		(property "Reference" "#PWR024"
-			(at 227.33 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 219.71 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 223.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7953f659-76dd-40c3-9a40-6d08cef9605d")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3605,82 +3313,6 @@
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 228.6 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62ff61ad-76f5-4186-ac13-9d079775c544")
-		(property "Reference" "TP1"
-			(at 236.22 35.4329 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 236.22 37.9729 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 233.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 228.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interchangeable" "N/A"
-			(at 228.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2396bf71-dab2-480a-99a4-3c8a807c7de5")
-		)
-		(instances
-			(project ""
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4376,149 +4008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+7.5V")
-		(at 223.52 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4065e67-da73-404a-b465-f2ffa066a51f")
-		(property "Reference" "#PWR023"
-			(at 227.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+7.4V"
-			(at 219.71 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 223.52 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8f2ac59-82f0-425b-a629-4f0da30c0528")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 228.6 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4a82b0c-e977-4ac6-b7b6-83ddecb6b4ef")
-		(property "Reference" "TP2"
-			(at 236.22 41.7829 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 236.22 44.3229 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 233.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 228.6 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interchangeable" "N/A"
-			(at 228.6 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67c9d240-a2f5-4cc2-a09a-83df68710ef6")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 49.53 0)
 		(unit 1)
@@ -4730,73 +4219,6 @@
 			(project "XuLabPlatform"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4a8ecc6-4ec6-456a-a747-61d3bd45c3e6")
-		(property "Reference" "#PWR058"
-			(at 217.17 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b4a02b4-9455-4c5a-b92f-7d1be77b3990")
-		)
-		(instances
-			(project "XuLabPlatform"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/16595639-dffe-4aa9-8e36-79b79804718e"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
