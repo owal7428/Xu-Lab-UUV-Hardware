@@ -526,40 +526,40 @@
 		(uuid "08d08a31-cd39-4ea8-bbc3-beff308b2ece")
 	)
 	(junction
-		(at 78.74 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e78ec42-4de0-40cd-a936-f0d975cf61a6")
-	)
-	(junction
 		(at 213.36 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "329dc50a-a24e-4e99-a5b9-265326cfcd13")
 	)
 	(junction
-		(at 64.77 25.4)
+		(at 63.5 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5bfe1640-b897-4214-98bc-1e78c0bd027f")
+		(uuid "35d1b7c3-e4f3-48c2-bbf0-04814fe390c4")
 	)
 	(junction
-		(at 64.77 35.56)
+		(at 63.5 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c38b433-53ed-4afd-b81e-7fc1c763663c")
+		(uuid "57add698-f5b6-4d61-95e9-5549f4183e22")
 	)
 	(junction
-		(at 36.83 35.56)
+		(at 38.1 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd9cf81d-34ee-47dd-b9a3-883722a28788")
+		(uuid "ba3d5568-d915-4ca9-abcc-b425ae6779c1")
 	)
 	(junction
 		(at 50.8 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d561ac3d-887c-49c9-9241-becff9631250")
+	)
+	(junction
+		(at 76.2 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e29b697d-fd2d-4968-8f05-5b574e642c0b")
 	)
 	(junction
 		(at 256.54 29.21)
@@ -643,7 +643,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 35.56) (xy 64.77 34.29)
+			(xy 63.5 35.56) (xy 63.5 34.29)
 		)
 		(stroke
 			(width 0)
@@ -683,6 +683,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 35.56) (xy 50.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205143e9-8ee5-4a08-9c66-52b9343efb17")
+	)
+	(wire
+		(pts
 			(xy 115.57 78.74) (xy 127 78.74)
 		)
 		(stroke
@@ -700,6 +710,16 @@
 			(type default)
 		)
 		(uuid "2609ab87-5791-418c-8bf9-d29f5baef8ea")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 76.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281e9295-4c78-44c9-9563-de0f3e14620e")
 	)
 	(wire
 		(pts
@@ -723,7 +743,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 26.67) (xy 78.74 25.4)
+			(xy 76.2 26.67) (xy 76.2 25.4)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +773,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 35.56) (xy 78.74 34.29)
+			(xy 76.2 35.56) (xy 76.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -810,16 +830,6 @@
 			(type default)
 		)
 		(uuid "43e75e1e-b88c-4ab5-b161-d8cf0ae2ab43")
-	)
-	(wire
-		(pts
-			(xy 36.83 27.94) (xy 30.48 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e3b3df-58a4-4757-9c11-dcc74dce1772")
 	)
 	(wire
 		(pts
@@ -973,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 25.4) (xy 50.8 25.4)
+			(xy 38.1 25.4) (xy 50.8 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 36.83) (xy 36.83 35.56)
+			(xy 38.1 38.1) (xy 38.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 25.4) (xy 64.77 25.4)
+			(xy 50.8 25.4) (xy 63.5 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 22.86) (xy 78.74 25.4)
+			(xy 76.2 22.86) (xy 76.2 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 25.4) (xy 64.77 26.67)
+			(xy 63.5 25.4) (xy 63.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1183,23 +1193,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 64.77 35.56)
+			(xy 50.8 35.56) (xy 63.5 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a0849ad6-eb79-46fe-a63b-f67d97766573")
-	)
-	(wire
-		(pts
-			(xy 36.83 35.56) (xy 50.8 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a15cc2da-d530-4477-b948-f9ac57f3a197")
 	)
 	(wire
 		(pts
@@ -1313,16 +1313,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 35.56) (xy 78.74 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbfe0a86-7e31-4b76-aeef-63f29c19408d")
-	)
-	(wire
-		(pts
 			(xy 165.1 67.31) (xy 176.53 67.31)
 		)
 		(stroke
@@ -1373,16 +1363,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 25.4) (xy 78.74 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5d495ce-ea7c-4d36-bc73-471e6127087f")
-	)
-	(wire
-		(pts
 			(xy 165.1 129.54) (xy 172.72 129.54)
 		)
 		(stroke
@@ -1390,6 +1370,16 @@
 			(type default)
 		)
 		(uuid "d8aa6de9-f546-425c-92c8-0856a4d57ae0")
+	)
+	(wire
+		(pts
+			(xy 63.5 25.4) (xy 76.2 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1b80f9-ce6f-402f-8bd8-57731285a3aa")
 	)
 	(wire
 		(pts
@@ -1423,7 +1413,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 27.94) (xy 36.83 35.56)
+			(xy 38.1 27.94) (xy 38.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +2223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 36.83 0)
+		(at 38.1 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2242,7 +2232,7 @@
 		(fields_autoplaced yes)
 		(uuid "21dcf5ea-c46c-4414-90f6-d36cc623fb12")
 		(property "Reference" "#PWR02"
-			(at 36.83 43.18 0)
+			(at 38.1 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 41.91 0)
+			(at 38.1 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 36.83 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 36.83 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 36.83 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2289,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 30.48 0)
+		(at 76.2 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2308,7 +2298,7 @@
 		(fields_autoplaced yes)
 		(uuid "36753b8c-a3db-4de2-be67-5bb26a5b7e8c")
 		(property "Reference" "C3"
-			(at 82.55 29.2099 0)
+			(at 80.01 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2307,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 82.55 31.7499 0)
+			(at 80.01 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2316,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 79.7052 34.29 0)
+			(at 77.1652 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2325,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B105KO8NNN"
-			(at 78.74 30.48 0)
+			(at 76.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2334,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 30.48 0)
+			(at 76.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2343,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
-			(at 78.74 30.48 0)
+			(at 76.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2352,7 @@
 			)
 		)
 		(property "Interchangeable" "Yes"
-			(at 78.74 30.48 0)
+			(at 76.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2377,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 78.74 22.86 0)
+		(at 76.2 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2396,7 +2386,7 @@
 		(fields_autoplaced yes)
 		(uuid "762d3189-0bc0-4636-a209-b253779d43e8")
 		(property "Reference" "#PWR01"
-			(at 78.74 26.67 0)
+			(at 76.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2395,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 78.74 17.78 0)
+			(at 76.2 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 22.86 0)
+			(at 76.2 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 22.86 0)
+			(at 76.2 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 78.74 22.86 0)
+			(at 76.2 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2443,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 25.4 25.4 0)
+		(at 33.02 25.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2462,7 +2452,7 @@
 		(dnp no)
 		(uuid "922e25bc-f266-4c3b-986f-395cf7408f15")
 		(property "Reference" "J1"
-			(at 22.86 25.3999 0)
+			(at 30.48 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2461,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 22.86 27.9399 0)
+			(at 30.48 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2470,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
-			(at 25.4 25.4 0)
+			(at 33.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2479,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-			(at 25.4 25.4 0)
+			(at 33.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2488,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 25.4 25.4 0)
+			(at 33.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2497,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055"
-			(at 25.4 25.4 0)
+			(at 33.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2506,7 @@
 			)
 		)
 		(property "Interchangeable" "No"
-			(at 25.4 25.4 0)
+			(at 33.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2619,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 30.48 0)
+		(at 63.5 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2638,7 +2628,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce294f59-6df9-4ea3-a085-46b27726b59c")
 		(property "Reference" "C2"
-			(at 68.58 29.2099 0)
+			(at 67.31 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2637,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 68.58 31.7499 0)
+			(at 67.31 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2646,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 65.7352 34.29 0)
+			(at 64.4652 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2655,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B106KAHNNNE_Spec.pdf"
-			(at 64.77 30.48 0)
+			(at 63.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2664,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 64.77 30.48 0)
+			(at 63.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2673,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"
-			(at 64.77 30.48 0)
+			(at 63.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2682,7 @@
 			)
 		)
 		(property "Interchangeable" "Yes"
-			(at 64.77 30.48 0)
+			(at 63.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
