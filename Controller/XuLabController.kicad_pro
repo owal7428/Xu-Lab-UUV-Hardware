@@ -679,11 +679,15 @@
     ],
     [
       "4b34bde8-cf26-4b12-b362-4972fe9ac1d6",
-      "MCU A"
+      "Microcontroller"
     ],
     [
       "a5713b00-422c-456a-9938-13721b057665",
-      "Attitude and Heading Module"
+      "Sensors"
+    ],
+    [
+      "39ef28f1-4768-43d5-bb8a-8c31dac81830",
+      "Connectors"
     ]
   ],
   "text_variables": {}
