@@ -484,7 +484,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "XuLabPlatform.kicad_pro",
+    "filename": "XuLabPower.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -676,18 +676,6 @@
     [
       "71bb14ae-b730-4d22-a41d-cf68989dae2d",
       "Root"
-    ],
-    [
-      "4b34bde8-cf26-4b12-b362-4972fe9ac1d6",
-      "MCU A"
-    ],
-    [
-      "a5713b00-422c-456a-9938-13721b057665",
-      "Attitude and Heading Module"
-    ],
-    [
-      "16595639-dffe-4aa9-8e36-79b79804718e",
-      "Power"
     ]
   ],
   "text_variables": {}
