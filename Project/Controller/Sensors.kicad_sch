@@ -2307,7 +2307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Bar30"
 			(at 193.04 78.7399 0)
 			(effects
 				(font
