@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Microcontroller - STM32F446RCTx")
-		(date "2026-02-09")
+		(date "2026-02-10")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -5406,10 +5406,6 @@
 		(uuid "98ab59e6-b3c5-4cf6-84e1-62337441ca7e")
 	)
 	(no_connect
-		(at 171.45 76.2)
-		(uuid "b9fab38f-4ac5-433c-8a81-95f8b9414918")
-	)
-	(no_connect
 		(at 55.88 170.18)
 		(uuid "deadc634-4b3a-4f61-a1e4-71c7d29867a5")
 	)
@@ -5685,7 +5681,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 76.2) (xy 171.45 76.2)
+			(xy 168.91 76.2) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6472,6 +6468,16 @@
 			(type default)
 		)
 		(uuid "7e20e6aa-277c-4075-89d3-1e8ba00b9a25")
+	)
+	(wire
+		(pts
+			(xy 39.37 104.14) (xy 50.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1bd91e-f110-4ea1-b3ac-fa8e1466095e")
 	)
 	(wire
 		(pts
@@ -8123,6 +8129,16 @@
 		)
 		(uuid "2c175dc0-6e9c-4932-8fef-8ad6de3b2ac0")
 	)
+	(label "ADC1_IN4"
+		(at 179.07 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d6ed161-5ac0-4b58-ae4c-1f1f2b358416")
+	)
 	(label "SPI1_MISO"
 		(at 180.34 119.38 180)
 		(effects
@@ -8392,6 +8408,16 @@
 			(justify right bottom)
 		)
 		(uuid "81d9972a-1af0-4a87-be2e-eda0f0f94dc7")
+	)
+	(label "ADC1_IN4"
+		(at 50.8 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84610d73-1aea-46e5-8dcc-e4620abea6fd")
 	)
 	(label "GPIO_EXTI15"
 		(at 50.8 99.06 180)
@@ -8922,6 +8948,17 @@
 			(justify left bottom)
 		)
 		(uuid "fbee33cd-e4d6-4366-bc4a-e8c3ea3db59e")
+	)
+	(hierarchical_label "ADC1_IN4"
+		(shape input)
+		(at 39.37 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f1596b8-f091-4c1b-bae4-d9dcc3281203")
 	)
 	(hierarchical_label "UART5_RX"
 		(shape input)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2026-02-05")
+		(date "2026-02-10")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -146,7 +146,7 @@
 		(uuid "b34ced76-f2a4-4be0-9a82-47895831d96f")
 	)
 	(no_connect
-		(at 256.54 49.53)
+		(at 257.81 48.26)
 		(uuid "c1b5dc45-87d5-4d40-8f96-e6bce5e29db3")
 	)
 	(no_connect
@@ -158,7 +158,7 @@
 		(uuid "f065e8cc-226b-4a90-829a-ccaf6c197090")
 	)
 	(no_connect
-		(at 256.54 57.15)
+		(at 257.81 55.88)
 		(uuid "f99e7688-f747-4df6-a011-24b4983bea37")
 	)
 	(wire
@@ -230,6 +230,16 @@
 			(type default)
 		)
 		(uuid "16a6972c-6662-4110-ae50-c450fb7fb1ae")
+	)
+	(wire
+		(pts
+			(xy 254 36.83) (xy 264.16 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b909603-034f-47ed-b614-13faf037fcd0")
 	)
 	(wire
 		(pts
@@ -333,7 +343,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 53.34) (xy 265.43 53.34)
+			(xy 254 52.07) (xy 266.7 52.07)
 		)
 		(stroke
 			(width 0)
@@ -533,7 +543,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 60.96) (xy 265.43 60.96)
+			(xy 254 59.69) (xy 266.7 59.69)
 		)
 		(stroke
 			(width 0)
@@ -693,7 +703,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 49.53) (xy 256.54 49.53)
+			(xy 254 48.26) (xy 257.81 48.26)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +773,17 @@
 	)
 	(wire
 		(pts
-			(xy 254 57.15) (xy 256.54 57.15)
+			(xy 115.57 115.57) (xy 127 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b145ea09-15e3-43bf-be16-7f401f0ff57c")
+	)
+	(wire
+		(pts
+			(xy 254 55.88) (xy 257.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -783,7 +803,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 45.72) (xy 265.43 45.72)
+			(xy 254 44.45) (xy 266.7 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1150,6 +1170,16 @@
 			(justify left bottom)
 		)
 		(uuid "33dceca3-0fcd-440a-bd51-dba68b44420d")
+	)
+	(label "TEMP_OUT"
+		(at 264.16 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a610242-33be-475e-8d87-46ebb1bd28c7")
 	)
 	(label "PWM_8"
 		(at 172.72 140.97 180)
@@ -1531,6 +1561,16 @@
 		)
 		(uuid "b26d891a-0d9b-4794-a3c9-adebdb81cee3")
 	)
+	(label "TEMP_OUT"
+		(at 115.57 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2cd37ec-b572-4d95-aca8-0d74d9a35349")
+	)
 	(label "PWM_1"
 		(at 172.72 114.3 180)
 		(effects
@@ -1562,7 +1602,7 @@
 		(uuid "bf82624a-43a7-4baf-a4c0-f8e780aa54da")
 	)
 	(label "GPIO_EXTI2"
-		(at 265.43 60.96 180)
+		(at 266.7 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1612,7 +1652,7 @@
 		(uuid "d2de79eb-adc1-4c91-b513-83f1fabd37bb")
 	)
 	(label "GPIO_EXTI0"
-		(at 265.43 45.72 180)
+		(at 266.7 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1692,7 +1732,7 @@
 		(uuid "e1f6a17d-0edb-4373-8e59-fb4ecd0c3f97")
 	)
 	(label "GPIO_EXTI1"
-		(at 265.43 53.34 180)
+		(at 266.7 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2737,6 +2777,16 @@
 				(justify right)
 			)
 		)
+		(pin "ADC1_IN4" input
+			(at 127 115.57 180)
+			(uuid "c9e401e0-c085-454f-8c2c-c15687d97fb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
@@ -2810,7 +2860,7 @@
 			)
 		)
 		(pin "ACCL_INT1" output
-			(at 254 45.72 0)
+			(at 254 44.45 0)
 			(uuid "c0d2ebe6-a341-4ec6-b539-9d7b52e4add0")
 			(effects
 				(font
@@ -2820,7 +2870,7 @@
 			)
 		)
 		(pin "ACCL_INT2" output
-			(at 254 49.53 0)
+			(at 254 48.26 0)
 			(uuid "09531341-cfd8-448b-b7ed-d6409271a6ab")
 			(effects
 				(font
@@ -2840,7 +2890,7 @@
 			)
 		)
 		(pin "GYRO_INT1" output
-			(at 254 53.34 0)
+			(at 254 52.07 0)
 			(uuid "553202f3-88e1-481c-afc6-0bb20e4ca05c")
 			(effects
 				(font
@@ -2850,7 +2900,7 @@
 			)
 		)
 		(pin "GYRO_INT2" output
-			(at 254 57.15 0)
+			(at 254 55.88 0)
 			(uuid "c34c4875-d139-436d-9e54-de52cbb59585")
 			(effects
 				(font
@@ -2930,8 +2980,18 @@
 			)
 		)
 		(pin "MAG_INT" input
-			(at 254 60.96 0)
+			(at 254 59.69 0)
 			(uuid "6f376a69-f273-4b8c-a124-d7cc51d6ae55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP_OUT" output
+			(at 254 36.83 0)
+			(uuid "45c50966-8f84-444a-acac-66cda05ce0de")
 			(effects
 				(font
 					(size 1.27 1.27)

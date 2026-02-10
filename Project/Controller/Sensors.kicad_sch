@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Attitude and Heading Module")
-		(date "2026-02-03")
+		(date "2026-02-10")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -719,6 +719,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Temperature:MCP9700Ax-ETT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP9700Ax-ETT"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001942g.pdf"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "temperature sensor thermistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP9700Ax-ETT_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.175) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.175) (xy -4.445 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -4.445 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -4.445 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0.635) (xy -4.445 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 3.175)
+					(mid -4.445 3.8073)
+					(end -3.81 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.445 -2.54)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 -1.905)
+					(end -5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MCP9700Ax-ETT_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "V_{OUT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XuLab:MMC5983MA"
 			(pin_names
 				(offset 0.254)
@@ -1331,7 +1586,7 @@
 	)
 	(text "Bar30 Pressure Sensor Connector"
 		(exclude_from_sim no)
-		(at 185.42 91.186 0)
+		(at 198.12 64.516 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1371,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 82.55) (xy 185.42 81.28)
+			(xy 198.12 55.88) (xy 198.12 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1451,6 +1706,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 107.95) (xy 215.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349534eb-8009-4fad-a171-7312b3aa4b69")
+	)
+	(wire
+		(pts
 			(xy 91.44 34.29) (xy 86.36 34.29)
 		)
 		(stroke
@@ -1511,6 +1776,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 101.6) (xy 241.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9148d0-ce6b-4c76-be24-b17ec022b8b8")
+	)
+	(wire
+		(pts
 			(xy 73.66 45.72) (xy 76.2 45.72)
 		)
 		(stroke
@@ -1541,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 215.9 73.66)
+			(xy 228.6 44.45) (xy 228.6 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1568,6 +1843,16 @@
 			(type default)
 		)
 		(uuid "6973f6f8-689b-4014-b849-d2a129ee5d0f")
+	)
+	(wire
+		(pts
+			(xy 203.2 115.57) (xy 203.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f3a48c-83fd-493c-b4e7-faef21953362")
 	)
 	(wire
 		(pts
@@ -1621,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 76.2) (xy 185.42 76.2)
+			(xy 195.58 49.53) (xy 198.12 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1648,6 +1933,16 @@
 			(type default)
 		)
 		(uuid "9dd22176-9f3e-4514-ade3-c1f9fbd39ef8")
+	)
+	(wire
+		(pts
+			(xy 241.3 111.76) (xy 241.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eaf87e0-fcb6-4f01-8060-35ed06dd0183")
 	)
 	(wire
 		(pts
@@ -1691,7 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 78.74) (xy 185.42 78.74)
+			(xy 195.58 52.07) (xy 198.12 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +2006,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 72.39) (xy 185.42 73.66)
+			(xy 198.12 45.72) (xy 198.12 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1791,6 +2086,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 97.79) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea441cd3-d7f7-4379-889e-5894e7d98d31")
+	)
+	(wire
+		(pts
 			(xy 124.46 106.68) (xy 127 106.68)
 		)
 		(stroke
@@ -1801,7 +2106,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 81.28) (xy 215.9 83.82)
+			(xy 228.6 54.61) (xy 228.6 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1884,7 +2189,7 @@
 	)
 	(hierarchical_label "PS_SDA"
 		(shape bidirectional)
-		(at 182.88 78.74 180)
+		(at 195.58 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1928,7 +2233,7 @@
 	)
 	(hierarchical_label "PS_SCL"
 		(shape bidirectional)
-		(at 182.88 76.2 180)
+		(at 195.58 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1969,6 +2274,17 @@
 			(justify right)
 		)
 		(uuid "60693675-e349-4f51-8d86-d5a4eb9daf60")
+	)
+	(hierarchical_label "TEMP_OUT"
+		(shape output)
+		(at 215.9 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64a831ed-94d3-4887-9bbe-611f599e1b09")
 	)
 	(hierarchical_label "MAG_INT"
 		(shape input)
@@ -2024,6 +2340,72 @@
 			(justify right)
 		)
 		(uuid "f941a100-c026-4c93-b179-9eb4126f9a6d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "093e4925-3d1c-4fac-ab2b-c8a082a1ad1f")
+		(property "Reference" "#PWR099"
+			(at 241.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d50323cc-07b6-4d24-9a89-4368b5d770c8")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2093,7 +2475,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 215.9 71.12 0)
+		(at 228.6 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2102,7 +2484,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b7049e3-974c-49e7-93e7-0383f90c32e5")
 		(property "Reference" "#PWR046"
-			(at 215.9 74.93 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2493,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 215.9 66.04 0)
+			(at 228.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 71.12 0)
+			(at 228.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 71.12 0)
+			(at 228.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 215.9 71.12 0)
+			(at 228.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,6 +2606,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 241.3 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d280df2-9727-46a5-ad95-93efec93edf4")
+		(property "Reference" "C32"
+			(at 245.11 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 245.11 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 242.2652 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "866eddd7-f62a-4331-9627-c9a973b32ded")
+		)
+		(pin "2"
+			(uuid "5476a3a1-77d8-423e-b92b-61fc05434235")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 241.3 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f16f09b-1d52-48e8-b056-12f8e9c536bd")
+		(property "Reference" "#PWR098"
+			(at 241.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53249ca9-d08b-4d30-ad5f-6649e2e23588")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 127 44.45 0)
 		(unit 1)
@@ -2291,7 +2827,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 190.5 76.2 0)
+		(at 203.2 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2299,7 +2835,7 @@
 		(dnp no)
 		(uuid "53e4b132-a376-46ec-89f7-3ca4dab20198")
 		(property "Reference" "J4"
-			(at 193.04 76.1999 0)
+			(at 205.74 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2844,7 @@
 			)
 		)
 		(property "Value" "Bar30"
-			(at 193.04 78.7399 0)
+			(at 205.74 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2853,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
-			(at 193.294 64.77 0)
+			(at 205.994 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2862,7 @@
 			)
 		)
 		(property "Datasheet" "https://bluerobotics.com/store/sensors-cameras/sensors/bar-depth-pressure-sensor/"
-			(at 190.5 76.2 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2871,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 190.5 76.2 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2880,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788"
-			(at 190.5 76.2 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2889,7 @@
 			)
 		)
 		(property "Interchangeable" "No"
-			(at 190.5 76.2 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +3008,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 83.82 0)
+		(at 228.6 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2481,7 +3017,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bc745b4-bd4c-4c98-a626-f251b1c28a44")
 		(property "Reference" "#PWR048"
-			(at 215.9 90.17 0)
+			(at 228.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +3026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 88.9 0)
+			(at 228.6 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +3034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 83.82 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +3043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 83.82 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +3052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 83.82 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,6 +3134,97 @@
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MCP9700Ax-ETT")
+		(at 203.2 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85d1ac6b-3544-49a2-9878-179389d08544")
+		(property "Reference" "U9"
+			(at 194.31 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCP9700Ax-ETT"
+			(at 194.31 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001942g.pdf"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/microchip-technology/MCP9700AT-E-TT/1228267"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e74b6685-493c-4d47-a9be-f8f732986404")
+		)
+		(pin "3"
+			(uuid "863ff935-b8fb-4e84-b253-110f69e7efdb")
+		)
+		(pin "1"
+			(uuid "a89416a2-c3f9-46a8-b736-e80507fa0393")
+		)
+		(instances
+			(project ""
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2801,6 +3428,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 203.2 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "911a2f6a-51cd-45fb-8056-3242265783f1")
+		(property "Reference" "#PWR097"
+			(at 203.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36040509-8d5b-4b7a-a9cd-7d19b7bdc68a")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 124.46 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2860,6 +3553,72 @@
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 203.2 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cd0daa6-52e7-4f62-b32e-81caf374901e")
+		(property "Reference" "#PWR096"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 203.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 203.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec27560-795b-4890-9dd4-4ecafbcbe71f")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2955,7 +3714,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 82.55 0)
+		(at 198.12 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2963,7 +3722,7 @@
 		(dnp no)
 		(uuid "ba497c40-ec42-4433-9b00-7fd7736f1da4")
 		(property "Reference" "#PWR047"
-			(at 185.42 88.9 0)
+			(at 198.12 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +3731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 87.63 0)
+			(at 198.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 82.55 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 82.55 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 82.55 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,7 +3779,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 185.42 72.39 0)
+		(at 198.12 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3029,7 +3788,7 @@
 		(fields_autoplaced yes)
 		(uuid "c09ee272-fff9-429d-854c-6a2135a39330")
 		(property "Reference" "#PWR045"
-			(at 185.42 76.2 0)
+			(at 198.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3797,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 185.42 67.31 0)
+			(at 198.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 72.39 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +3814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 72.39 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +3823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 185.42 72.39 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +3845,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 77.47 0)
+		(at 228.6 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3095,7 +3854,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb4b5cf5-e7bf-4182-98ff-a9c645b4bb12")
 		(property "Reference" "C22"
-			(at 219.71 76.1999 0)
+			(at 232.41 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3863,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 219.71 78.7399 0)
+			(at 232.41 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3872,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 216.8652 81.28 0)
+			(at 229.5652 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3881,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
-			(at 215.9 77.47 0)
+			(at 228.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3890,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 215.9 77.47 0)
+			(at 228.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3899,7 @@
 			)
 		)
 		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
-			(at 215.9 77.47 0)
+			(at 228.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +3908,7 @@
 			)
 		)
 		(property "Interchangeable" "Yes"
-			(at 215.9 77.47 0)
+			(at 228.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
