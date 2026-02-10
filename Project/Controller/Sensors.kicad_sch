@@ -2287,7 +2287,7 @@
 		(uuid "64a831ed-94d3-4887-9bbe-611f599e1b09")
 	)
 	(hierarchical_label "MAG_INT"
-		(shape input)
+		(shape output)
 		(at 127 101.6 0)
 		(effects
 			(font
