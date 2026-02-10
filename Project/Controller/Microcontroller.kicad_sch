@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Microcontroller - STM32F446RCTx")
-		(date "2026-02-06")
+		(date "2026-02-09")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -5386,10 +5386,6 @@
 		(uuid "06a68723-e195-48b8-9f73-efd8c7efcf05")
 	)
 	(no_connect
-		(at 125.73 99.06)
-		(uuid "0a420b5b-2d27-4800-9f2c-e51a34c24c43")
-	)
-	(no_connect
 		(at 55.88 172.72)
 		(uuid "157af55a-3cc0-433e-8acb-bffc9d24f295")
 	)
@@ -5417,10 +5413,6 @@
 		(at 55.88 170.18)
 		(uuid "deadc634-4b3a-4f61-a1e4-71c7d29867a5")
 	)
-	(no_connect
-		(at 125.73 101.6)
-		(uuid "f41c63b1-0001-4d8b-9534-9cfa2cf68a17")
-	)
 	(wire
 		(pts
 			(xy 118.11 109.22) (xy 128.27 109.22)
@@ -5443,6 +5435,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 133.35) (xy 266.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02486824-cedd-4eb8-8004-f7cf3e714fbc")
+	)
+	(wire
+		(pts
 			(xy 151.13 152.4) (xy 151.13 153.67)
 		)
 		(stroke
@@ -5460,6 +5462,16 @@
 			(type default)
 		)
 		(uuid "09e634e9-70b8-489c-8073-65fdffd6d1bb")
+	)
+	(wire
+		(pts
+			(xy 266.7 151.13) (xy 266.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a90f5a2-6f77-4aa6-89fc-78c21be6a1a4")
 	)
 	(wire
 		(pts
@@ -5500,6 +5512,16 @@
 			(type default)
 		)
 		(uuid "0e743d74-a8f7-4496-8312-842bc7e40539")
+	)
+	(wire
+		(pts
+			(xy 266.7 133.35) (xy 266.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb4802a-9359-4078-b402-5ac19db8cb00")
 	)
 	(wire
 		(pts
@@ -5683,16 +5705,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 128.27 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225d9239-0a0c-4fe0-903a-3c198a8767fa")
-	)
-	(wire
-		(pts
 			(xy 63.5 76.2) (xy 73.66 76.2)
 		)
 		(stroke
@@ -5750,16 +5762,6 @@
 			(type default)
 		)
 		(uuid "2caf8db4-ec30-4cc1-a79d-199afb006f99")
-	)
-	(wire
-		(pts
-			(xy 125.73 101.6) (xy 128.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d6209e4-dc51-465b-ba09-b17df1070616")
 	)
 	(wire
 		(pts
@@ -5830,6 +5832,16 @@
 			(type default)
 		)
 		(uuid "36290287-ed2d-4f91-a2d5-b0036862e7de")
+	)
+	(wire
+		(pts
+			(xy 118.11 99.06) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36890534-4748-481c-b0b7-4b54c4c1051f")
 	)
 	(wire
 		(pts
@@ -6323,6 +6335,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 142.24) (xy 266.7 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7337506e-7b65-4b8c-b094-7f2e2799ee63")
+	)
+	(wire
+		(pts
 			(xy 222.25 71.12) (xy 213.36 71.12)
 		)
 		(stroke
@@ -6593,7 +6615,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 144.78) (xy 266.7 146.05)
+			(xy 215.9 151.13) (xy 215.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6613,7 +6635,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 127) (xy 266.7 127)
+			(xy 204.47 133.35) (xy 215.9 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6853,6 +6875,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 133.35) (xy 241.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f699949-f7ec-4ab0-bd4c-2e3d48d7401f")
+	)
+	(wire
+		(pts
+			(xy 241.3 151.13) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a336d852-057d-4b77-956e-3c0485a3b695")
+	)
+	(wire
+		(pts
 			(xy 54.61 162.56) (xy 53.34 162.56)
 		)
 		(stroke
@@ -6940,6 +6982,16 @@
 			(type default)
 		)
 		(uuid "a746f084-c83e-4a7b-b370-a68ea6737228")
+	)
+	(wire
+		(pts
+			(xy 118.11 101.6) (xy 128.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5914ab-d087-486d-9275-3704fe850c42")
 	)
 	(wire
 		(pts
@@ -7133,6 +7185,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 142.24) (xy 241.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc306eed-e90e-461e-a5be-631098298093")
+	)
+	(wire
+		(pts
 			(xy 72.39 156.21) (xy 74.93 156.21)
 		)
 		(stroke
@@ -7283,7 +7345,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 135.89) (xy 266.7 137.16)
+			(xy 215.9 142.24) (xy 215.9 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7403,7 +7465,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 127) (xy 266.7 128.27)
+			(xy 215.9 133.35) (xy 215.9 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7763,6 +7825,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 133.35) (xy 241.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe1b916-fe31-433c-9013-ca33fee978dd")
+	)
+	(wire
+		(pts
 			(xy 264.16 111.76) (xy 266.7 111.76)
 		)
 		(stroke
@@ -7951,6 +8023,16 @@
 		)
 		(uuid "217b90b1-7011-4f2b-b445-0723c2ec8505")
 	)
+	(label "LED_OUT2"
+		(at 229.87 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2274f399-fe06-4d72-b068-d9106835ede1")
+	)
 	(label "TIM2_CH4"
 		(at 179.07 73.66 180)
 		(effects
@@ -8101,7 +8183,7 @@
 		)
 		(uuid "45e97a2b-9cce-4566-99ae-dce3f18ccab8")
 	)
-	(label "LED_OUT"
+	(label "LED_OUT3"
 		(at 179.07 137.16 180)
 		(effects
 			(font
@@ -8381,6 +8463,16 @@
 		)
 		(uuid "94fc39b5-12f0-4d64-8201-27facda3b41d")
 	)
+	(label "LED_OUT3"
+		(at 255.27 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98d1df05-c6c1-4363-bde0-7eea304a99fb")
+	)
 	(label "SPI1_CS0"
 		(at 118.11 104.14 0)
 		(effects
@@ -8430,6 +8522,16 @@
 			(justify left bottom)
 		)
 		(uuid "a0882fe9-8624-4f96-b742-8efe74636ed7")
+	)
+	(label "LED_OUT2"
+		(at 118.11 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0b326a7-1ccb-468a-8119-ef2b38e49507")
 	)
 	(label "RCC_OUT"
 		(at 119.38 78.74 0)
@@ -8561,8 +8663,8 @@
 		)
 		(uuid "b92fe36b-4f73-406d-a772-bec69a4581bb")
 	)
-	(label "LED_OUT"
-		(at 255.27 127 0)
+	(label "LED_OUT1"
+		(at 204.47 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8610,6 +8712,16 @@
 			(justify left bottom)
 		)
 		(uuid "c1f0ad5e-9179-40fb-a1db-bf4939e0fd71")
+	)
+	(label "LED_OUT1"
+		(at 118.11 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3111e20-2953-4be7-8ba6-69b354223763")
 	)
 	(label "UART4_TX"
 		(at 63.5 119.38 0)
@@ -10285,6 +10397,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b322e33-04ba-4976-bf7d-84cf70113f08")
+		(property "Reference" "#PWR095"
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14142698-9853-43a6-b6ef-2540180b8d22")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 97.79 184.15 0)
 		(unit 1)
@@ -10522,6 +10700,103 @@
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 241.3 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d0510c2-19f7-482f-8813-3ad3cfd1df29")
+		(property "Reference" "D4"
+			(at 245.11 138.7474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 245.11 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green light emitting diode"
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75000/4489906"
+			(at 241.3 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 241.3 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1353efd-b971-490b-a227-112f25becebf")
+		)
+		(pin "1"
+			(uuid "ee1d99fe-4048-49b1-ad96-0dd1a1e4b16d")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12232,6 +12507,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 266.7 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bd048a0-0ad1-4856-bdfe-8a0184841013")
+		(property "Reference" "R17"
+			(at 269.24 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 269.24 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 267.716 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100RL/726527"
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66f08166-86f8-43a0-b8c9-171ee800007d")
+		)
+		(pin "2"
+			(uuid "80b4be16-52b1-4f1f-acf8-e912132c24df")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 168.91 27.94 0)
 		(unit 1)
@@ -12802,6 +13165,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 241.3 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fa9556e-54ec-4876-b269-03674b11726c")
+		(property "Reference" "R16"
+			(at 243.84 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 243.84 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.316 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 241.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 241.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07330RL/726594"
+			(at 241.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 241.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f5565a4-fc63-4e71-af56-e5a571573700")
+		)
+		(pin "2"
+			(uuid "88c21b9b-b02c-45a1-9733-8ed7b8ba7f53")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 85.09 190.5 0)
 		(unit 1)
@@ -12869,7 +13320,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 266.7 132.08 90)
+		(at 215.9 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12878,7 +13329,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1444f01-fad5-4416-8c27-f716c0c56d0a")
 		(property "Reference" "D3"
-			(at 270.51 132.3974 90)
+			(at 219.71 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12886,8 +13337,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 270.51 134.9374 90)
+		(property "Value" "Amber"
+			(at 219.71 141.2874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,7 +13347,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 266.7 132.08 0)
+			(at 215.9 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12904,8 +13355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf"
-			(at 266.7 132.08 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060AS75000.pdf"
+			(at 215.9 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,8 +13364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red light emitting diode"
-			(at 266.7 132.08 0)
+		(property "Description" "Amber light emitting diode"
+			(at 215.9 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12923,7 +13374,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 266.7 132.08 0)
+			(at 215.9 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,8 +13382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KRKT/386817"
-			(at 266.7 132.08 90)
+		(property "Listing" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060AS75000/10468254"
+			(at 215.9 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12941,7 +13392,7 @@
 			)
 		)
 		(property "Interchangeable" "Yes"
-			(at 266.7 132.08 90)
+			(at 215.9 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13755,7 +14206,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 266.7 140.97 0)
+		(at 215.9 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13764,7 +14215,7 @@
 		(fields_autoplaced yes)
 		(uuid "c40143c9-d254-4963-b8d1-48f6d3b99b64")
 		(property "Reference" "R9"
-			(at 269.24 139.6999 0)
+			(at 218.44 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13772,8 +14223,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75"
-			(at 269.24 142.2399 0)
+		(property "Value" "330"
+			(at 218.44 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13782,7 +14233,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 267.716 141.224 90)
+			(at 216.916 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13790,8 +14241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 266.7 140.97 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 215.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13800,7 +14251,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 266.7 140.97 0)
+			(at 215.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13808,8 +14259,8 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-0775RL/726505"
-			(at 266.7 140.97 0)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07330RL/726594"
+			(at 215.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13818,7 +14269,7 @@
 			)
 		)
 		(property "Interchangeable" "Yes"
-			(at 266.7 140.97 0)
+			(at 215.9 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,6 +14637,169 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 266.7 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4fb9a8b-9205-402d-90b0-1d889c47586b")
+		(property "Reference" "D5"
+			(at 270.51 138.7474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 270.51 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/641/LTST-C193TBKT-5A.pdf"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Blue light emitting diode"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/liteon/LTST-C193TBKT-5A/2053656"
+			(at 266.7 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 266.7 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23c540fb-3816-41f1-80a8-74b074ba6758")
+		)
+		(pin "1"
+			(uuid "6c65f380-bab6-454f-a3d7-3f3ba478d2f3")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5aa0bc3-f6e1-4f1a-859f-0c5335f4ca49")
+		(property "Reference" "#PWR094"
+			(at 241.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2138fd05-4980-4284-87c2-c32411138e00")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 190.5 0)
 		(unit 1)
@@ -14473,7 +15087,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 146.05 0)
+		(at 215.9 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14482,7 +15096,7 @@
 		(fields_autoplaced yes)
 		(uuid "f37a68be-8fd5-47e1-a0cc-1dcc5de69c17")
 		(property "Reference" "#PWR031"
-			(at 266.7 152.4 0)
+			(at 215.9 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,7 +15105,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 151.13 0)
+			(at 215.9 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14499,7 +15113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 146.05 0)
+			(at 215.9 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14508,7 +15122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 146.05 0)
+			(at 215.9 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14517,7 +15131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 146.05 0)
+			(at 215.9 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

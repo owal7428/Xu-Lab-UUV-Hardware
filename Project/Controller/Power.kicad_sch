@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power")
-		(date "2026-02-05")
+		(date "2026-02-09")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -3147,7 +3147,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 67.31 122.2374 90)
 			(effects
 				(font
@@ -3165,7 +3165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -3192,7 +3192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KRKT/386817"
+		(property "Listing" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901"
 			(at 63.5 119.38 90)
 			(effects
 				(font
@@ -4045,7 +4045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "330"
 			(at 66.04 129.5399 0)
 			(effects
 				(font
@@ -4063,7 +4063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 63.5 128.27 0)
 			(effects
 				(font
@@ -4081,7 +4081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-0775RL/726505"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07330RL/726594"
 			(at 63.5 128.27 0)
 			(effects
 				(font
