@@ -6383,6 +6383,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 102.87) (xy 234.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fab1cf-57bc-4edf-bf5b-4f2dc3ebff67")
+	)
+	(wire
+		(pts
 			(xy 25.4 36.83) (xy 38.1 36.83)
 		)
 		(stroke
@@ -7220,6 +7230,16 @@
 			(type default)
 		)
 		(uuid "c49df44f-5922-45c5-b2eb-1b4af63234f9")
+	)
+	(wire
+		(pts
+			(xy 234.95 111.76) (xy 234.95 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c91741-04ce-4ce8-8a3d-ee7bf4bae7c2")
 	)
 	(wire
 		(pts
@@ -11508,6 +11528,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64bd4e66-f098-4533-a3bb-f0dfaba7b398")
+		(property "Reference" "#PWR092"
+			(at 234.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb87e971-1759-4cc6-89ba-8d3ce0d140fa")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 266.7 104.14 270)
 		(unit 1)
@@ -13118,6 +13204,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 234.95 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "affd9493-7cb6-42ac-95d2-100a4e261ea9")
+		(property "Reference" "#PWR093"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 234.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "557218e6-fb4b-49ea-bdeb-b57414dc073b")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 209.55 80.01 0)
 		(unit 1)
@@ -13852,6 +14004,94 @@
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d846fa1c-3a36-4377-b387-0e2678cc37c5")
+		(property "Reference" "C31"
+			(at 238.76 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 238.76 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 235.9152 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff8885d2-2e14-473e-bce2-1ea0ada711f6")
+		)
+		(pin "1"
+			(uuid "aee84d7a-1afe-4fdf-877f-33f6d1ad34e9")
+		)
+		(instances
+			(project "XuLabController"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/4b34bde8-cf26-4b12-b362-4972fe9ac1d6"
+					(reference "C31")
 					(unit 1)
 				)
 			)
