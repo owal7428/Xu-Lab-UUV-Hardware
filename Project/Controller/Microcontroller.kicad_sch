@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Microcontroller - STM32F446RCTx")
-		(date "2026-02-10")
+		(date "2026-02-11")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -5398,11 +5398,11 @@
 		(uuid "21b96dfd-032a-49ef-96da-e5b4d58abbf0")
 	)
 	(no_connect
-		(at 171.45 134.62)
-		(uuid "6cc5882f-b256-452e-8d26-6dce6ccc0ce3")
+		(at 171.45 76.2)
+		(uuid "33d50d78-d380-493f-82ed-f3bf1582e413")
 	)
 	(no_connect
-		(at 181.61 86.36)
+		(at 179.07 86.36)
 		(uuid "98ab59e6-b3c5-4cf6-84e1-62337441ca7e")
 	)
 	(no_connect
@@ -5671,6 +5671,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 76.2) (xy 171.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2015d365-5808-4ad6-bfde-ed76b26ac141")
+	)
+	(wire
+		(pts
 			(xy 88.9 36.83) (xy 106.68 36.83)
 		)
 		(stroke
@@ -5678,16 +5688,6 @@
 			(type default)
 		)
 		(uuid "20a6e2c2-f62e-45cf-a9fb-1c6b3daf13ec")
-	)
-	(wire
-		(pts
-			(xy 168.91 76.2) (xy 179.07 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20dc4718-282d-4009-89d4-4c39b62cdad6")
 	)
 	(wire
 		(pts
@@ -6041,16 +6041,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 132.08) (xy 179.07 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5091d751-756c-4e75-8a60-3573356503ef")
-	)
-	(wire
-		(pts
 			(xy 168.91 104.14) (xy 171.45 104.14)
 		)
 		(stroke
@@ -6218,6 +6208,16 @@
 			(type default)
 		)
 		(uuid "65232a6e-0ed7-41a2-9b8e-cf77c7b4b468")
+	)
+	(wire
+		(pts
+			(xy 168.91 132.08) (xy 179.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664f01c3-9045-4bf3-b22d-4f6b26436228")
 	)
 	(wire
 		(pts
@@ -6411,6 +6411,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 137.16) (xy 180.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c3c91f-d5f7-4008-8495-77c55868d0ae")
+	)
+	(wire
+		(pts
 			(xy 25.4 36.83) (xy 38.1 36.83)
 		)
 		(stroke
@@ -6541,7 +6551,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 116.84) (xy 175.26 116.84)
+			(xy 168.91 116.84) (xy 176.53 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6691,7 +6701,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 134.62) (xy 171.45 134.62)
+			(xy 168.91 134.62) (xy 179.07 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7071,16 +7081,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 137.16) (xy 179.07 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4977a56-653e-4ea7-964a-83f0a197890e")
-	)
-	(wire
-		(pts
 			(xy 209.55 118.11) (xy 209.55 116.84)
 		)
 		(stroke
@@ -7411,6 +7411,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 73.66) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7947cc-74df-41b0-b3bb-d582a14ce719")
+	)
+	(wire
+		(pts
 			(xy 39.37 73.66) (xy 50.8 73.66)
 		)
 		(stroke
@@ -7611,7 +7621,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 86.36) (xy 181.61 86.36)
+			(xy 168.91 86.36) (xy 179.07 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7638,16 +7648,6 @@
 			(type default)
 		)
 		(uuid "ea31687c-9827-4ae6-8811-af65e39efb9e")
-	)
-	(wire
-		(pts
-			(xy 168.91 73.66) (xy 179.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea5d6121-1eb9-4362-ab1e-729a799644c7")
 	)
 	(wire
 		(pts
@@ -7909,6 +7909,16 @@
 		)
 		(uuid "036723ef-e263-45cd-b31b-d48a0704f8a3")
 	)
+	(label "TIM2_CH4"
+		(at 179.07 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05bfa62b-decf-4ca9-8f22-e2e353204e0c")
+	)
 	(label "TIM3_CH2"
 		(at 179.07 83.82 180)
 		(effects
@@ -8039,16 +8049,6 @@
 		)
 		(uuid "2274f399-fe06-4d72-b068-d9106835ede1")
 	)
-	(label "TIM2_CH4"
-		(at 179.07 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "23cb46f0-e00f-4374-8c36-e6e7b8f30aa7")
-	)
 	(label "RCC_OUT"
 		(at 240.03 71.12 180)
 		(effects
@@ -8129,16 +8129,6 @@
 		)
 		(uuid "2c175dc0-6e9c-4932-8fef-8ad6de3b2ac0")
 	)
-	(label "ADC1_IN4"
-		(at 179.07 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d6ed161-5ac0-4b58-ae4c-1f1f2b358416")
-	)
 	(label "SPI1_MISO"
 		(at 180.34 119.38 180)
 		(effects
@@ -8158,6 +8148,16 @@
 			(justify right bottom)
 		)
 		(uuid "2f5839c4-ff3b-48c9-b5d1-6465699bd5fc")
+	)
+	(label "SPI2_NSS"
+		(at 180.34 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32f47437-9196-4074-97ca-b2869f886192")
 	)
 	(label "TIM2_CH3"
 		(at 63.5 68.58 0)
@@ -8189,7 +8189,7 @@
 		)
 		(uuid "45b9ea29-1faf-4d22-a98a-44d33c18bcc5")
 	)
-	(label "SPI2_MOSI"
+	(label "ADC1_IN13"
 		(at 116.84 96.52 0)
 		(effects
 			(font
@@ -8200,7 +8200,7 @@
 		(uuid "45e97a2b-9cce-4566-99ae-dce3f18ccab8")
 	)
 	(label "LED_OUT3"
-		(at 179.07 137.16 180)
+		(at 179.07 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8229,16 +8229,6 @@
 		)
 		(uuid "4e3e7be5-80ad-4686-9b7e-6dcbc8e4c209")
 	)
-	(label "SPI2_NSS"
-		(at 179.07 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ea93c20-5ded-4be0-9d64-9a7506cace66")
-	)
 	(label "SPI1_CS2"
 		(at 118.11 109.22 0)
 		(effects
@@ -8260,7 +8250,7 @@
 		(uuid "59735f3d-ab76-4fe4-8d5b-a84e69884148")
 	)
 	(label "SW_O"
-		(at 175.26 116.84 180)
+		(at 176.53 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8318,6 +8308,16 @@
 			(justify left bottom)
 		)
 		(uuid "5e00d12c-997b-41e8-9a77-43c31ca6d498")
+	)
+	(label "TIM4_CH4"
+		(at 179.07 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "618ebc3b-7f2c-48d6-a514-7b6ca9a009e4")
 	)
 	(label "GPIO_EXTI2"
 		(at 116.84 93.98 0)
@@ -8409,7 +8409,7 @@
 		)
 		(uuid "81d9972a-1af0-4a87-be2e-eda0f0f94dc7")
 	)
-	(label "ADC1_IN4"
+	(label "ADC1_IN13"
 		(at 50.8 104.14 180)
 		(effects
 			(font
@@ -8709,7 +8709,7 @@
 		)
 		(uuid "bd37daa1-8582-4619-88e4-693f7e15d20b")
 	)
-	(label "TIM12_CH2"
+	(label "TIM4_CH4"
 		(at 63.5 83.82 0)
 		(effects
 			(font
@@ -8779,7 +8779,7 @@
 		)
 		(uuid "c707936e-313f-47bc-94f0-856ed42863fd")
 	)
-	(label "TIM12_CH2"
+	(label "SPI2_MOSI"
 		(at 180.34 144.78 180)
 		(effects
 			(font
@@ -8949,7 +8949,7 @@
 		)
 		(uuid "fbee33cd-e4d6-4366-bc4a-e8c3ea3db59e")
 	)
-	(hierarchical_label "ADC1_IN4"
+	(hierarchical_label "ADC1_IN13"
 		(shape input)
 		(at 39.37 104.14 180)
 		(effects
@@ -9301,7 +9301,7 @@
 		)
 		(uuid "f495d341-677e-499d-882d-f40d91a194d3")
 	)
-	(hierarchical_label "TIM12_CH2"
+	(hierarchical_label "TIM4_CH4"
 		(shape output)
 		(at 73.66 83.82 0)
 		(effects

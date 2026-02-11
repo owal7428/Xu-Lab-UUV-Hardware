@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2026-02-10")
+		(date "2026-02-11")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -2617,7 +2617,7 @@
 				(justify right)
 			)
 		)
-		(pin "TIM12_CH2" output
+		(pin "TIM4_CH4" output
 			(at 165.1 144.78 0)
 			(uuid "9229cf5c-44fc-4cc8-953c-61d7090070c5")
 			(effects
@@ -2777,7 +2777,7 @@
 				(justify right)
 			)
 		)
-		(pin "ADC1_IN4" input
+		(pin "ADC1_IN13" input
 			(at 127 115.57 180)
 			(uuid "c9e401e0-c085-454f-8c2c-c15687d97fb9")
 			(effects
