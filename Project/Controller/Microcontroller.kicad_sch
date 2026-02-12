@@ -9714,7 +9714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "33k"
 			(at 129.54 175.2599 0)
 			(effects
 				(font
@@ -9732,7 +9732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 127 173.99 0)
 			(effects
 				(font
@@ -9750,7 +9750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0733KL/727159"
 			(at 127 173.99 0)
 			(effects
 				(font
@@ -12804,7 +12804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "82k"
 			(at 129.54 185.4199 0)
 			(effects
 				(font
@@ -12822,7 +12822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 127 184.15 0)
 			(effects
 				(font
@@ -12840,7 +12840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0720KL/727040"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0782KL/727400"
 			(at 127 184.15 0)
 			(effects
 				(font
