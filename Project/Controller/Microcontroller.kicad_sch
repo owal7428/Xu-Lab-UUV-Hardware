@@ -9811,7 +9811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6652 187.96 0)
 			(effects
 				(font
@@ -9820,7 +9820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
 			(at 139.7 184.15 0)
 			(effects
 				(font
@@ -9838,7 +9838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 139.7 184.15 0)
 			(effects
 				(font
@@ -10965,7 +10965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.4652 35.56 0)
 			(effects
 				(font
@@ -10974,7 +10974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
 			(at 63.5 31.75 0)
 			(effects
 				(font
@@ -10992,7 +10992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 63.5 31.75 0)
 			(effects
 				(font
@@ -11053,7 +11053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.1652 35.56 0)
 			(effects
 				(font
@@ -11062,7 +11062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -11080,7 +11080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -11339,7 +11339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 223.2152 80.01 0)
 			(effects
 				(font
@@ -11348,7 +11348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402JRNPO9BN220"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 222.25 76.2 0)
 			(effects
 				(font
@@ -11366,7 +11366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN220/302752"
+		(property "Listing" "https://www.digikey.com/en/products/detail/kemet/C0603C220J5GACTU/411055"
 			(at 222.25 76.2 0)
 			(effects
 				(font
@@ -11427,7 +11427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.3452 35.56 0)
 			(effects
 				(font
@@ -11436,7 +11436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
 			(at 119.38 31.75 0)
 			(effects
 				(font
@@ -11454,7 +11454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 119.38 31.75 0)
 			(effects
 				(font
@@ -11515,7 +11515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 197.8152 80.01 0)
 			(effects
 				(font
@@ -11524,7 +11524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402JRNPO9BN220"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 196.85 76.2 0)
 			(effects
 				(font
@@ -11542,7 +11542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0402JRNPO9BN220/302752"
+		(property "Listing" "https://www.digikey.com/en/products/detail/kemet/C0603C220J5GACTU/411055"
 			(at 196.85 76.2 0)
 			(effects
 				(font
@@ -11997,7 +11997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 149.606 32.766 90)
 			(effects
 				(font
@@ -12024,7 +12024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0710KL/726523"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 149.86 31.75 90)
 			(effects
 				(font
@@ -12149,7 +12149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.456 162.306 90)
 			(effects
 				(font
@@ -12176,7 +12176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0722RL/726562"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722RL/727055"
 			(at 92.71 161.29 90)
 			(effects
 				(font
@@ -12237,7 +12237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.7652 35.56 0)
 			(effects
 				(font
@@ -12246,7 +12246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
 			(at 50.8 31.75 0)
 			(effects
 				(font
@@ -12264,7 +12264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 50.8 31.75 0)
 			(effects
 				(font
@@ -12325,7 +12325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.0652 35.56 0)
 			(effects
 				(font
@@ -12334,7 +12334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
 			(at 38.1 31.75 0)
 			(effects
 				(font
@@ -12352,7 +12352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 38.1 31.75 0)
 			(effects
 				(font
@@ -12571,7 +12571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.716 147.574 90)
 			(effects
 				(font
@@ -12598,7 +12598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100RL/726527"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100RL/726888"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -12987,7 +12987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.096 105.156 90)
 			(effects
 				(font
@@ -13014,7 +13014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-074K7L/726477"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"
 			(at 260.35 104.14 90)
 			(effects
 				(font
@@ -13141,7 +13141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254.9652 35.56 0)
 			(effects
 				(font
@@ -13150,7 +13150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
 			(at 254 31.75 0)
 			(effects
 				(font
@@ -13168,7 +13168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 254 31.75 0)
 			(effects
 				(font
@@ -13229,7 +13229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.316 147.574 90)
 			(effects
 				(font
@@ -13256,7 +13256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07330RL/726594"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162"
 			(at 241.3 147.32 0)
 			(effects
 				(font
@@ -13565,7 +13565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.096 112.776 90)
 			(effects
 				(font
@@ -13592,7 +13592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-074K7L/726477"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"
 			(at 260.35 111.76 90)
 			(effects
 				(font
@@ -13848,7 +13848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.076 72.136 90)
 			(effects
 				(font
@@ -13875,7 +13875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402FT270R/2417438"
+		(property "Listing" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT270R/1713845"
 			(at 227.33 71.12 90)
 			(effects
 				(font
@@ -13933,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.456 157.226 90)
 			(effects
 				(font
@@ -13960,7 +13960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0722RL/726562"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722RL/727055"
 			(at 92.71 156.21 90)
 			(effects
 				(font
@@ -14018,7 +14018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.406 32.766 90)
 			(effects
 				(font
@@ -14045,7 +14045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0710KL/726523"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 200.66 31.75 90)
 			(effects
 				(font
@@ -14269,7 +14269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 216.916 147.574 90)
 			(effects
 				(font
@@ -14296,7 +14296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07330RL/726594"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162"
 			(at 215.9 147.32 0)
 			(effects
 				(font
@@ -14525,7 +14525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 235.9152 111.76 0)
 			(effects
 				(font
@@ -14534,7 +14534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
 			(at 234.95 107.95 0)
 			(effects
 				(font
@@ -14552,7 +14552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 234.95 107.95 0)
 			(effects
 				(font
@@ -15216,7 +15216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.8652 35.56 0)
 			(effects
 				(font
@@ -15225,7 +15225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/503/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
 			(at 88.9 31.75 0)
 			(effects
 				(font
@@ -15243,7 +15243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 88.9 31.75 0)
 			(effects
 				(font

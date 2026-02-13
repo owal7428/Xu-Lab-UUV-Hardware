@@ -4054,7 +4054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.516 128.524 90)
 			(effects
 				(font
@@ -4081,7 +4081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07330RL/726594"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162"
 			(at 63.5 128.27 0)
 			(effects
 				(font
