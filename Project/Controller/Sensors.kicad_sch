@@ -2351,7 +2351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "093e4925-3d1c-4fac-ab2b-c8a082a1ad1f")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR061"
 			(at 241.3 120.65 0)
 			(effects
 				(font
@@ -2401,7 +2401,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR099")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2417,7 +2417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3b3489-cf9d-48aa-9339-9edccacc058d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR059"
 			(at 147.32 107.95 0)
 			(effects
 				(font
@@ -2467,7 +2467,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR050")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2483,7 +2483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b7049e3-974c-49e7-93e7-0383f90c32e5")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 228.6 48.26 0)
 			(effects
 				(font
@@ -2533,7 +2533,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2549,7 +2549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca952ca-b407-4ec7-9c0f-0418738b3175")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR052"
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -2599,7 +2599,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR042")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d280df2-9727-46a5-ad95-93efec93edf4")
-		(property "Reference" "C32"
+		(property "Reference" "C24"
 			(at 245.11 106.6799 0)
 			(effects
 				(font
@@ -2687,7 +2687,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C32")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2703,7 +2703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f16f09b-1d52-48e8-b056-12f8e9c536bd")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR058"
 			(at 241.3 105.41 0)
 			(effects
 				(font
@@ -2753,7 +2753,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR098")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b41662f-5258-4932-9129-66ac6d8d3e17")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR046"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -2819,7 +2819,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR039")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2928,7 +2928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "635bc41e-23c3-4175-ab6d-7f41fa71205d")
-		(property "Reference" "C23"
+		(property "Reference" "C25"
 			(at 151.13 109.2199 0)
 			(effects
 				(font
@@ -3000,7 +3000,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C23")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3016,7 +3016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bc745b4-bd4c-4c98-a626-f251b1c28a44")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR053"
 			(at 228.6 63.5 0)
 			(effects
 				(font
@@ -3066,7 +3066,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR048")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c927e40-c2d9-4444-8286-7b80c0aaa61e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR057"
 			(at 54.61 101.6 0)
 			(effects
 				(font
@@ -3133,7 +3133,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR049")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ffa0b68-e55a-451f-9e63-ff7960f00a2d")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR047"
 			(at 139.7 48.26 0)
 			(effects
 				(font
@@ -3420,7 +3420,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR040")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3436,7 +3436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "911a2f6a-51cd-45fb-8056-3242265783f1")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR063"
 			(at 203.2 124.46 0)
 			(effects
 				(font
@@ -3486,7 +3486,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR097")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3502,7 +3502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9604d80b-50ed-4eb5-b79b-3b76461f528c")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR064"
 			(at 124.46 129.54 0)
 			(effects
 				(font
@@ -3552,7 +3552,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR053")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3568,7 +3568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cd0daa6-52e7-4f62-b32e-81caf374901e")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR056"
 			(at 203.2 101.6 0)
 			(effects
 				(font
@@ -3618,7 +3618,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR096")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3634,7 +3634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a95a01fe-9d49-4abd-a3e1-2dd7514f260d")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 130.81 49.5299 0)
 			(effects
 				(font
@@ -3706,7 +3706,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3721,7 +3721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba497c40-ec42-4433-9b00-7fd7736f1da4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 198.12 62.23 0)
 			(effects
 				(font
@@ -3771,7 +3771,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c09ee272-fff9-429d-854c-6a2135a39330")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 198.12 49.53 0)
 			(effects
 				(font
@@ -3837,7 +3837,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3853,7 +3853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb4b5cf5-e7bf-4182-98ff-a9c645b4bb12")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 232.41 49.5299 0)
 			(effects
 				(font
@@ -3925,7 +3925,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3941,7 +3941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccdc37a8-7ded-491e-9282-f5fcd104a139")
-		(property "Reference" "C24"
+		(property "Reference" "C26"
 			(at 133.35 116.8399 0)
 			(effects
 				(font
@@ -4013,7 +4013,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C24")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4029,7 +4029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cee8c89e-e434-4156-8115-d91731a29ed2")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR055"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -4079,7 +4079,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR044")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4225,7 +4225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d86afc2a-69af-4fba-8d7a-638799457c9c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR045"
 			(at 86.36 35.56 0)
 			(effects
 				(font
@@ -4275,7 +4275,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR038")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4291,7 +4291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e403747b-32f9-46ae-a9e4-19f82f5a5736")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR062"
 			(at 147.32 123.19 0)
 			(effects
 				(font
@@ -4341,7 +4341,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR052")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4357,7 +4357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecab7a8d-aa84-4fa2-be09-56d8e30265ac")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 143.51 49.5299 0)
 			(effects
 				(font
@@ -4429,7 +4429,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4445,7 +4445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f99e3374-1351-44c8-9371-e8494161e413")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR051"
 			(at 127 63.5 0)
 			(effects
 				(font
@@ -4495,7 +4495,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR041")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa5053ea-f9a3-47b3-81ab-5677bec580c8")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR054"
 			(at 74.93 69.85 0)
 			(effects
 				(font
@@ -4561,7 +4561,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR043")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4577,7 +4577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff8a6c55-9085-446a-af66-533355785eae")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR060"
 			(at 123.19 106.68 0)
 			(effects
 				(font
@@ -4628,7 +4628,7 @@
 		(instances
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR051")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
