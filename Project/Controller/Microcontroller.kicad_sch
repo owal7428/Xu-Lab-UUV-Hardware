@@ -13732,7 +13732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 271.78 31.75 0)
 			(effects
 				(font
@@ -13741,7 +13741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL3301.pdf"
+		(property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf"
 			(at 271.78 31.75 0)
 			(effects
 				(font
@@ -13759,7 +13759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/e-switch/TL3301NF160QG-KR/271564"
+		(property "Listing" "https://www.digikey.com/en/products/detail/c-k/KMR211NG-LFS/2176494"
 			(at 266.7 31.75 90)
 			(effects
 				(font
