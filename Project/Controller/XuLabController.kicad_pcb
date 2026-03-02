@@ -28918,6 +28918,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 129.25 132.25 0)
+		(layer "F.SilkS")
+		(uuid "a20d6fd9-fcf2-4f97-a6ca-90659c909ada")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "BOOT1"
 		(at 162.5 108 0)
 		(layer "F.SilkS")
@@ -29088,8 +29100,8 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "3.3 V"
-		(at 126 132.5 0)
+	(gr_text "3V3"
+		(at 126.75 128.5 0)
 		(layer "F.SilkS")
 		(uuid "eaa9e3e2-66b2-4c4d-ab37-9c6b9a68c6c3")
 		(effects
@@ -29097,7 +29109,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "Team 29:\nOwen Allison\n\nJose Cabrera\n\nSean Curry\n\nAlex Hansen\n\nAnthony Javier\n\nTopher Prokopius\n\nIlsa Runge\n\nLeon Steinbach\n\nCarter Winkleman"
@@ -29112,8 +29124,8 @@
 			(justify left top mirror)
 		)
 	)
-	(gr_text "Designed By: Owen Allison"
-		(at 173 73.25 0)
+	(gr_text "Designed By: Owen Allison\n03/2026 - Rev B"
+		(at 173 70.5 0)
 		(layer "B.SilkS")
 		(uuid "9ca37e4c-036a-4cf2-b01d-21c3a9827f0a")
 		(effects
@@ -29121,7 +29133,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom mirror)
+			(justify left top mirror)
+		)
+	)
+	(gr_text "Clients:\nMatticus Brown\n\nMarshall Graybill\n\nNicole Xu"
+		(at 135.25 107.75 0)
+		(layer "B.SilkS")
+		(uuid "b5730b46-f8fe-4bf0-a0fc-5baa9f8f1dfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
 		)
 	)
 	(segment
