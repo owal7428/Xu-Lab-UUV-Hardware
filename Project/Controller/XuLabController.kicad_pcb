@@ -286,7 +286,7 @@
 		(tags "Bosch LGA NoLead")
 		(property "Reference" "U7"
 			(at 0 -2.55 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "78069fef-0d5c-45dc-b2cc-d5e629db270f")
 			(effects
 				(font
@@ -890,7 +890,7 @@
 		(tags "PowerDI diode vishay")
 		(property "Reference" "D1"
 			(at 3.25 0 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "15ad6406-243b-4fbe-af4f-f804075180d6")
 			(effects
 				(font
@@ -1199,7 +1199,7 @@
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J21"
 			(at 1.54 5 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f66a994e-0dda-48fa-a9c1-e0aec062c636")
 			(effects
 				(font
@@ -1618,8 +1618,8 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at -2 0 180)
-			(layer "F.SilkS")
+			(at -2 0 0)
+			(layer "F.Fab")
 			(uuid "af5ed224-ca30-45f2-8600-36167ff05aad")
 			(effects
 				(font
@@ -1843,8 +1843,8 @@
 		(descr "SMD Crystal Abracon ABM7, https://abracon.com/Resonators/abm7.pdf")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at -3 -3 180)
-			(layer "F.SilkS")
+			(at -3 -3 0)
+			(layer "F.Fab")
 			(uuid "3ecb4769-268c-42e1-9ca6-c42759868ed8")
 			(effects
 				(font
@@ -2071,7 +2071,7 @@
 		(tags "connector JST VH vertical")
 		(property "Reference" "J13"
 			(at 1.98 -4.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0a83b370-aedb-448b-b889-a8366d07697b")
 			(effects
 				(font
@@ -2441,7 +2441,7 @@
 		(tags "resistor")
 		(property "Reference" "R10"
 			(at 0 1.5 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e2950cf8-c8a4-4ed5-9358-c5d5bc724fa6")
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 		(tags "resistor")
 		(property "Reference" "R9"
 			(at 0 1.5 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "20785298-2ffc-4afc-8689-30add52108af")
 			(effects
 				(font
@@ -2891,7 +2891,7 @@
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J15"
 			(at 0 -3.9 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "faab7661-1475-4256-bef7-0dbec43a1621")
 			(effects
 				(font
@@ -3333,7 +3333,7 @@
 		(property "Reference" "SW2"
 			(at 3.75 -2.25 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d9375f33-164f-4a3a-b83f-e0e3acb30f0e")
 			(effects
 				(font
@@ -3598,7 +3598,7 @@
 		(property "Reference" "U8"
 			(at 0 -2.75 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e580790f-f165-4331-9d58-9edf10e30af6")
 			(effects
 				(font
@@ -4187,8 +4187,8 @@
 		(descr "Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C5"
-			(at 0 2.5 180)
-			(layer "F.SilkS")
+			(at 0 2.5 0)
+			(layer "F.Fab")
 			(uuid "417facd3-3673-4724-9afb-6b2f1b84fcff")
 			(effects
 				(font
@@ -4407,7 +4407,7 @@
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J20"
 			(at 1.54 5 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4816f55c-a58f-4dee-8bed-71f366a4a853")
 			(effects
 				(font
@@ -4827,7 +4827,7 @@
 		(tags "capacitor")
 		(property "Reference" "C3"
 			(at -2.25 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "3dd61e75-5c4f-4cfc-adde-afb2397c7749")
 			(effects
 				(font
@@ -5051,8 +5051,8 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at -2 0 180)
-			(layer "F.SilkS")
+			(at -2 0 0)
+			(layer "F.Fab")
 			(uuid "4c917bef-a414-4cea-b8cc-e15f05f4ad50")
 			(effects
 				(font
@@ -5277,7 +5277,7 @@
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J4"
 			(at 0 -3.9 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "770ecc3b-42cb-4352-9c5c-1f63889b44cf")
 			(effects
 				(font
@@ -5719,7 +5719,7 @@
 		(property "Reference" "J3"
 			(at 0 -5.5 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "14eb74a7-cb41-4752-92ec-a8ef3251d938")
 			(effects
 				(font
@@ -6116,7 +6116,7 @@
 		(tags "resistor")
 		(property "Reference" "R2"
 			(at 2 0 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b3ec5991-c7b1-44a5-b830-3b98a88e1fad")
 			(effects
 				(font
@@ -6341,7 +6341,7 @@
 		(tags "capacitor")
 		(property "Reference" "C15"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "52730615-4310-46ff-9aa3-527c3c92981e")
 			(effects
 				(font
@@ -6566,7 +6566,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U6"
 			(at 0 -2.4 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "16ca86f0-88ad-4055-857e-ea2be88c58de")
 			(effects
 				(font
@@ -6937,7 +6937,7 @@
 		(tags "connector JST VH vertical")
 		(property "Reference" "J11"
 			(at 1.98 -4.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "61c29d74-7d49-4824-bca9-4ed1f7e78d89")
 			(effects
 				(font
@@ -7307,7 +7307,7 @@
 		(tags "connector JST VH vertical")
 		(property "Reference" "J7"
 			(at 1.98 -4.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b4d5015b-f560-47b7-813c-963075acb341")
 			(effects
 				(font
@@ -7677,7 +7677,7 @@
 		(tags "capacitor")
 		(property "Reference" "C26"
 			(at 0 -1.85 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "446dcbbd-1832-4dfd-8029-8f483e97031e")
 			(effects
 				(font
@@ -7901,8 +7901,8 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -2 0 180)
-			(layer "F.SilkS")
+			(at -2 0 0)
+			(layer "F.Fab")
 			(uuid "510e871b-522f-4874-9540-564ba8d4ea1b")
 			(effects
 				(font
@@ -8127,7 +8127,7 @@
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J18"
 			(at 0 -3.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8aa71d05-c8dc-4b5e-86cf-2273caa3636c")
 			(effects
 				(font
@@ -8588,7 +8588,7 @@
 		(tags "tactile switch kmr2")
 		(property "Reference" "SW3"
 			(at 0 2.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "046dda93-2241-4fc2-b2ff-df0ed40b33ef")
 			(effects
 				(font
@@ -8863,7 +8863,7 @@
 		(tags "mountinghole M2.5")
 		(property "Reference" "H1"
 			(at 0 -4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0f078bdd-78dc-46cd-9e27-3ab6be4f7800")
 			(effects
 				(font
@@ -9089,7 +9089,7 @@
 		(tags "inductor")
 		(property "Reference" "FB1"
 			(at 0 1.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "6748caea-7aa3-4758-8050-84b3af1bc98b")
 			(effects
 				(font
@@ -9314,7 +9314,7 @@
 		(tags "capacitor")
 		(property "Reference" "C18"
 			(at 0.275 1.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "6b942178-4604-4391-b5f0-22cc8f0580d0")
 			(effects
 				(font
@@ -9539,7 +9539,7 @@
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J22"
 			(at 1.54 5 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0c1dd269-b60f-42ac-8656-8dba6653a6b1")
 			(effects
 				(font
@@ -9959,7 +9959,7 @@
 		(tags "connector JST VH vertical")
 		(property "Reference" "J12"
 			(at 1.98 -4.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fb3ebd4d-6b46-4093-8b1c-e42fdc2d4c08")
 			(effects
 				(font
@@ -10330,7 +10330,7 @@
 		(property "Reference" "SW1"
 			(at 3.75 -2.25 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d38afabb-16c1-4d58-8334-5d114ad3a804")
 			(effects
 				(font
@@ -10595,7 +10595,7 @@
 		(tags "mountinghole M2.5")
 		(property "Reference" "H4"
 			(at 0 -4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "33f00bb5-41e0-4082-8290-6646d54387c9")
 			(effects
 				(font
@@ -10821,7 +10821,7 @@
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J1"
 			(at 0 -4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c03339c8-8094-4f53-a32a-5239bc1164e0")
 			(effects
 				(font
@@ -11242,7 +11242,7 @@
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "U1"
 			(at 0 -2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4b64b6e8-e17e-4756-9efd-dab4273665ea")
 			(effects
 				(font
@@ -11533,7 +11533,7 @@
 		(tags "mountinghole M2.5")
 		(property "Reference" "H3"
 			(at 0 -4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "49296a9c-80d5-4264-9b45-deb18d36d0ab")
 			(effects
 				(font
@@ -11759,7 +11759,7 @@
 		(tags "LQFP QFP")
 		(property "Reference" "U4"
 			(at 0 -7.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "6e31adaa-590b-4b4e-b942-bdc25fc9c0ef")
 			(effects
 				(font
@@ -12810,7 +12810,7 @@
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J17"
 			(at 0 -3.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "084bf70c-be7f-4235-aedd-0d418ea05bc1")
 			(effects
 				(font
@@ -13251,7 +13251,7 @@
 		(tags "resistor")
 		(property "Reference" "R4"
 			(at -2 0 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c1fccef3-7652-4d9a-885e-8623aacf93bd")
 			(effects
 				(font
@@ -13476,7 +13476,7 @@
 		(tags "connector JST VH vertical")
 		(property "Reference" "J10"
 			(at 1.98 -4.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "392c1de6-e5d7-4772-b09b-0c82a7d6e703")
 			(effects
 				(font
@@ -13846,7 +13846,7 @@
 		(tags "LED")
 		(property "Reference" "D3"
 			(at 0 -1.5 270)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e312e143-4464-42cf-a716-1bbecbff1f9b")
 			(effects
 				(font
@@ -14106,7 +14106,7 @@
 		(tags "SOT-363 SC-70-6 SC-88")
 		(property "Reference" "U3"
 			(at 0 2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a75df275-d6b9-4ebe-9b30-c70d6986fe64")
 			(effects
 				(font
@@ -14397,7 +14397,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
 			(at 3 0 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "17c7d02f-68a9-4841-8244-85537fdbd220")
 			(effects
 				(font
@@ -14768,7 +14768,7 @@
 		(tags "capacitor")
 		(property "Reference" "C2"
 			(at 0 2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "dfa51245-d27c-4437-97d6-e328acd04f24")
 			(effects
 				(font
@@ -14993,7 +14993,7 @@
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J16"
 			(at 0 -3.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7e9ac4a4-87c4-4df3-b9d8-0fc49965bb02")
 			(effects
 				(font
@@ -15434,7 +15434,7 @@
 		(tags "resistor")
 		(property "Reference" "R8"
 			(at 0 1.5 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "dd3b31a0-c383-4b9b-b0a4-596d8a0f413d")
 			(effects
 				(font
@@ -15659,7 +15659,7 @@
 		(tags "capacitor")
 		(property "Reference" "C27"
 			(at 0 -1.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "48b37fd3-7f6e-4db9-ab55-92dd68decfc6")
 			(effects
 				(font
@@ -15884,7 +15884,7 @@
 		(tags "connector JST VH vertical")
 		(property "Reference" "J9"
 			(at 1.98 -4.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "89ef7218-fee8-46a1-860b-a5dc2055ee04")
 			(effects
 				(font
@@ -16254,7 +16254,7 @@
 		(tags "LED")
 		(property "Reference" "D5"
 			(at 0 -1.5 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7c72203d-d542-4fdb-a510-6813879242c3")
 			(effects
 				(font
@@ -16514,7 +16514,7 @@
 		(tags "mountinghole M2.5")
 		(property "Reference" "H2"
 			(at 0 -4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "aa060935-5f1b-49a8-9284-2a57100a8cfb")
 			(effects
 				(font
@@ -16740,7 +16740,7 @@
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J2"
 			(at 1.27 -2.38 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b7daa97e-dd50-44e5-9b3b-1a6832bba236")
 			(effects
 				(font
@@ -17083,7 +17083,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U5"
 			(at 0 -2.4 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7a648f9b-a428-402b-bc6d-cc26ec7a0021")
 			(effects
 				(font
@@ -17454,7 +17454,7 @@
 		(tags "CONN DEV")
 		(property "Reference" "TP1"
 			(at 1.3 -2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f28c893a-32b0-4f7c-bd54-74601fed1b06")
 			(effects
 				(font
@@ -17734,7 +17734,7 @@
 		(tags "connector JST VH vertical")
 		(property "Reference" "J8"
 			(at 1.98 -4.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "410c1e46-6499-4c54-9844-1fe15d6eda5f")
 			(effects
 				(font
@@ -18104,7 +18104,7 @@
 		(tags "connector JST VH vertical")
 		(property "Reference" "J5"
 			(at 1.98 -4.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "dd4126a5-ee8d-433d-a3a4-42a919f70623")
 			(effects
 				(font
@@ -18474,7 +18474,7 @@
 		(tags "LED")
 		(property "Reference" "D2"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1c982c6f-e8dd-4903-86f9-c3393c00644a")
 			(effects
 				(font
@@ -18734,7 +18734,7 @@
 		(tags "connector JST VH vertical")
 		(property "Reference" "J6"
 			(at 1.98 -4.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "37607912-6b39-4906-a7ed-7c0d1b85c5cc")
 			(effects
 				(font
@@ -19104,7 +19104,7 @@
 		(tags "capacitor")
 		(property "Reference" "C4"
 			(at 0 -2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0a42a96b-c4ed-4def-8ccf-b95286c1dcda")
 			(effects
 				(font
@@ -19329,7 +19329,7 @@
 		(tags "capacitor")
 		(property "Reference" "C16"
 			(at 0 1.225 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7521b42a-2dd0-442d-8606-36011b3480a9")
 			(effects
 				(font
@@ -19554,7 +19554,7 @@
 		(tags "resistor")
 		(property "Reference" "R3"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "03e67b0d-9f78-4077-b8bc-480eb9724f5e")
 			(effects
 				(font
@@ -19779,7 +19779,7 @@
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J14"
 			(at 0 -3.9 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f813853e-2bfc-4544-afd5-dbdf4ec55727")
 			(effects
 				(font
@@ -20220,7 +20220,7 @@
 		(tags "capacitor")
 		(property "Reference" "C17"
 			(at 0 -1.5 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "2098aeb7-23ab-4f44-bdf2-54cf4bd7293e")
 			(effects
 				(font
@@ -20445,7 +20445,7 @@
 		(tags "resistor")
 		(property "Reference" "R5"
 			(at -2 0 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1c55562c-32bb-464b-a8b1-e1fbe2697e03")
 			(effects
 				(font
@@ -20670,7 +20670,7 @@
 		(tags "LED")
 		(property "Reference" "D4"
 			(at 0 -1.5 270)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "250d30c0-b579-4209-afbe-eda0fe7305b6")
 			(effects
 				(font
@@ -20930,7 +20930,7 @@
 		(tags "connector JST GH horizontal")
 		(property "Reference" "J19"
 			(at 0 -3.9 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "09203638-2a9b-4a37-a9c0-f525eb7cf8f5")
 			(effects
 				(font
@@ -21391,7 +21391,7 @@
 		(tags "Sensirion DFN NoLead")
 		(property "Reference" "U10"
 			(at 0.09 2.03 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "202f5e28-277d-4bd5-ac65-bcb87b67cdb2")
 			(effects
 				(font
@@ -21707,7 +21707,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U9"
 			(at 0 2.4 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "f9e13876-7262-4907-a774-3a14b306dd5a")
 			(effects
 				(font
@@ -22065,7 +22065,7 @@
 		(tags "resistor")
 		(property "Reference" "R14"
 			(at 2.5 -0.5 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "cfea9f0c-28b8-4867-a7cd-4063b0f38080")
 			(effects
 				(font
@@ -22297,7 +22297,7 @@
 		(tags "resistor")
 		(property "Reference" "R6"
 			(at -2 -0.175 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "6df0c909-0a89-41a9-b23e-128be1ec99c2")
 			(effects
 				(font
@@ -22528,9 +22528,9 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 2.25 -3.25 180)
-			(layer "B.SilkS")
-			(uuid "0ef69a3a-0ace-4764-858d-e884a759e2bb")
+			(at 2.25 0.5 0)
+			(layer "B.Fab")
+			(uuid "d7903128-42e0-4a1a-bcfb-8a7171bacef4")
 			(effects
 				(font
 					(size 1 1)
@@ -22542,7 +22542,7 @@
 		(property "Value" "5k1"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
-			(uuid "5061e618-161b-4af6-b1fd-f4f0f082b71c")
+			(uuid "5a3909bb-f296-4956-9077-0b373089d628")
 			(effects
 				(font
 					(size 1 1)
@@ -22555,7 +22555,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c6a2c25d-f62b-49c3-9d59-1fe6cc636347")
+			(uuid "58a38c0d-738e-47e4-a5d9-e160c07a1706")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22568,7 +22568,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b526d17a-c36c-45ce-9a52-eb3aa5398cd3")
+			(uuid "5fccffb1-d3b8-47ae-a8ee-c3a3928e0591")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22761,7 +22761,7 @@
 		(tags "capacitor")
 		(property "Reference" "C12"
 			(at 3 0 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "98e38d98-af09-48e1-8fd0-3d6a4759e8be")
 			(effects
 				(font
@@ -22993,7 +22993,7 @@
 		(tags "capacitor")
 		(property "Reference" "C23"
 			(at 0 1.43 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "98295a62-9650-489f-b29c-855a756fde64")
 			(effects
 				(font
@@ -23225,7 +23225,7 @@
 		(tags "capacitor")
 		(property "Reference" "C31"
 			(at 0 1.43 90)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "63f9eb90-afce-47dd-8523-344088d3737c")
 			(effects
 				(font
@@ -23457,7 +23457,7 @@
 		(tags "capacitor")
 		(property "Reference" "C30"
 			(at 0 1.43 90)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "4bc12d81-b807-4d43-8de9-73695bb9a93b")
 			(effects
 				(font
@@ -23689,7 +23689,7 @@
 		(tags "resistor")
 		(property "Reference" "R11"
 			(at -2.5 -1 180)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "6520344d-814a-4a48-a6e8-27e98d234b09")
 			(effects
 				(font
@@ -23921,7 +23921,7 @@
 		(tags "capacitor")
 		(property "Reference" "C10"
 			(at 0 -1.5 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "b7007a21-d41f-4142-83b6-eba21882eff3")
 			(effects
 				(font
@@ -24153,7 +24153,7 @@
 		(tags "capacitor")
 		(property "Reference" "C7"
 			(at 0 1.43 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "5c1f703d-832e-4326-9458-e7c6f4c99b0d")
 			(effects
 				(font
@@ -24385,7 +24385,7 @@
 		(tags "capacitor")
 		(property "Reference" "C9"
 			(at 0 1.43 90)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "2f6de135-b78a-4a88-b57c-34d8e58215a5")
 			(effects
 				(font
@@ -24617,7 +24617,7 @@
 		(tags "resistor")
 		(property "Reference" "R7"
 			(at -2 0 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "ea29de50-516c-422b-b166-8037aa0d8781")
 			(effects
 				(font
@@ -24849,7 +24849,7 @@
 		(tags "capacitor")
 		(property "Reference" "C24"
 			(at 2.25 0 180)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "d8e27d3a-cd1f-4a5b-8836-b4669c3406d5")
 			(effects
 				(font
@@ -25081,7 +25081,7 @@
 		(tags "capacitor")
 		(property "Reference" "C33"
 			(at 0 1.43 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "5486ad97-1de1-46d4-8fbb-295a8abbae66")
 			(effects
 				(font
@@ -25313,7 +25313,7 @@
 		(tags "capacitor")
 		(property "Reference" "C32"
 			(at 0 1.43 90)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "26b2b26e-a392-4cc4-bf3f-ae8978b227c2")
 			(effects
 				(font
@@ -25545,7 +25545,7 @@
 		(tags "capacitor")
 		(property "Reference" "C19"
 			(at 0 1.25 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "7538234a-2576-43eb-94d5-6ee58c53fcb6")
 			(effects
 				(font
@@ -25777,7 +25777,7 @@
 		(tags "capacitor")
 		(property "Reference" "C13"
 			(at 2 -0.5 180)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "2368a8da-bc05-4c50-ace1-ab15083570f3")
 			(effects
 				(font
@@ -26009,7 +26009,7 @@
 		(tags "capacitor")
 		(property "Reference" "C25"
 			(at 0 -1.5 90)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "40846726-82fd-4cdb-8859-cbdd5bf806ef")
 			(effects
 				(font
@@ -26241,7 +26241,7 @@
 		(tags "capacitor")
 		(property "Reference" "C21"
 			(at 0 1.43 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "218f25da-fa61-404a-9c5a-0c6241a61466")
 			(effects
 				(font
@@ -26473,7 +26473,7 @@
 		(tags "capacitor")
 		(property "Reference" "C29"
 			(at 0 1.43 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "ed017029-bc1a-4653-8c3a-3fe35da8440d")
 			(effects
 				(font
@@ -26705,7 +26705,7 @@
 		(tags "capacitor")
 		(property "Reference" "C20"
 			(at 0 -1.5 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "56b65a1e-046d-44e1-8c77-7a7570bb63b4")
 			(effects
 				(font
@@ -26937,7 +26937,7 @@
 		(tags "capacitor")
 		(property "Reference" "C8"
 			(at -2.5 0 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "3162be66-8c96-4042-9b88-0e9389449754")
 			(effects
 				(font
@@ -27169,7 +27169,7 @@
 		(tags "capacitor")
 		(property "Reference" "C14"
 			(at 2 0.5 180)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "98a4d9cc-b9b4-4491-850c-3bdd37d77927")
 			(effects
 				(font
@@ -27401,7 +27401,7 @@
 		(tags "capacitor")
 		(property "Reference" "C28"
 			(at 0 1.43 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "6d994988-b9f0-425c-956a-46eb802bcef7")
 			(effects
 				(font
@@ -27632,8 +27632,8 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 2.25 3.25 180)
-			(layer "B.SilkS")
+			(at 2.25 -0.5 0)
+			(layer "B.Fab")
 			(uuid "ada52c4b-8877-4c0d-94cc-0f1a90b0aebb")
 			(effects
 				(font
@@ -27865,7 +27865,7 @@
 		(tags "capacitor")
 		(property "Reference" "C11"
 			(at 0 1.43 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "b1e95b66-d30d-4ec4-a5ce-e5137ad1a3b4")
 			(effects
 				(font
@@ -28097,7 +28097,7 @@
 		(tags "capacitor")
 		(property "Reference" "C22"
 			(at 0 1.43 90)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "e57acf0a-25a5-4f0e-ac71-0dd33244cc9e")
 			(effects
 				(font
@@ -29325,7 +29325,7 @@
 		(uuid "3419e1ca-d444-459e-bff7-3f3c75212690")
 	)
 	(via
-		(at 138 95.25)
+		(at 137.5 95.25)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -29671,14 +29671,6 @@
 		(uuid "145babf0-4cfe-469f-a752-77bb874f37a0")
 	)
 	(segment
-		(start 137.975 95.275)
-		(end 138 95.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "173710cf-132e-46e3-b1ca-85258f3320ea")
-	)
-	(segment
 		(start 160.25 133.825)
 		(end 161.075 133.825)
 		(width 0.3)
@@ -29709,14 +29701,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "2411b1d3-3b74-4016-982c-a1704cbb1ff8")
-	)
-	(segment
-		(start 137.975 96.5)
-		(end 137.975 95.275)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "31486d14-3a75-4de4-aaf5-b06229f7b7c2")
 	)
 	(segment
 		(start 138.525 101.225)
@@ -29895,6 +29879,14 @@
 		(uuid "b4f8400d-47db-448c-8b0d-19bdc4a36e82")
 	)
 	(segment
+		(start 137.5 95.25)
+		(end 137.975 95.725)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "c147dbe3-510e-4338-a2da-eece5a6ecdf8")
+	)
+	(segment
 		(start 177.725 67.5)
 		(end 177 68.225)
 		(width 0.3)
@@ -30013,6 +30005,14 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "f6bbc0ff-62e7-42f1-abf1-92f770f7f9ef")
+	)
+	(segment
+		(start 137.975 95.725)
+		(end 137.975 96.5)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "fd90a930-ef19-4b26-b5e5-7472d854eec6")
 	)
 	(segment
 		(start 125.5 98.5)
@@ -30343,6 +30343,14 @@
 		(uuid "4b09de07-76bd-4e1d-8b68-940e17eb7f72")
 	)
 	(segment
+		(start 139.825 95.825)
+		(end 139.25 95.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "5503e2a7-8cc8-43f6-8edc-ea08a1c22c9f")
+	)
+	(segment
 		(start 154.5 87.2625)
 		(end 154.5 88.25)
 		(width 0.3)
@@ -30439,14 +30447,6 @@
 		(uuid "90a96a1d-cbae-4fff-b1db-b949488b0275")
 	)
 	(segment
-		(start 139.825 96.25)
-		(end 139.825 95.575)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "918bcd2c-bc0b-418d-8d52-6ca40b8b1aee")
-	)
-	(segment
 		(start 153.5 84.7375)
 		(end 153.5 83.849943)
 		(width 0.3)
@@ -30495,20 +30495,20 @@
 		(uuid "b81fcc9e-f185-42c1-b5bf-50b1b52cbda2")
 	)
 	(segment
-		(start 139.825 95.575)
-		(end 139.5 95.25)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "bff56e50-606c-422a-b692-942c8439d385")
-	)
-	(segment
 		(start 127.875 63.125)
 		(end 127.5 62.75)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "bff99eb0-d462-4315-bf56-4a4cee5865f1")
+	)
+	(segment
+		(start 139.25 95.25)
+		(end 138.75 95.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "c5297099-7b66-45f8-b61e-6e07c0915ca4")
 	)
 	(segment
 		(start 142 126.3975)
@@ -30541,6 +30541,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "cbfa6aac-acce-43a0-bcf0-877e27781adf")
+	)
+	(segment
+		(start 139.825 96.25)
+		(end 139.825 95.825)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "ccb64930-64cc-4eef-8ddc-e49906646ae7")
 	)
 	(segment
 		(start 112.625 67.125)
@@ -30688,7 +30696,7 @@
 		(uuid "404302d5-ced3-4672-a4fd-9d5e8b077300")
 	)
 	(via
-		(at 139.5 95.25)
+		(at 138.75 95.25)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -30865,6 +30873,14 @@
 		(uuid "165bba3b-1b7a-4b0c-9abc-40930a50e204")
 	)
 	(segment
+		(start 139.525 95.775)
+		(end 139.525 96.5)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "25701467-fbcc-40c6-9cc0-354df1906b03")
+	)
+	(segment
 		(start 143.275 106)
 		(end 143.275 106.975)
 		(width 0.5)
@@ -30897,6 +30913,14 @@
 		(uuid "399147e6-a4d6-4f82-b105-241d85c76d7b")
 	)
 	(segment
+		(start 139.525 95.775)
+		(end 139 95.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "4221455a-b109-4c81-88c5-f9f9c9bb9907")
+	)
+	(segment
 		(start 164.75 83.75)
 		(end 164.75 84.225)
 		(width 0.3)
@@ -30919,14 +30943,6 @@
 		(layer "B.Cu")
 		(net 5)
 		(uuid "4cb4c1fa-2f0d-4de0-a24d-279c68a5d579")
-	)
-	(segment
-		(start 139.525 95.275)
-		(end 139.5 95.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "5439998f-5352-4f2b-b07d-70d283fc052c")
 	)
 	(segment
 		(start 129.9375 104.4375)
@@ -31057,12 +31073,12 @@
 		(uuid "c4a3ca71-aff7-4216-886d-562b8722ee06")
 	)
 	(segment
-		(start 139.525 96.5)
-		(end 139.525 95.275)
+		(start 139 95.25)
+		(end 138.75 95.25)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 5)
-		(uuid "c7c8191a-65a9-4eb7-8df2-be7153d7278e")
+		(uuid "c57a1a34-25fb-4a21-894a-fce9c46823bc")
 	)
 	(segment
 		(start 178.75 83.775)
@@ -37878,18 +37894,18 @@
 				(xy 143.557314 96.5995) (xy 143.499969 96.566392) (xy 143.443187 96.533608) (xy 143.347066 96.507853)
 				(xy 143.315892 96.4995) (xy 143.184108 96.4995) (xy 143.056812 96.533608) (xy 142.942686 96.5995)
 				(xy 142.942683 96.599502) (xy 142.849502 96.692683) (xy 142.8495 96.692686) (xy 142.783608 96.806812)
-				(xy 142.7495 96.934108) (xy 134 96.934108) (xy 134 95.170943) (xy 138.8995 95.170943) (xy 138.8995 95.329057)
-				(xy 138.935335 95.462793) (xy 138.940423 95.481783) (xy 138.940426 95.48179) (xy 139.019475 95.618709)
-				(xy 139.019479 95.618714) (xy 139.01948 95.618716) (xy 139.131284 95.73052) (xy 139.131286 95.730521)
-				(xy 139.13129 95.730524) (xy 139.268209 95.809573) (xy 139.268216 95.809577) (xy 139.420943 95.8505)
-				(xy 139.420945 95.8505) (xy 139.579055 95.8505) (xy 139.579057 95.8505) (xy 139.731784 95.809577)
-				(xy 139.868716 95.73052) (xy 139.98052 95.618716) (xy 140.059577 95.481784) (xy 140.1005 95.329057)
-				(xy 140.1005 95.170943) (xy 140.059577 95.018216) (xy 140.049348 95.000499) (xy 139.980524 94.88129)
-				(xy 139.980518 94.881282) (xy 139.868717 94.769481) (xy 139.868709 94.769475) (xy 139.73179 94.690426)
-				(xy 139.731786 94.690424) (xy 139.731784 94.690423) (xy 139.579057 94.6495) (xy 139.420943 94.6495)
-				(xy 139.268216 94.690423) (xy 139.268209 94.690426) (xy 139.13129 94.769475) (xy 139.131282 94.769481)
-				(xy 139.019481 94.881282) (xy 139.019475 94.88129) (xy 138.940426 95.018209) (xy 138.940423 95.018216)
-				(xy 138.8995 95.170943) (xy 134 95.170943) (xy 134 94.5) (xy 126 94.5) (xy 126 102.5) (xy 115.792003 102.5)
+				(xy 142.7495 96.934108) (xy 134 96.934108) (xy 134 95.170943) (xy 138.1495 95.170943) (xy 138.1495 95.329057)
+				(xy 138.185335 95.462793) (xy 138.190423 95.481783) (xy 138.190426 95.48179) (xy 138.269475 95.618709)
+				(xy 138.269479 95.618714) (xy 138.26948 95.618716) (xy 138.381284 95.73052) (xy 138.381286 95.730521)
+				(xy 138.38129 95.730524) (xy 138.518209 95.809573) (xy 138.518216 95.809577) (xy 138.670943 95.8505)
+				(xy 138.670945 95.8505) (xy 138.829055 95.8505) (xy 138.829057 95.8505) (xy 138.981784 95.809577)
+				(xy 139.118716 95.73052) (xy 139.23052 95.618716) (xy 139.309577 95.481784) (xy 139.3505 95.329057)
+				(xy 139.3505 95.170943) (xy 139.309577 95.018216) (xy 139.299348 95.000499) (xy 139.230524 94.88129)
+				(xy 139.230518 94.881282) (xy 139.118717 94.769481) (xy 139.118709 94.769475) (xy 138.98179 94.690426)
+				(xy 138.981786 94.690424) (xy 138.981784 94.690423) (xy 138.829057 94.6495) (xy 138.670943 94.6495)
+				(xy 138.518216 94.690423) (xy 138.518209 94.690426) (xy 138.38129 94.769475) (xy 138.381282 94.769481)
+				(xy 138.269481 94.881282) (xy 138.269475 94.88129) (xy 138.190426 95.018209) (xy 138.190423 95.018216)
+				(xy 138.1495 95.170943) (xy 134 95.170943) (xy 134 94.5) (xy 126 94.5) (xy 126 102.5) (xy 115.792003 102.5)
 				(xy 115.755578 102.36406) (xy 115.662779 102.140021) (xy 115.662772 102.140007) (xy 115.541522 101.929996)
 				(xy 115.541517 101.929989) (xy 115.472937 101.840614) (xy 115.472936 101.840614) (xy 114.754114 102.559436)
 				(xy 114.75326 102.557374) (xy 114.660238 102.418156) (xy 114.541844 102.299762) (xy 114.402626 102.20674)
@@ -39844,17 +39860,17 @@
 				(xy 143.443187 96.533608) (xy 143.379539 96.516554) (xy 143.315892 96.4995) (xy 143.184108 96.4995)
 				(xy 143.056812 96.533608) (xy 142.942686 96.5995) (xy 142.942683 96.599502) (xy 142.849502 96.692683)
 				(xy 142.8495 96.692686) (xy 142.783608 96.806812) (xy 142.7495 96.934108) (xy 108.5005 96.934108)
-				(xy 108.5005 95.170943) (xy 137.3995 95.170943) (xy 137.3995 95.329057) (xy 137.435335 95.462793)
-				(xy 137.440423 95.481783) (xy 137.440426 95.48179) (xy 137.519475 95.618709) (xy 137.519479 95.618714)
-				(xy 137.51948 95.618716) (xy 137.631284 95.73052) (xy 137.631286 95.730521) (xy 137.63129 95.730524)
-				(xy 137.749489 95.798765) (xy 137.768216 95.809577) (xy 137.920943 95.8505) (xy 137.920945 95.8505)
-				(xy 138.079055 95.8505) (xy 138.079057 95.8505) (xy 138.231784 95.809577) (xy 138.368716 95.73052)
-				(xy 138.48052 95.618716) (xy 138.559577 95.481784) (xy 138.6005 95.329057) (xy 138.6005 95.170943)
-				(xy 138.559577 95.018216) (xy 138.549348 95.000499) (xy 138.480524 94.88129) (xy 138.480518 94.881282)
-				(xy 138.368717 94.769481) (xy 138.368709 94.769475) (xy 138.23179 94.690426) (xy 138.231786 94.690424)
-				(xy 138.231784 94.690423) (xy 138.079057 94.6495) (xy 137.920943 94.6495) (xy 137.768216 94.690423)
-				(xy 137.768209 94.690426) (xy 137.63129 94.769475) (xy 137.631282 94.769481) (xy 137.519481 94.881282)
-				(xy 137.519475 94.88129) (xy 137.440426 95.018209) (xy 137.440423 95.018216) (xy 137.3995 95.170943)
+				(xy 108.5005 95.170943) (xy 136.8995 95.170943) (xy 136.8995 95.329057) (xy 136.935335 95.462793)
+				(xy 136.940423 95.481783) (xy 136.940426 95.48179) (xy 137.019475 95.618709) (xy 137.019479 95.618714)
+				(xy 137.01948 95.618716) (xy 137.131284 95.73052) (xy 137.131286 95.730521) (xy 137.13129 95.730524)
+				(xy 137.249489 95.798765) (xy 137.268216 95.809577) (xy 137.420943 95.8505) (xy 137.420945 95.8505)
+				(xy 137.579055 95.8505) (xy 137.579057 95.8505) (xy 137.731784 95.809577) (xy 137.868716 95.73052)
+				(xy 137.98052 95.618716) (xy 138.059577 95.481784) (xy 138.1005 95.329057) (xy 138.1005 95.170943)
+				(xy 138.059577 95.018216) (xy 138.049348 95.000499) (xy 137.980524 94.88129) (xy 137.980518 94.881282)
+				(xy 137.868717 94.769481) (xy 137.868709 94.769475) (xy 137.73179 94.690426) (xy 137.731786 94.690424)
+				(xy 137.731784 94.690423) (xy 137.579057 94.6495) (xy 137.420943 94.6495) (xy 137.268216 94.690423)
+				(xy 137.268209 94.690426) (xy 137.13129 94.769475) (xy 137.131282 94.769481) (xy 137.019481 94.881282)
+				(xy 137.019475 94.88129) (xy 136.940426 95.018209) (xy 136.940423 95.018216) (xy 136.8995 95.170943)
 				(xy 108.5005 95.170943) (xy 108.5005 93.36573) (xy 110.7045 93.36573) (xy 110.7045 94.714269) (xy 110.707353 94.744699)
 				(xy 110.707353 94.744701) (xy 110.752206 94.87288) (xy 110.752207 94.872882) (xy 110.83285 94.98215)
 				(xy 110.942118 95.062793) (xy 110.984845 95.077744) (xy 111.070299 95.107646) (xy 111.10073 95.1105)
