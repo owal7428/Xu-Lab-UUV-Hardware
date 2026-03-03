@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Attitude and Heading Module")
-		(date "2026-02-24")
+		(date "2026-03-02")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -521,375 +521,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Motion:BMI088"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BMI088"
-				(at 8.89 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering"
-				(at -16.51 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf"
-				(at -16.51 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Accelerometer, Gyroscope, 6-Axis Sensor, I2C / SPI interface, LGA-16"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Bosch-Sensortec inertial-measurement-unit IMU"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Bosch*LGA*4.5x3mm?P0.5mm*ClockwisePinNumbering*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BMI088_1_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "~{CSB1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "~{CSB2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "SCK/SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "SDI/SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "SDO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "SDO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "PS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 15.24 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 90)
-					(length 2.54)
-					(hide yes)
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -15.24 90)
-					(length 2.54)
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 15.24 270)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -15.24 90)
-					(length 2.54)
-					(name "GNDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "INT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "INT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "INT3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "INT4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Sensor_Temperature:MCP9700Ax-ETT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1140,6 +771,328 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XuLab:BMI330"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BMI330"
+				(at 3.81 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "XuLab:BMI330"
+				(at 0 -21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7174/828_bst-bmi330-ds000.pdf"
+				(at 0 -28.194 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Accelerometer, Gyroscope, Temperature, 3 Axis Sensor I2C, I3C, SPI Output"
+				(at 0 -23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BMI330_1_0"
+				(pin input line
+					(at -13.97 6.35 0)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 3.81 0)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 1.27 0)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 19.05 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -11.43 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 19.05 270)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -11.43 90)
+					(length 5.08)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 6.35 180)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 3.81 180)
+					(length 5.08)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 1.27 180)
+					(length 5.08)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 13.97 -3.81 180)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 13.97 -3.81 180)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 13.97 -3.81 180)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 13.97 -3.81 180)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BMI330_1_1"
+				(rectangle
+					(start -8.89 13.97)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -1789,12 +1742,6 @@
 		(color 0 0 0 0)
 		(uuid "a00275f2-aa8f-4979-a333-86e54ceded1b")
 	)
-	(junction
-		(at 74.93 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4322d77-ca13-49fc-aa20-c425d0bd2254")
-	)
 	(wire
 		(pts
 			(xy 198.12 55.88) (xy 198.12 54.61)
@@ -1817,16 +1764,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 60.96) (xy 74.93 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06d571f9-2e33-4486-9883-a7ed9cd61b34")
-	)
-	(wire
-		(pts
 			(xy 86.36 67.31) (xy 86.36 68.58)
 		)
 		(stroke
@@ -1834,16 +1771,6 @@
 			(type default)
 		)
 		(uuid "1127081f-6e85-4dc3-81ad-c715f76a4b83")
-	)
-	(wire
-		(pts
-			(xy 73.66 43.18) (xy 76.2 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1329e8c2-ea30-4113-8a57-a4c38a0b04f6")
 	)
 	(wire
 		(pts
@@ -1864,6 +1791,16 @@
 			(type default)
 		)
 		(uuid "1f4c8947-23b0-4f82-8917-6b4189142efc")
+	)
+	(wire
+		(pts
+			(xy 102.87 48.26) (xy 104.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b95a1af-26e6-4d88-80c1-fb67a06554be")
 	)
 	(wire
 		(pts
@@ -1917,23 +1854,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 48.26) (xy 76.2 48.26)
+			(xy 102.87 50.8) (xy 104.14 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c1993a2-f9c9-4587-8963-1be107158927")
-	)
-	(wire
-		(pts
-			(xy 101.6 48.26) (xy 104.14 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cafb042-255f-4cdd-a59e-47f97c203d3f")
+		(uuid "3d60fc3f-6205-4164-bf91-240e95417f4c")
 	)
 	(wire
 		(pts
@@ -1967,6 +1894,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 50.8) (xy 74.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45feafe8-2eee-4a23-8c69-837a34fdef2a")
+	)
+	(wire
+		(pts
 			(xy 241.3 101.6) (xy 241.3 104.14)
 		)
 		(stroke
@@ -1977,16 +1914,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 45.72) (xy 76.2 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b8f1bb7-583c-4e5a-9776-4e6af9a382f4")
-	)
-	(wire
-		(pts
 			(xy 124.46 114.3) (xy 129.54 114.3)
 		)
 		(stroke
@@ -1994,16 +1921,6 @@
 			(type default)
 		)
 		(uuid "4e79ceaa-976d-46a5-b2e8-f73fdaf5d736")
-	)
-	(wire
-		(pts
-			(xy 101.6 43.18) (xy 104.14 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f619d66-afba-4c76-b151-fbcf029fad53")
 	)
 	(wire
 		(pts
@@ -2077,16 +1994,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 53.34) (xy 76.2 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea53992-c680-4dca-a678-c8ff5ea8bce1")
-	)
-	(wire
-		(pts
 			(xy 76.2 146.05) (xy 78.74 146.05)
 		)
 		(stroke
@@ -2147,6 +2054,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 53.34) (xy 104.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9794d7bd-d01e-4445-83aa-36cbcbb24ffe")
+	)
+	(wire
+		(pts
 			(xy 91.44 35.56) (xy 91.44 34.29)
 		)
 		(stroke
@@ -2164,16 +2081,6 @@
 			(type default)
 		)
 		(uuid "9eaf87e0-fcb6-4f01-8060-35ed06dd0183")
-	)
-	(wire
-		(pts
-			(xy 73.66 53.34) (xy 74.93 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab020e02-cb61-4d90-838a-539ce6060f2b")
 	)
 	(wire
 		(pts
@@ -2217,13 +2124,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 55.88) (xy 74.93 55.88)
+			(xy 73.66 48.26) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b65ed341-9244-416a-b6f1-2f7ee353bad2")
+		(uuid "b69ba873-5778-483f-9706-7a682bb27130")
 	)
 	(wire
 		(pts
@@ -2247,6 +2154,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 53.34) (xy 74.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14790c7-a0b6-4cef-b1bc-c6359451056b")
+	)
+	(wire
+		(pts
 			(xy 124.46 116.84) (xy 124.46 121.92)
 		)
 		(stroke
@@ -2254,16 +2171,6 @@
 			(type default)
 		)
 		(uuid "c47a693c-fa2d-4907-acc4-9da145d16560")
-	)
-	(wire
-		(pts
-			(xy 101.6 53.34) (xy 104.14 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c76dea9d-2190-4418-a681-811abdfd3383")
 	)
 	(wire
 		(pts
@@ -2284,26 +2191,6 @@
 			(type default)
 		)
 		(uuid "e04f8f73-5195-4aac-ad2f-4dad0a2bd12f")
-	)
-	(wire
-		(pts
-			(xy 76.2 60.96) (xy 74.93 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e71074e9-1bfe-499a-9629-509dc0649734")
-	)
-	(wire
-		(pts
-			(xy 73.66 50.8) (xy 76.2 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e71fdcca-b00f-4604-aad8-b0e81c255dc7")
 	)
 	(wire
 		(pts
@@ -2347,26 +2234,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 58.42) (xy 104.14 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f497fdef-3123-40a5-ab64-b8deb53366e4")
-	)
-	(wire
-		(pts
-			(xy 74.93 55.88) (xy 74.93 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4d3d4a5-81a9-4772-81ca-1ff74c1d9212")
-	)
-	(wire
-		(pts
 			(xy 127 54.61) (xy 127 57.15)
 		)
 		(stroke
@@ -2407,9 +2274,9 @@
 		)
 		(uuid "18067d24-03b3-48ad-9071-e7ed1ca478b5")
 	)
-	(hierarchical_label "ACCL_INT1"
+	(hierarchical_label "IMU_INT1"
 		(shape output)
-		(at 104.14 43.18 0)
+		(at 104.14 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2429,9 +2296,9 @@
 		)
 		(uuid "26f0e574-7422-4ef2-bcf8-f9fd15ce0a9f")
 	)
-	(hierarchical_label "GYRO_CS"
+	(hierarchical_label "IMU_CS"
 		(shape input)
-		(at 73.66 45.72 180)
+		(at 73.66 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,18 +2307,7 @@
 		)
 		(uuid "2968504e-7df1-4cf4-8504-f0fe6ef48b7f")
 	)
-	(hierarchical_label "ACCL_INT2"
-		(shape output)
-		(at 104.14 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ceaff68-0375-413c-a7a7-31ea1eb619aa")
-	)
-	(hierarchical_label "GYRO_INT1"
+	(hierarchical_label "IMU_INT2"
 		(shape output)
 		(at 104.14 53.34 0)
 		(effects
@@ -2460,7 +2316,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2d893912-5a55-4d3d-ab04-ca1aba3fd746")
+		(uuid "2ceaff68-0375-413c-a7a7-31ea1eb619aa")
 	)
 	(hierarchical_label "PS_SCL"
 		(shape bidirectional)
@@ -2475,25 +2331,14 @@
 	)
 	(hierarchical_label "IMU_SDO"
 		(shape output)
-		(at 73.66 53.34 180)
+		(at 104.14 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "51be40a3-9815-4708-8bcf-fa24e72a81a5")
-	)
-	(hierarchical_label "ACCL_CS"
-		(shape input)
-		(at 73.66 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "54a63512-4902-4ad4-81a7-62d2938c94da")
 	)
 	(hierarchical_label "IMU_SCK"
 		(shape input)
@@ -2571,17 +2416,6 @@
 			(justify right)
 		)
 		(uuid "ee405789-1366-42ad-9c5d-1c2ae238cf69")
-	)
-	(hierarchical_label "GYRO_INT2"
-		(shape output)
-		(at 104.14 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f44b1d24-5da4-4134-a9b0-f1b7cf4af1da")
 	)
 	(hierarchical_label "MAG_CS"
 		(shape input)
@@ -3386,6 +3220,112 @@
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XuLab:BMI330")
+		(at 88.9 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66cf592f-793a-4eb0-86fe-18fb4b6f1cb9")
+		(property "Reference" "U7"
+			(at 93.4086 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMI330"
+			(at 93.4086 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XuLab:BMI330"
+			(at 88.9 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7174/828_bst-bmi330-ds000.pdf"
+			(at 88.9 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Accelerometer, Gyroscope, Temperature, 3 Axis Sensor I2C, I3C, SPI Output"
+			(at 88.9 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d68286f1-238c-4d08-8408-75ad9b90d2f1")
+		)
+		(pin "10"
+			(uuid "3148b720-b690-4452-b583-8ef17ce21949")
+		)
+		(pin "2"
+			(uuid "22d60bdd-bbce-4ca3-bf2f-0bbac550071a")
+		)
+		(pin "5"
+			(uuid "f8bf2c87-2328-44c9-909c-b1af18512623")
+		)
+		(pin "6"
+			(uuid "ccca9a0c-a424-4758-b041-47e5d12f0277")
+		)
+		(pin "4"
+			(uuid "ebebff3a-8ea4-41be-aa1c-c1519db7688a")
+		)
+		(pin "3"
+			(uuid "7ffccad7-98e8-444a-8179-167f92c8a8c9")
+		)
+		(pin "14"
+			(uuid "295a4705-f40d-463c-a34c-ff3b49935cff")
+		)
+		(pin "1"
+			(uuid "94a9555b-b656-4795-98e3-f67b0cb49582")
+		)
+		(pin "11"
+			(uuid "53739fc8-7816-4872-bf87-3e911db65668")
+		)
+		(pin "13"
+			(uuid "2fb5acdd-9b72-4ee2-a294-76d44ba6cb75")
+		)
+		(pin "12"
+			(uuid "9f784e7d-a69a-451b-a47c-a25ee8d9a2a4")
+		)
+		(pin "9"
+			(uuid "f280093c-6e65-4eba-b2ab-84aedf4fe5c4")
+		)
+		(pin "7"
+			(uuid "0495d9e5-0cd0-44c4-a45d-5f736683a620")
+		)
+		(instances
+			(project ""
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4788,136 +4728,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Motion:BMI088")
-		(at 88.9 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf4d1d96-22b8-470c-8cf5-906f96965eb8")
-		(property "Reference" "U7"
-			(at 93.5833 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BMI088"
-			(at 93.5833 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering"
-			(at 72.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf"
-			(at 72.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Accelerometer, Gyroscope, 6-Axis Sensor, I2C / SPI interface, LGA-16"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/bosch-sensortec/BMI088/8634936"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interchangeable" "No"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "39005d0d-7d34-429f-af68-32f76ea628e8")
-		)
-		(pin "11"
-			(uuid "cfb3ad32-1d65-42c8-a153-16a55b6b9f3f")
-		)
-		(pin "14"
-			(uuid "e073472e-687c-4420-9046-c14e29ed36b5")
-		)
-		(pin "2"
-			(uuid "a0ed35c4-2c23-4058-98a0-2f20a5404a51")
-		)
-		(pin "4"
-			(uuid "26edc3ca-955c-41f9-8224-d6d4e8549779")
-		)
-		(pin "12"
-			(uuid "6a21cb21-8cec-4551-b8ad-a8a5c889ad79")
-		)
-		(pin "6"
-			(uuid "965ab606-1b8a-4520-9b39-ab5340bc0089")
-		)
-		(pin "1"
-			(uuid "877d8359-e76e-4a2d-82ee-5fad073ef065")
-		)
-		(pin "7"
-			(uuid "65ba9f02-3f5c-4c34-85d3-37b52337fd98")
-		)
-		(pin "16"
-			(uuid "a1f79082-bad5-4413-a4f6-d7a3bbabe9e4")
-		)
-		(pin "5"
-			(uuid "94ac163a-8ebe-4731-930d-986a3e358a05")
-		)
-		(pin "3"
-			(uuid "b0e98290-4ed7-449c-a153-b2a8d1abf064")
-		)
-		(pin "9"
-			(uuid "8a72de5b-79de-4353-9e4c-60ab7b03aae3")
-		)
-		(pin "10"
-			(uuid "053a8456-ce49-42e6-8863-6a233f2460de")
-		)
-		(pin "15"
-			(uuid "bd7bc06b-f77e-43d7-b3aa-4a310a9059bf")
-		)
-		(pin "13"
-			(uuid "ea37776c-553e-4567-88ff-2e92732d242a")
-		)
-		(instances
-			(project "XuLabController"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 86.36 31.75 0)
 		(unit 1)
@@ -5198,72 +5008,6 @@
 			(project "XuLabController"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa5053ea-f9a3-47b3-81ab-5677bec580c8")
-		(property "Reference" "#PWR054"
-			(at 74.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eeb50600-87c8-453f-ba00-53452e0e5874")
-		)
-		(instances
-			(project "XuLabController"
-				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/a5713b00-422c-456a-9938-13721b057665"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
