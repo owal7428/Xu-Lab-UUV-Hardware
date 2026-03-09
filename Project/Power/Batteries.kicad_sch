@@ -1,0 +1,3151 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "85acb6b0-7880-4b41-ac5d-14e4b6f2a623")
+	(paper "A4")
+	(title_block
+		(title "Batteries")
+		(date "2026-03-08")
+		(rev "B")
+		(company "CU Boulder Senior Design Team 29 - Xu Lab")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NMOS_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SQJ138ELP"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XuLab:PowerPAK_SO-8L"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/77127/sqj138elp.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Listing" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQJ138ELP-T1-GE3/14542660"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Interchangeable" "No"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMOS_1_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XuLab:NCV68061"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NCV68061"
+				(at 3.81 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 3.81 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv68061-d.pdf"
+				(at 3.81 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ideal Diode NMOS Controller"
+				(at 3.81 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "NCV68061_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NCV68061_1_1"
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 165.1 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d42ff09-fe43-4451-9b55-f596c1f4bd3d")
+	)
+	(junction
+		(at 76.2 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "498a5afe-110f-40f3-90f7-1c7a2c4df1cb")
+	)
+	(junction
+		(at 139.7 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55075589-d31f-4599-9dfe-be5355274622")
+	)
+	(junction
+		(at 50.8 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91fa08e0-822e-443e-9351-0a4869ecdb71")
+	)
+	(junction
+		(at 50.8 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a410f037-b997-4777-85a9-7d47c322bea0")
+	)
+	(junction
+		(at 139.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfd9f471-955d-4e5a-b4e7-173bbae4c61a")
+	)
+	(junction
+		(at 165.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4635470-1ef8-43eb-8959-9e3d3b1fbf1d")
+	)
+	(junction
+		(at 76.2 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd68f3a0-c9f2-4816-a3f7-916cc48bfe8c")
+	)
+	(wire
+		(pts
+			(xy 76.2 63.5) (xy 76.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006d242c-a000-48a9-93a1-152840436a1c")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dcd60a-73c8-4b04-a15e-efa0a4e2e9df")
+	)
+	(wire
+		(pts
+			(xy 152.4 74.93) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b3892e-b29a-4640-98ef-deae5c66c2e3")
+	)
+	(wire
+		(pts
+			(xy 58.42 49.53) (xy 50.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05202a1f-0393-44a4-8a6f-646dc8b00ca6")
+	)
+	(wire
+		(pts
+			(xy 170.18 127) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cd61ec-c3a0-4bbe-9ed1-1971978c6666")
+	)
+	(wire
+		(pts
+			(xy 44.45 63.5) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08096e61-b032-4498-afac-05c14514f50b")
+	)
+	(wire
+		(pts
+			(xy 170.18 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1425cfb0-c962-4bc7-8198-03747b7840a6")
+	)
+	(wire
+		(pts
+			(xy 73.66 63.5) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2be409-4d2f-43c1-8515-60b7a5a5dadc")
+	)
+	(wire
+		(pts
+			(xy 46.99 129.54) (xy 46.99 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257d98a8-f918-493f-9ec6-d010d0f2b28f")
+	)
+	(wire
+		(pts
+			(xy 162.56 127) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6914de-d910-47c8-90f6-60761437838f")
+	)
+	(wire
+		(pts
+			(xy 50.8 49.53) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5e7b84-5a8e-4f13-9426-82df75364291")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 68.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302169e8-1bab-4935-85a8-534bfbae97f6")
+	)
+	(wire
+		(pts
+			(xy 73.66 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5c53c2-9a3c-497a-85c2-6b4b2ad37d92")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 139.7 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a40991-bb65-4d05-9704-81b01099f892")
+	)
+	(wire
+		(pts
+			(xy 162.56 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e986f7-8480-49b0-b93c-1debd019d04c")
+	)
+	(wire
+		(pts
+			(xy 44.45 66.04) (xy 46.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb7a15b-9d63-4c72-a786-ea3bf70be812")
+	)
+	(wire
+		(pts
+			(xy 50.8 63.5) (xy 53.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6019ca9d-64a0-4b27-8482-5bc71424eab6")
+	)
+	(wire
+		(pts
+			(xy 135.89 129.54) (xy 135.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60387832-3801-4145-b87c-c69f049cf712")
+	)
+	(wire
+		(pts
+			(xy 46.99 66.04) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c14dab-58be-4e0d-afea-df28257d68c1")
+	)
+	(wire
+		(pts
+			(xy 139.7 49.53) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64670b4e-6d5b-4006-80e6-f0bbb51cb557")
+	)
+	(wire
+		(pts
+			(xy 133.35 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1ed2d3-449b-4357-8bd0-a4c3f0f6e408")
+	)
+	(wire
+		(pts
+			(xy 152.4 138.43) (xy 152.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c56d9b3-93a0-4d31-9e1a-3bfd10466cda")
+	)
+	(wire
+		(pts
+			(xy 53.34 132.08) (xy 50.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c66c68a-2cf0-46ea-9c76-37d303ee785a")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 165.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e555613-6c4e-46ec-8662-a53dd266b654")
+	)
+	(wire
+		(pts
+			(xy 139.7 68.58) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717c8a62-a55b-4b80-ae22-191adddec46b")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 63.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7192aed5-bad8-4756-bcf8-3ce49dfa1fab")
+	)
+	(wire
+		(pts
+			(xy 44.45 127) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4358cc-530d-4bca-a205-48e0aed2f7c3")
+	)
+	(wire
+		(pts
+			(xy 58.42 113.03) (xy 50.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de9e6a0-e828-42ad-b0a9-23060766bfc9")
+	)
+	(wire
+		(pts
+			(xy 135.89 66.04) (xy 135.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c3f85c-f977-41f9-8ede-051076ba51d8")
+	)
+	(wire
+		(pts
+			(xy 44.45 129.54) (xy 46.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965cc435-b91a-4222-9225-49b5c35490a9")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 152.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97312f1a-ecaa-4564-94aa-60960191a8dc")
+	)
+	(wire
+		(pts
+			(xy 165.1 127) (xy 165.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f03c68-2017-4205-b33f-fb81d335392c")
+	)
+	(wire
+		(pts
+			(xy 53.34 68.58) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a71210f-623d-4457-87d3-5b828dfe0656")
+	)
+	(wire
+		(pts
+			(xy 147.32 49.53) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a173a7ef-d244-42b0-99dc-dbc41177a41b")
+	)
+	(wire
+		(pts
+			(xy 139.7 127) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d09e6b-6494-4b46-afe1-8734a570adf2")
+	)
+	(wire
+		(pts
+			(xy 152.4 119.38) (xy 152.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0ad655-d532-4576-a514-3fac343eef0d")
+	)
+	(wire
+		(pts
+			(xy 133.35 66.04) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9fe1de-b4b9-42d6-ba88-b560d23207f8")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3bf161-8ff3-4fc9-831d-55b62c9d7935")
+	)
+	(wire
+		(pts
+			(xy 133.35 129.54) (xy 135.89 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd13e9b-d595-4ca4-9a07-f0788ce5f6b7")
+	)
+	(wire
+		(pts
+			(xy 63.5 119.38) (xy 63.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9c82e6-dd90-40fb-89e9-2c944993bd3a")
+	)
+	(wire
+		(pts
+			(xy 76.2 63.5) (xy 81.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acce0ffa-4bff-44cc-aae5-1ce217c2915e")
+	)
+	(wire
+		(pts
+			(xy 50.8 113.03) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc73a77-6977-4202-b255-870020f58b01")
+	)
+	(wire
+		(pts
+			(xy 50.8 127) (xy 53.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04c97f0-2587-44bd-acc1-9dfdb03df1ee")
+	)
+	(wire
+		(pts
+			(xy 50.8 68.58) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a68cc4-b18e-4143-8a95-f99306a696f6")
+	)
+	(wire
+		(pts
+			(xy 63.5 74.93) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cd2148-a4f5-49de-b83b-bccc598b2cd7")
+	)
+	(wire
+		(pts
+			(xy 165.1 49.53) (xy 157.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d82170-131e-4f23-a3fb-b3d89458979a")
+	)
+	(wire
+		(pts
+			(xy 63.5 138.43) (xy 63.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b600ebf0-7bf4-43a7-b201-d651063f084c")
+	)
+	(wire
+		(pts
+			(xy 139.7 113.03) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7d974b-a724-4981-8a1c-b4c47fb7774c")
+	)
+	(wire
+		(pts
+			(xy 142.24 132.08) (xy 139.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc87cc7f-89ee-45a5-a097-c46826c7c3ad")
+	)
+	(wire
+		(pts
+			(xy 50.8 132.08) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf3ba56-7223-4b48-99f1-e2b5cf6dd3c6")
+	)
+	(wire
+		(pts
+			(xy 76.2 127) (xy 76.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d495ae70-1e18-48ea-a3fb-ada7010f0338")
+	)
+	(wire
+		(pts
+			(xy 81.28 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2317c1f-dbf6-4fb2-9ec6-1ab17d0f8fbb")
+	)
+	(wire
+		(pts
+			(xy 76.2 113.03) (xy 68.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c9a8a2-d18c-4b08-887a-f608773b4e4f")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 157.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42703e1-55be-45e7-9eaf-0464c53630f4")
+	)
+	(wire
+		(pts
+			(xy 139.7 132.08) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f600228a-1c12-4e0b-900c-f2835c3751ef")
+	)
+	(wire
+		(pts
+			(xy 133.35 127) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac605c3-4797-4553-a047-75c0dc96a7e8")
+	)
+	(global_label "BATT_SRC"
+		(shape input)
+		(at 81.28 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c302aea-d87d-4c51-963b-62ecf1b647ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2761 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_SRC"
+		(shape input)
+		(at 170.18 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92c511ce-7dee-44f3-8766-b1ef1baf3c21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.1761 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_SRC"
+		(shape input)
+		(at 81.28 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc48ba66-7d23-44c4-a282-0c6e0f4a6374")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2761 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_SRC"
+		(shape input)
+		(at 170.18 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1173aec-1064-4093-be35-ef270ea9f376")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.1761 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ddaf9bb-4ab7-44b0-bc6f-e685c1e7fc3e")
+		(property "Reference" "#PWR014"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a176a8f1-6cb6-400a-a9ba-21bf0aa73d48")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 39.37 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "248c8967-003f-4cfb-9c9c-1193eff18ee4")
+		(property "Reference" "J3"
+			(at 36.83 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 36.83 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02"
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 39.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92232214-0579-4246-8b3d-7699c8f58cdc")
+		)
+		(pin "2"
+			(uuid "4e0fae4e-ca05-4b0b-a60f-50754063c2be")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XuLab:NCV68061")
+		(at 152.4 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28ca6df9-9de8-4ba3-a5c5-9252ee01cd14")
+		(property "Reference" "U4"
+			(at 154.432 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCV68061"
+			(at 154.432 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv68061-d.pdf"
+			(at 156.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode NMOS Controller"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/onsemi/NCV68061SNAIT1G/16528636"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9b0a3c9e-dbe9-4389-80d2-8986af1b08b5")
+		)
+		(pin "1"
+			(uuid "c6ca7bac-5840-42e7-b547-83421cc25d15")
+		)
+		(pin "4"
+			(uuid "7b4412ef-c444-4f3b-9aca-193eda284e40")
+		)
+		(pin "5"
+			(uuid "42e4fa82-121d-46ec-b80a-9cd9377b134f")
+		)
+		(pin "2"
+			(uuid "f41447f8-20d9-46e7-9894-0d151da6a983")
+		)
+		(pin "6"
+			(uuid "6cc88452-dca0-416b-82dc-cc4c714c5780")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32016708-a798-41c0-8da0-6b5d5d31ed75")
+		(property "Reference" "#PWR018"
+			(at 135.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6a54b97-bc8c-4a94-92c4-a15c3fcbee62")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 152.4 52.07 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35a60c7f-f2c1-437a-b9e6-689fe6017b07")
+		(property "Reference" "Q4"
+			(at 152.4 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SQJ138ELP"
+			(at 152.4 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XuLab:PowerPAK_SO-8L"
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/77127/sqj138elp.pdf"
+			(at 139.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQJ138ELP-T1-GE3/14542660"
+			(at 152.4 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 152.4 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91663f1f-2265-49e5-9987-2985e39769d4")
+		)
+		(pin "2"
+			(uuid "c7ba75b4-8958-4438-9dcc-95808c78867e")
+		)
+		(pin "3"
+			(uuid "08d403fd-90f5-4178-ac9a-e5f60a6ab5bb")
+		)
+		(pin "5"
+			(uuid "dba36290-d1ce-47ff-b548-18af133875f9")
+		)
+		(pin "4"
+			(uuid "880a116d-173f-48c9-b4dc-6bc73cc7ea34")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "448d9920-f03e-45b3-b785-d105578b8965")
+		(property "Reference" "#PWR020"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3740524d-7c76-4f47-b5cf-c616aedaa19e")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 128.27 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50aa097f-a65d-41fd-9d0a-c9dd89c74090")
+		(property "Reference" "J2"
+			(at 125.73 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 125.73 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa591684-ac0a-411d-af8e-bf493f13b8a9")
+		)
+		(pin "2"
+			(uuid "a45d1abf-e699-44e2-8124-8db0622374e5")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c7b4a90-710e-449d-b369-87b19af674b4")
+		(property "Reference" "#PWR019"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2877dfc-09a6-47fc-9331-aeafe7ba85de")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c2d620-eec2-4fbf-ba0e-0adfae91a386")
+		(property "Reference" "#PWR016"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0437b66f-411a-4a5b-8d34-cdd84e86abef")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XuLab:NCV68061")
+		(at 63.5 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb1e3762-ecf7-4c87-a5cb-bab1bca00b41")
+		(property "Reference" "U3"
+			(at 65.532 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCV68061"
+			(at 65.532 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv68061-d.pdf"
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode NMOS Controller"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/onsemi/NCV68061SNAIT1G/16528636"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4ea7d9f5-7fbd-4d18-9819-4d14d4f725d8")
+		)
+		(pin "1"
+			(uuid "9ff702ae-c30b-4d9b-97b0-166d18ec7702")
+		)
+		(pin "4"
+			(uuid "014c42e5-f266-44a7-a499-5394ccaddef1")
+		)
+		(pin "5"
+			(uuid "9dbe2904-041a-43a3-bb9c-b3a16bfe43da")
+		)
+		(pin "2"
+			(uuid "b5720636-568d-42df-b86d-9669bd678bfd")
+		)
+		(pin "6"
+			(uuid "4526d36e-49d3-46fb-a70d-0fc102b7b6fe")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bff8586e-11a1-4c1a-8386-940eea0e1802")
+		(property "Reference" "#PWR08"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "344ddd29-c8cc-412e-acf7-d75c96d8742d")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XuLab:NCV68061")
+		(at 152.4 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7857108-593e-49bf-8056-0731597bfe84")
+		(property "Reference" "U6"
+			(at 154.432 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCV68061"
+			(at 154.432 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 156.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv68061-d.pdf"
+			(at 156.21 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode NMOS Controller"
+			(at 156.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/onsemi/NCV68061SNAIT1G/16528636"
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d4f28088-c89c-4b5b-96ec-bbe791811f01")
+		)
+		(pin "1"
+			(uuid "d1a788ab-a797-4a8f-9702-6ffc00501881")
+		)
+		(pin "4"
+			(uuid "175e90a7-0892-4a31-afe8-395686e8c902")
+		)
+		(pin "5"
+			(uuid "46997e77-9c40-4abb-9b08-c1ec6eb7f1c8")
+		)
+		(pin "2"
+			(uuid "4a0a6a49-b980-429d-80c0-1b7ee7abd6b4")
+		)
+		(pin "6"
+			(uuid "cd82e07b-6d8e-4b51-b859-d12ef5b0bf30")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 39.37 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce7f4fbe-23fc-46c0-82ad-597cd4df4a85")
+		(property "Reference" "J1"
+			(at 36.83 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 36.83 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a034c5e3-6f26-419c-9b65-3d3ed03449ee")
+		)
+		(pin "2"
+			(uuid "bf4f3f6d-349d-4039-a3d9-e9dc2ce11806")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 63.5 52.07 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d27f890e-afa8-41aa-87ce-795e5fe5ddf2")
+		(property "Reference" "Q3"
+			(at 63.5 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SQJ138ELP"
+			(at 63.5 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XuLab:PowerPAK_SO-8L"
+			(at 66.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/77127/sqj138elp.pdf"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQJ138ELP-T1-GE3/14542660"
+			(at 63.5 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 63.5 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "159e3ede-c97c-48b6-96e7-6570365bb1b7")
+		)
+		(pin "2"
+			(uuid "6e3d1edb-8477-4cc0-ad6a-278bcf3b4833")
+		)
+		(pin "3"
+			(uuid "dd67f280-b574-43b7-8d25-2f4ce6dcaa3c")
+		)
+		(pin "5"
+			(uuid "18b6b0fd-0442-4c70-8243-68409456793b")
+		)
+		(pin "4"
+			(uuid "4ef6fd80-1abe-4716-951b-b55446b5ec33")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 63.5 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2986a63-eca6-4408-99f4-6203c438a182")
+		(property "Reference" "Q5"
+			(at 63.5 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SQJ138ELP"
+			(at 63.5 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XuLab:PowerPAK_SO-8L"
+			(at 66.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/77127/sqj138elp.pdf"
+			(at 50.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQJ138ELP-T1-GE3/14542660"
+			(at 63.5 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 63.5 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df6660d7-cf2b-4516-8be5-bda5e11a7d72")
+		)
+		(pin "2"
+			(uuid "7638b6c3-1d14-453a-ab9d-54a28a6353c1")
+		)
+		(pin "3"
+			(uuid "5334a20d-7435-4113-ad2d-71695e344b1e")
+		)
+		(pin "5"
+			(uuid "e30c7d54-13b4-4d6f-af0e-fbdb4f340a9e")
+		)
+		(pin "4"
+			(uuid "c8367635-cc8d-4d4e-a21c-b990545b4fac")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 152.4 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e93548e3-db6e-4a29-a699-946c1bb62a72")
+		(property "Reference" "Q6"
+			(at 152.4 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SQJ138ELP"
+			(at 152.4 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XuLab:PowerPAK_SO-8L"
+			(at 154.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/77127/sqj138elp.pdf"
+			(at 139.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQJ138ELP-T1-GE3/14542660"
+			(at 152.4 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 152.4 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d7cc44b-da7f-4708-b959-1de8c7b374fc")
+		)
+		(pin "2"
+			(uuid "6ba42bbd-fe3e-4254-91be-f91a43853566")
+		)
+		(pin "3"
+			(uuid "ab145b5b-7480-41ac-9d2a-9daec68ebb8d")
+		)
+		(pin "5"
+			(uuid "f66aac15-8dcb-46ef-aab5-9d9d9e356da8")
+		)
+		(pin "4"
+			(uuid "582be2d9-3c90-4931-aaa7-08dd5092e70a")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XuLab:NCV68061")
+		(at 63.5 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7e673d4-7046-473d-a11e-4efbf116acb2")
+		(property "Reference" "U5"
+			(at 65.532 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCV68061"
+			(at 65.532 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncv68061-d.pdf"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode NMOS Controller"
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/onsemi/NCV68061SNAIT1G/16528636"
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d56d10a8-ed82-4c59-b754-a05d9e81302c")
+		)
+		(pin "1"
+			(uuid "61277192-b25a-454a-a52f-d8f3de3e6f26")
+		)
+		(pin "4"
+			(uuid "957faca1-4032-4cf7-a535-53f93880c3d4")
+		)
+		(pin "5"
+			(uuid "245ef7f7-76ed-430f-bfab-049ded33cffe")
+		)
+		(pin "2"
+			(uuid "8acf84a3-615c-4965-bcee-4911efa74317")
+		)
+		(pin "6"
+			(uuid "19bee606-970c-4c75-811e-91baa9444285")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8840d9c-1956-40a3-ac5a-cd19764e8fa0")
+		(property "Reference" "#PWR015"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35e6ed80-34c4-45a8-bcec-9a7c73a805d6")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 128.27 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9f124bb-4a98-40a1-80d3-ee37e16dee7b")
+		(property "Reference" "J4"
+			(at 125.73 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 125.73 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02dc28f5-1366-4130-a126-d2618ebb1c6b")
+		)
+		(pin "2"
+			(uuid "e3a7e114-ffb3-4d37-a52d-312cdca8013c")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff988503-e942-4e6f-9d66-bc71f7f90092")
+		(property "Reference" "#PWR017"
+			(at 46.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc82fe5a-a3e0-45df-98c7-9cca3b95b672")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/3294c49f-3fa2-45e5-ae20-8c908eabc8aa"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
