@@ -3841,6 +3841,48 @@
 		)
 	)
 	(sheet
+		(at 38.1 88.9)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2597d1dc-5599-49ba-bd43-a24c9bb27c8e")
+		(property "Sheetname" "Microcontroller"
+			(at 38.1 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 38.1 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 38.1)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
@@ -3919,7 +3961,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
