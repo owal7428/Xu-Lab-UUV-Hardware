@@ -1347,7 +1347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00f01bb5-5214-42a7-a387-a56822e820ef")
-		(property "Reference" "C23"
+		(property "Reference" "C26"
 			(at 116.84 44.4499 0)
 			(effects
 				(font
@@ -1419,7 +1419,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "C23")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -1435,7 +1435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25417120-57da-47d0-9408-fa2ead131543")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR078"
 			(at 125.73 39.37 0)
 			(effects
 				(font
@@ -1485,7 +1485,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -1501,7 +1501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ace3ba2-3931-4660-96f4-bb210d1cd898")
-		(property "Reference" "U16"
+		(property "Reference" "U17"
 			(at 68.58 30.48 0)
 			(effects
 				(font
@@ -1583,7 +1583,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "U16")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -1599,7 +1599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30f3120b-8243-423d-97a1-fd90c4e25796")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR080"
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -1649,7 +1649,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR078")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1665,7 +1665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f14b92a-4489-4fe4-9d14-75570610d7df")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR082"
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -1715,7 +1715,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR080")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -1731,7 +1731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cd55b44-8281-43a0-b864-f72e6c9f07f9")
-		(property "Reference" "C22"
+		(property "Reference" "C25"
 			(at 46.99 41.9099 0)
 			(effects
 				(font
@@ -1803,7 +1803,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "C22")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -1818,7 +1818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a896992a-ad45-42c2-8569-25063e356981")
-		(property "Reference" "C21"
+		(property "Reference" "C24"
 			(at 83.82 27.432 90)
 			(effects
 				(font
@@ -1888,7 +1888,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "C21")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -1992,7 +1992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca7c88c6-6976-47c6-ae05-5fa2bf7df02e")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR079"
 			(at 50.8 40.64 0)
 			(effects
 				(font
@@ -2042,7 +2042,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR077")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2058,7 +2058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb4dbdb-8e06-459a-b5e4-9a4f9da775a0")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 93.98 33.02 90)
 			(effects
 				(font
@@ -2128,7 +2128,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2144,7 +2144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb714dcc-e096-46e7-a2a8-8e7d1181e045")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR081"
 			(at 68.58 57.15 0)
 			(effects
 				(font
@@ -2194,7 +2194,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR079")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -2209,7 +2209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f68684d2-ec48-4e17-8a10-292a656d8db8")
-		(property "Reference" "C24"
+		(property "Reference" "C27"
 			(at 104.14 46.9899 0)
 			(effects
 				(font
@@ -2281,7 +2281,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "C24")
+					(reference "C27")
 					(unit 1)
 				)
 			)
