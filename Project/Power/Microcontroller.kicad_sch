@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Microcontroller")
-		(date "2026-03-11")
+		(date "2026-03-12")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -3209,6 +3209,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 152.4) (xy 88.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffc04e7-cb20-4aa9-9d55-3c70c52841b2")
+	)
+	(wire
+		(pts
 			(xy 63.5 78.74) (xy 63.5 76.2)
 		)
 		(stroke
@@ -3728,6 +3738,16 @@
 		(uuid "98d8b6a1-5593-44f4-94ee-e7cd799914ad")
 	)
 	(label "PWR_EN"
+		(at 76.2 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd55c99-8223-4db3-9283-5c32c22f74c7")
+	)
+	(label "PWR_EN"
 		(at 127 86.36 0)
 		(effects
 			(font
@@ -3818,6 +3838,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "PWR_EN"
+		(shape output)
+		(at 88.9 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd3c85e2-418a-4f3f-8de9-d16c30f52bd4")
 	)
 	(symbol
 		(lib_id "Device:C")

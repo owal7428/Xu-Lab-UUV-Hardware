@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2026-03-08")
+		(date "2026-03-12")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -1831,6 +1831,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 96.52) (xy 86.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6ebcfc-1357-47b4-a8d9-f651abb466f4")
+	)
+	(wire
+		(pts
 			(xy 224.79 67.31) (xy 233.68 67.31)
 		)
 		(stroke
@@ -1918,6 +1928,16 @@
 			(justify left bottom)
 		)
 		(uuid "c8ee4da4-71bc-472c-a5ae-15243a265380")
+	)
+	(label "MAIN_EN"
+		(at 86.36 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce156ac9-5175-4d44-be69-acddb51481db")
 	)
 	(label "MAIN_EN"
 		(at 233.68 67.31 180)
@@ -3872,6 +3892,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PWR_EN" output
+			(at 76.2 96.52 0)
+			(uuid "d84787ca-3b7c-4899-a6ee-89bd7298f33b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
