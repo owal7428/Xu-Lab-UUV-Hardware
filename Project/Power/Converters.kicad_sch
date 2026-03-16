@@ -2453,7 +2453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2435517e-2fa1-49f8-b40f-a77500f98558")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0100"
 			(at 63.5 57.15 0)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR084")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45664df7-131f-43f8-8eef-d7e08ba6f2ea")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0104"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -2569,7 +2569,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR088")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2585,7 +2585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46024843-fc48-42fe-992f-e7077cf7a013")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR098"
 			(at 228.6 39.37 0)
 			(effects
 				(font
@@ -2635,7 +2635,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR082")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -2739,7 +2739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "714b8a5a-5db1-4afa-a1b6-e65765261bb4")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0103"
 			(at 114.3 59.69 0)
 			(effects
 				(font
@@ -2789,7 +2789,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR087")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3068,7 +3068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "893c92b8-e160-4926-87da-d895a3d47fc6")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR096"
 			(at 139.7 39.37 0)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 		(instances
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR080")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -3134,7 +3134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e884073-e5bf-4f4e-95f8-a7b73156d99d")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR099"
 			(at 50.8 57.15 0)
 			(effects
 				(font
@@ -3184,7 +3184,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR083")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -3200,7 +3200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9062d1d2-8a29-4fb8-8708-d4a86eff39e8")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0101"
 			(at 82.55 57.15 0)
 			(effects
 				(font
@@ -3250,7 +3250,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR085")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3354,7 +3354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9682f5cc-a4ee-45af-8033-0d67bd102563")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0102"
 			(at 184.15 58.42 0)
 			(effects
 				(font
@@ -3404,7 +3404,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR086")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3603,7 +3603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b359eb87-3104-41c3-a086-f1995c928b12")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR097"
 			(at 165.1 39.37 0)
 			(effects
 				(font
@@ -3653,7 +3653,7 @@
 		(instances
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
-					(reference "#PWR081")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
