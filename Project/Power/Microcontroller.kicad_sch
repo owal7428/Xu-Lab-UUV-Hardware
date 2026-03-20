@@ -2549,6 +2549,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 45.72) (xy 186.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5732ab18-e5b7-48f1-9fad-01d6173e0026")
+	)
+	(wire
+		(pts
 			(xy 88.9 80.01) (xy 96.52 80.01)
 		)
 		(stroke
@@ -2609,6 +2619,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 38.1) (xy 186.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76716eb9-81aa-4d06-825b-2ed6b554accd")
+	)
+	(wire
+		(pts
 			(xy 74.93 85.09) (xy 76.2 85.09)
 		)
 		(stroke
@@ -2616,6 +2636,16 @@
 			(type default)
 		)
 		(uuid "81d16c43-868d-4d77-87b0-7ccd29bbcdc7")
+	)
+	(wire
+		(pts
+			(xy 232.41 45.72) (xy 234.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828fa18a-02ca-4a1f-9848-29d2cce8667f")
 	)
 	(wire
 		(pts
@@ -2669,6 +2699,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 45.72) (xy 224.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f8d213-bae3-4aeb-b4cb-7aa69d8183de")
+	)
+	(wire
+		(pts
 			(xy 101.6 38.1) (xy 101.6 40.64)
 		)
 		(stroke
@@ -2716,6 +2756,16 @@
 			(type default)
 		)
 		(uuid "98f22171-2203-4491-b5f9-641c566482f0")
+	)
+	(wire
+		(pts
+			(xy 215.9 38.1) (xy 224.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eea1ddc-b2cb-431d-aab5-b25685d70363")
 	)
 	(wire
 		(pts
@@ -2786,6 +2836,26 @@
 			(type default)
 		)
 		(uuid "abba353a-77c1-4ce7-af07-b6295e480a32")
+	)
+	(wire
+		(pts
+			(xy 194.31 45.72) (xy 196.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63afa6a-f636-472e-a072-69b7a00af822")
+	)
+	(wire
+		(pts
+			(xy 232.41 38.1) (xy 234.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65c399f-8718-4bf9-b164-6e3c7dcf7eed")
 	)
 	(wire
 		(pts
@@ -2876,6 +2946,16 @@
 			(type default)
 		)
 		(uuid "d00dd165-f2d8-49b3-82dc-2473d282aba6")
+	)
+	(wire
+		(pts
+			(xy 194.31 38.1) (xy 196.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87bbdd9-cda0-40bd-b041-0212bbf2d861")
 	)
 	(wire
 		(pts
@@ -3067,6 +3147,16 @@
 		)
 		(uuid "1e24a5a5-f11f-44c1-a8ef-f006a22a87fe")
 	)
+	(label "I2C3_SCL"
+		(at 215.9 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f540d49-1eca-4791-a427-e0d2b1e24ef7")
+	)
 	(label "GPIO_EXTI14"
 		(at 123.19 91.44 0)
 		(effects
@@ -3146,6 +3236,16 @@
 			(justify left bottom)
 		)
 		(uuid "5e744947-a95b-4bce-a7d1-6b748155feb2")
+	)
+	(label "I2C1_SCL"
+		(at 177.8 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64112453-b16d-4a87-85f4-acac440549aa")
 	)
 	(label "I2C1_SCL"
 		(at 212.09 81.28 0)
@@ -3288,6 +3388,16 @@
 		(uuid "c352e1e1-d6a2-4774-859e-ba8c2d48b283")
 	)
 	(label "I2C3_SDA"
+		(at 215.9 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9d6458d-5295-40ea-923c-3a96ee6d2588")
+	)
+	(label "I2C3_SDA"
 		(at 125.73 106.68 0)
 		(effects
 			(font
@@ -3296,6 +3406,16 @@
 			(justify left bottom)
 		)
 		(uuid "cc6e0a25-256a-4e85-8a44-9bfb1a926912")
+	)
+	(label "I2C1_SDA"
+		(at 177.8 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf3300c1-60e6-432f-8e5b-aa5479010881")
 	)
 	(label "SW_CLK"
 		(at 170.18 116.84 180)
@@ -4062,6 +4182,158 @@
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 234.95 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67592a7c-d1e9-4a06-bdeb-26100f999cea")
+		(property "Reference" "#PWR0123"
+			(at 231.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 238.76 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 234.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9937ab3-3b42-4dca-a9ae-d6e93eee05b7")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 190.5 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69555510-e28d-4f6a-b933-49046e9a3ae7")
+		(property "Reference" "R34"
+			(at 190.5 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 190.5 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 190.246 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"
+			(at 190.5 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 190.5 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "638d5a18-0b6d-4d98-ab92-da2fa2de8b7b")
+		)
+		(pin "1"
+			(uuid "43fa99b7-b83e-43a9-aee0-4be5108f1663")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4888,6 +5160,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 228.6 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aace782c-b113-47ca-a704-859e6017f72c")
+		(property "Reference" "R36"
+			(at 228.6 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 228.6 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.346 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"
+			(at 228.6 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 228.6 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "046ccb78-c0bf-45df-8df2-ad571f14d0fc")
+		)
+		(pin "1"
+			(uuid "1096095b-e73d-4fb3-ae03-8abfc8537672")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 196.85 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab0d73ba-bc7e-4edf-9bed-04ddd794abaa")
+		(property "Reference" "#PWR0121"
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 200.66 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 196.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ce175dd-1402-4f71-9481-bf906dbf8b10")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 50.8 38.1 0)
 		(unit 1)
@@ -5602,6 +6026,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 234.95 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e03e72df-4ebe-4bab-8819-cebb13f1da30")
+		(property "Reference" "#PWR0122"
+			(at 231.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 238.76 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80948f68-62f1-433d-bed0-920d6a5a05af")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 50.8 82.55 270)
 		(unit 1)
@@ -5757,6 +6248,158 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 228.6 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e42c41f1-d800-4933-ab5f-322b6d18c300")
+		(property "Reference" "R35"
+			(at 228.6 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 228.6 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.346 39.116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 228.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 228.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"
+			(at 228.6 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 228.6 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d3b4ff0-af76-42a2-9743-553cdd8ce81e")
+		)
+		(pin "1"
+			(uuid "3b79350e-f986-4d2a-81e1-1c46565b354f")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 196.85 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee544fbb-0187-4c2e-bf93-6ef3c0367762")
+		(property "Reference" "#PWR0120"
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 200.66 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "085a5c47-354a-4d39-9128-a806bd90148e")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 101.6 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5838,6 +6481,91 @@
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 190.5 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f290fe9a-5c54-4286-8687-9e08af4eb895")
+		(property "Reference" "R33"
+			(at 190.5 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 190.5 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 190.246 39.116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"
+			(at 190.5 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 190.5 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65e71e01-2e23-4c46-bdc6-0adcc894224f")
+		)
+		(pin "1"
+			(uuid "964eab08-54ca-4b48-8a85-bbd316f6fef7")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/2597d1dc-5599-49ba-bd43-a24c9bb27c8e"
+					(reference "R33")
 					(unit 1)
 				)
 			)
