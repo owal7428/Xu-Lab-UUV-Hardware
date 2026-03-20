@@ -1346,6 +1346,238 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XuLab:TPS54627"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS54627"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
+				(at 5.08 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54627.pdf?ts=1773967468294&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS54627%253Fqgpn%253Dtps54627"
+				(at 5.08 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.5-V to 18-V, 6-A synchronous buck converter in HTSSOP package"
+				(at 5.08 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TPS54627_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS54627_1_1"
+				(pin power_in line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VBST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "VFB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "VREG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1848,6 +2080,12 @@
 		(uuid "2eb7363e-3970-46fd-a491-0817fd3db204")
 	)
 	(junction
+		(at 50.8 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a9fafee-5b91-41ad-ba75-2c9131b902d3")
+	)
+	(junction
 		(at 228.6 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1908,6 +2146,12 @@
 		(uuid "8b565557-e858-4db6-aeba-970f78fabf9f")
 	)
 	(junction
+		(at 127 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b890ac4-0fff-49d9-ba84-e4733e0601ec")
+	)
+	(junction
 		(at 215.9 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1938,6 +2182,12 @@
 		(uuid "9a28d3e5-3e51-4e0d-9f66-83c3aa8f5d2e")
 	)
 	(junction
+		(at 114.3 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28cacaa-5cd2-48f7-b6d9-17b91c97fcde")
+	)
+	(junction
 		(at 139.7 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1948,6 +2198,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5702f98-a687-47de-ba82-85fe5932f23e")
+	)
+	(junction
+		(at 114.3 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a59293aa-8b79-4538-b1a9-01c587ae0ad3")
+	)
+	(junction
+		(at 63.5 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae84ab01-a868-44c9-9c29-1c077bd77b49")
+	)
+	(junction
+		(at 76.2 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afccfd93-205a-4642-a20c-abf2616646bd")
 	)
 	(junction
 		(at 101.6 49.53)
@@ -1962,10 +2230,22 @@
 		(uuid "bc4219e8-d031-4416-ae1b-b3a7b5683937")
 	)
 	(junction
+		(at 127 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c849bf6d-37dd-438e-85a7-4f9e178d2086")
+	)
+	(junction
 		(at 152.4 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d327983d-46f4-4a6f-804d-e5a6a6f87a86")
+	)
+	(junction
+		(at 101.6 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e755019f-4d7a-4c4d-99f9-725aaba3727f")
 	)
 	(junction
 		(at 63.5 88.9)
@@ -1986,6 +2266,12 @@
 		(uuid "f50ea5f5-0093-4320-910d-17b4c7527e7a")
 	)
 	(junction
+		(at 139.7 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8692393-dca1-4af1-8789-afcabb9a71e8")
+	)
+	(junction
 		(at 63.5 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2000,6 +2286,16 @@
 			(type default)
 		)
 		(uuid "004cf011-f3bb-46c5-bb85-efed5ff2f5d1")
+	)
+	(wire
+		(pts
+			(xy 50.8 139.7) (xy 63.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0096d83f-9cf9-4f6c-9986-96b58c84a84a")
 	)
 	(wire
 		(pts
@@ -2053,6 +2349,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 132.08) (xy 101.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150f153d-cb3e-477f-9fed-83b1d668ed5a")
+	)
+	(wire
+		(pts
+			(xy 104.14 143.51) (xy 104.14 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1bf022-0159-4a71-aafc-11de650c5f46")
+	)
+	(wire
+		(pts
 			(xy 111.76 88.9) (xy 111.76 91.44)
 		)
 		(stroke
@@ -2103,6 +2419,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 149.86) (xy 50.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd08d5c-4e08-4e24-8800-cc741215b2e1")
+	)
+	(wire
+		(pts
 			(xy 173.99 40.64) (xy 173.99 38.1)
 		)
 		(stroke
@@ -2133,6 +2459,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 142.24) (xy 139.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1fbaa2-c3b2-4e2a-a15b-078569a05adf")
+	)
+	(wire
+		(pts
 			(xy 124.46 91.44) (xy 124.46 88.9)
 		)
 		(stroke
@@ -2153,6 +2489,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 147.32) (xy 76.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36158f87-7447-423c-99e8-14c97cba3ccc")
+	)
+	(wire
+		(pts
 			(xy 228.6 40.64) (xy 228.6 38.1)
 		)
 		(stroke
@@ -2163,6 +2509,46 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 134.62) (xy 88.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de8dada-77b6-47a8-9616-f89d30e8faea")
+	)
+	(wire
+		(pts
+			(xy 127 142.24) (xy 127 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e52602-d802-4bad-8789-1bc363cf442e")
+	)
+	(wire
+		(pts
+			(xy 114.3 149.86) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416aa593-355f-4e7c-95e0-a72af70f4271")
+	)
+	(wire
+		(pts
+			(xy 63.5 139.7) (xy 76.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475a9d33-cf9d-4a04-8610-15c293d03750")
+	)
+	(wire
+		(pts
 			(xy 165.1 38.1) (xy 173.99 38.1)
 		)
 		(stroke
@@ -2170,6 +2556,16 @@
 			(type default)
 		)
 		(uuid "489ac02f-3837-4c0f-82ac-7e91d13c00b6")
+	)
+	(wire
+		(pts
+			(xy 104.14 139.7) (xy 101.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48df0961-7398-4e32-8c5c-a4998abb219d")
 	)
 	(wire
 		(pts
@@ -2263,6 +2659,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 149.86) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b5c312-7d88-43c0-aba4-2e267fa8dc02")
+	)
+	(wire
+		(pts
 			(xy 101.6 93.98) (xy 101.6 100.33)
 		)
 		(stroke
@@ -2270,6 +2676,26 @@
 			(type default)
 		)
 		(uuid "55d2bd26-69b7-42e2-a340-a4976051e01a")
+	)
+	(wire
+		(pts
+			(xy 111.76 139.7) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57259994-9b64-4005-bf28-a3cf1aad72cb")
+	)
+	(wire
+		(pts
+			(xy 78.74 143.51) (xy 76.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fc5751-c77b-487c-8b14-ffa555f1ff7b")
 	)
 	(wire
 		(pts
@@ -2303,6 +2729,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 152.4) (xy 63.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62906ddd-5ce7-417e-acdf-2f4a1a659868")
+	)
+	(wire
+		(pts
 			(xy 50.8 38.1) (xy 50.8 40.64)
 		)
 		(stroke
@@ -2320,6 +2756,16 @@
 			(type default)
 		)
 		(uuid "681dfc1f-1910-49c9-ba06-95322c748970")
+	)
+	(wire
+		(pts
+			(xy 99.06 143.51) (xy 104.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68603898-7ca2-488a-a1e4-0bac3af0c779")
 	)
 	(wire
 		(pts
@@ -2343,6 +2789,36 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 139.7) (xy 101.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c43d2ce-925e-44e1-9de8-0b2bc7c39d52")
+	)
+	(wire
+		(pts
+			(xy 88.9 152.4) (xy 88.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd45077-da27-44c9-87f7-25d8ade9324e")
+	)
+	(wire
+		(pts
+			(xy 76.2 139.7) (xy 76.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7bd835-a66a-475a-8f0c-bd05ee59ce88")
+	)
+	(wire
+		(pts
 			(xy 203.2 50.8) (xy 215.9 50.8)
 		)
 		(stroke
@@ -2353,6 +2829,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 132.08) (xy 91.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b69681-f32a-465e-a0b7-400297552da5")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 76.2 93.98)
 		)
 		(stroke
@@ -2360,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "7415dd7f-0866-4fe3-85b9-f667465ab0fd")
+	)
+	(wire
+		(pts
+			(xy 63.5 139.7) (xy 63.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744cfcde-acb2-4d12-9704-bea8a0768242")
 	)
 	(wire
 		(pts
@@ -2403,6 +2899,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 139.7) (xy 152.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d431f2d-1012-430a-b538-887e75bb57c0")
+	)
+	(wire
+		(pts
 			(xy 101.6 49.53) (xy 101.6 50.8)
 		)
 		(stroke
@@ -2423,6 +2929,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 157.48) (xy 76.2 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814cdf04-5c9e-4b27-80f5-83f8fec3409d")
+	)
+	(wire
+		(pts
 			(xy 228.6 35.56) (xy 228.6 38.1)
 		)
 		(stroke
@@ -2430,6 +2946,16 @@
 			(type default)
 		)
 		(uuid "8511a829-0783-4f1d-aa9f-f14416449d89")
+	)
+	(wire
+		(pts
+			(xy 76.2 147.32) (xy 76.2 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8594f481-dd65-4f97-92cd-3ed6b9d1073e")
 	)
 	(wire
 		(pts
@@ -2493,6 +3019,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 132.08) (xy 101.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f385e9e-23e2-430b-be6b-33b39f6ab80e")
+	)
+	(wire
+		(pts
 			(xy 92.71 43.18) (xy 92.71 49.53)
 		)
 		(stroke
@@ -2500,6 +3036,16 @@
 			(type default)
 		)
 		(uuid "90c40617-31e0-48f3-b597-572c549b19ad")
+	)
+	(wire
+		(pts
+			(xy 127 154.94) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fd9edb-4672-4f7a-bb1c-c68522aeea97")
 	)
 	(wire
 		(pts
@@ -2533,6 +3079,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 137.16) (xy 50.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9937ce5f-dc8b-4945-96f5-a41f9d1ca099")
+	)
+	(wire
+		(pts
 			(xy 101.6 38.1) (xy 114.3 38.1)
 		)
 		(stroke
@@ -2550,6 +3106,16 @@
 			(type default)
 		)
 		(uuid "9f6052d2-b1df-470f-aeca-368864161748")
+	)
+	(wire
+		(pts
+			(xy 114.3 142.24) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1df91ef-389f-4667-b357-0ade1567ddcf")
 	)
 	(wire
 		(pts
@@ -2590,6 +3156,16 @@
 			(type default)
 		)
 		(uuid "ac3ddd69-c743-4cd9-825a-b48fe0f7de0f")
+	)
+	(wire
+		(pts
+			(xy 139.7 149.86) (xy 139.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29ca092-e400-472a-91e2-2a80701a4c0e")
 	)
 	(wire
 		(pts
@@ -2643,6 +3219,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 157.48) (xy 101.6 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c1e385-4a59-4711-9ed2-72f2b9e8391a")
+	)
+	(wire
+		(pts
 			(xy 114.3 50.8) (xy 127 50.8)
 		)
 		(stroke
@@ -2663,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 139.7) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22aa765-bf29-4f61-8cd8-0108e711733d")
+	)
+	(wire
+		(pts
 			(xy 165.1 99.06) (xy 165.1 101.6)
 		)
 		(stroke
@@ -2670,6 +3266,26 @@
 			(type default)
 		)
 		(uuid "c2bd72cc-790d-40df-912f-5be83d16cab4")
+	)
+	(wire
+		(pts
+			(xy 99.06 147.32) (xy 101.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f9c333-4682-4a87-ad49-4446f0f3fc48")
+	)
+	(wire
+		(pts
+			(xy 50.8 142.24) (xy 50.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a51892-4bd4-4852-843c-7e1a886582c7")
 	)
 	(wire
 		(pts
@@ -2713,6 +3329,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 139.7) (xy 127 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb84b123-3ae2-4004-94b0-7f3c4eb75a84")
+	)
+	(wire
+		(pts
 			(xy 191.77 38.1) (xy 215.9 38.1)
 		)
 		(stroke
@@ -2740,6 +3366,46 @@
 			(type default)
 		)
 		(uuid "d0966c6a-3fed-4ac5-bfc7-e899a204e8c3")
+	)
+	(wire
+		(pts
+			(xy 114.3 151.13) (xy 114.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2224734-5a4e-457d-b241-3cfdf7ca7f7c")
+	)
+	(wire
+		(pts
+			(xy 127 152.4) (xy 139.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3924072-2142-4d0c-8432-c2a040c57d64")
+	)
+	(wire
+		(pts
+			(xy 114.3 160.02) (xy 114.3 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db879858-2ae1-4627-ab5c-0e768ddcab01")
+	)
+	(wire
+		(pts
+			(xy 127 139.7) (xy 139.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfda4d63-716b-4424-93d0-b338bf7a0eb8")
 	)
 	(wire
 		(pts
@@ -2903,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 151.13) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd280223-361d-41a9-8df5-605ceddb41c0")
+	)
+	(wire
+		(pts
 			(xy 215.9 38.1) (xy 215.9 40.64)
 		)
 		(stroke
@@ -2910,6 +3586,16 @@
 			(type default)
 		)
 		(uuid "fd370674-808a-48e5-9984-b995fb91782e")
+	)
+	(wire
+		(pts
+			(xy 101.6 147.32) (xy 101.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8f5455-f4cc-46f5-b7bc-bb36f949370f")
 	)
 	(global_label "5V_OUT_2A"
 		(shape input)
@@ -2951,6 +3637,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_OUT_6A"
+		(shape input)
+		(at 152.4 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af3170ce-ea6f-477c-938e-a8a74c52f5e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.5452 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3038,6 +3746,205 @@
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XuLab:TPS54627")
+		(at 88.9 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b4e43cc-6900-473f-9736-07b1aca0a429")
+		(property "Reference" "U18"
+			(at 76.2 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS54627"
+			(at 76.2 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
+			(at 93.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54627.pdf?ts=1773967468294&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS54627%253Fqgpn%253Dtps54627"
+			(at 93.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.5-V to 18-V, 6-A synchronous buck converter in HTSSOP package"
+			(at 93.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/texas-instruments/TPS54627DDAR/4135464"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "407971a9-67b5-4008-956f-7a712d4f17a3")
+		)
+		(pin "1"
+			(uuid "cf607b74-6000-454e-9c37-6ad4702e8d05")
+		)
+		(pin "3"
+			(uuid "78e1454a-6d4d-4aa7-85e7-e6b14ea3276e")
+		)
+		(pin "6"
+			(uuid "bc44ad7c-3f77-4d97-a125-71324f7db462")
+		)
+		(pin "9"
+			(uuid "26456cb1-0dcc-4ca4-bb16-7e1da69fc756")
+		)
+		(pin "8"
+			(uuid "f74d2169-f3d5-48dc-acc5-4c8ea54cdc35")
+		)
+		(pin "5"
+			(uuid "75419f51-83fa-4692-9cd0-884e4e15aa8a")
+		)
+		(pin "4"
+			(uuid "23c2f2a3-a3aa-41ef-88c1-f0786b614a99")
+		)
+		(pin "2"
+			(uuid "58253377-e34e-403f-bac3-1a44405f6ec8")
+		)
+		(instances
+			(project ""
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb7bf11-304a-4415-838b-8548ae244364")
+		(property "Reference" "R31"
+			(at 116.84 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "124k"
+			(at 116.84 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.316 146.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07124KL/726925"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6be932a-e7a4-49a3-9187-ac3ac2bacd59")
+		)
+		(pin "2"
+			(uuid "9a2e420c-4eca-4ab7-a7d9-e8481f7dae79")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3214,6 +4121,94 @@
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14978b68-5442-4752-ae0e-0da756839c73")
+		(property "Reference" "C37"
+			(at 130.81 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 130.81 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 127.9652 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71A226KE15-01.pdf"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CR71A226KE15L/2039036"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e29d22bd-a1f8-418d-9d02-45f8aaeda014")
+		)
+		(pin "2"
+			(uuid "f604f823-d360-44f4-a0b1-996bc43a7f53")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3527,6 +4522,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 76.2 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f9f41d4-08ba-4acc-bfc3-fda5ab49e1c6")
+		(property "Reference" "C35"
+			(at 80.01 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8200pF"
+			(at 80.01 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 76.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KPX7R9BB822/11490808"
+			(at 76.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 76.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "678fd2e3-b879-4432-8387-29e6dc9ea3a6")
+		)
+		(pin "2"
+			(uuid "dc9c1dc2-1451-4b55-8f5b-a12cdc75b14c")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 118.11 88.9 90)
 		(unit 1)
@@ -3552,7 +4635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Pulse_PA4340"
+		(property "Footprint" "Inductor_SMD:L_APV_APH0630"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -3561,7 +4644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/DATASHEET_P819"
+		(property "Datasheet" "https://products.sumida.com/products/pdf/0630CDMCDDS.pdf"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -3579,7 +4662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/pulse-electronics/PA4340-332ANLT/7943121"
+		(property "Listing" "https://www.digikey.com/en/products/detail/sumida-america-inc/0630CDMCCDS-3R3MC/5812457"
 			(at 118.11 88.9 90)
 			(effects
 				(font
@@ -4139,6 +5222,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 50.8 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b247f08-36ff-438a-95dc-5b6b204636a6")
+		(property "Reference" "#PWR0113"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSRC"
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7207046-6749-48c3-a61d-62ad9771ae91")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee33a86-b490-4cc2-8e34-595312b1f1e0")
+		(property "Reference" "#PWR0116"
+			(at 76.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1f90fcd-f4c8-44fc-bf76-41aa0fde1bd3")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TPS562200")
 		(at 88.9 91.44 0)
 		(unit 1)
@@ -4232,6 +5446,94 @@
 			(project ""
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
 					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5607cb8a-80bc-4048-9674-fe53bacdf0d6")
+		(property "Reference" "C34"
+			(at 105.41 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 105.41 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 102.5652 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B105KO8NNN"
+			(at 101.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
+			(at 101.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 101.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d125f7bf-c64b-4921-8280-94995814f128")
+		)
+		(pin "2"
+			(uuid "54b150df-1d0c-4e1e-8354-f8e27a8099cc")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -4386,6 +5688,94 @@
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6650fc36-d4e9-4402-a034-b23ab718beab")
+		(property "Reference" "C32"
+			(at 54.61 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 54.61 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 51.7652 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B106KAHNNNE_Spec.pdf"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48456919-debc-4988-8a40-67efa39d48c3")
+		)
+		(pin "2"
+			(uuid "9ef838ed-84eb-4c5c-ad83-66e10474ad6a")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -4642,6 +6032,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 95.25 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79b85219-19b6-4576-bb9b-24ddeb0a67b2")
+		(property "Reference" "C36"
+			(at 95.25 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 95.25 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 99.06 131.1148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX7R7BB104"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a904c56-1fed-46eb-af18-2ec0dcb12da8")
+		)
+		(pin "1"
+			(uuid "c6456c80-7ae1-43fa-9c4b-db5f766aa521")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 215.9 44.45 0)
 		(unit 1)
@@ -4869,6 +6345,72 @@
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ce71356-ffce-4248-baf3-fc424cd9e4f0")
+		(property "Reference" "#PWR0117"
+			(at 101.6 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8485a8c3-600c-48ee-813a-f96f3ca2f1e2")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -5322,6 +6864,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 139.7 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a67c2e7b-9733-4ac7-9b15-0de0736417e1")
+		(property "Reference" "C38"
+			(at 143.51 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 143.51 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 140.6652 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71A226KE15-01.pdf"
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CR71A226KE15L/2039036"
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21863979-8add-4da0-8966-a7077cfdb6ef")
+		)
+		(pin "2"
+			(uuid "0e25773b-6bd9-4ed8-b11c-754cb25e6338")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 228.6 44.45 270)
 		(unit 1)
@@ -5404,6 +7034,246 @@
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1b70200-f933-4e42-aa63-27144c8f46b2")
+		(property "Reference" "R32"
+			(at 116.84 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22.1k"
+			(at 116.84 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.284 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722K1L/727058"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6eca3af3-c4e3-4b2a-a8dd-33281523f7f8")
+		)
+		(pin "1"
+			(uuid "d6f299d0-6297-49bc-9fe3-27337dc402e5")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23f99f0-c086-4e40-a175-d8a35df02f25")
+		(property "Reference" "#PWR0118"
+			(at 114.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d61a02e-0b5e-421b-b87d-ffcf872fa1e7")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 107.95 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2b44cec-d82a-46a0-a1f8-76ba4050430e")
+		(property "Reference" "L3"
+			(at 107.95 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 107.95 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_APV_APH0630"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://products.sumida.com/products/pdf/0630CDMCDDS.pdf"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/sumida-america-inc/0630CDMCCDS-3R3MC/5812457"
+			(at 107.95 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "No"
+			(at 107.95 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4e97ee9-5724-46ee-8158-f511ebe930ce")
+		)
+		(pin "2"
+			(uuid "27e02998-16cb-45a2-897e-b999c1915cfb")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -5741,6 +7611,94 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 63.5 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c82b114f-edd9-4ca6-be51-4dafb58523cc")
+		(property "Reference" "C33"
+			(at 67.31 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 67.31 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 64.4652 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B105KO8NNN"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interchangeable" "Yes"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5641e100-49ca-43d4-aab1-ca0a8908773f")
+		)
+		(pin "2"
+			(uuid "1ba616e1-6d77-4cc1-8350-c4229c66e6e9")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 50.8 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5894,6 +7852,204 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 63.5 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf35e394-7468-4078-8243-e9e532f72fce")
+		(property "Reference" "#PWR0115"
+			(at 63.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74bd32e2-8b77-44f5-9f7e-680e77e5a07e")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1a17718-a2e7-4e4d-969d-823efbbc7c25")
+		(property "Reference" "#PWR0112"
+			(at 88.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7380bdf-37ce-45b3-9df3-0a9792a0d522")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dacdc67a-e7fb-4216-accf-30d80f689d47")
+		(property "Reference" "#PWR0119"
+			(at 127 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "509ac7ef-c434-4c03-9c07-6de0b5c56cee")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 95.25 38.1 90)
 		(unit 1)
@@ -5974,6 +8130,72 @@
 			(project "XuLabPower"
 				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0eacc4-7add-41d2-97a8-e1d536f6b8f5")
+		(property "Reference" "#PWR0114"
+			(at 50.8 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a8fd312-7659-49c3-83aa-383830259593")
+		)
+		(instances
+			(project "XuLabPower"
+				(path "/71bb14ae-b730-4d22-a41d-cf68989dae2d/39e94aee-ccd8-45cb-a26b-136997d4dd4d"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
