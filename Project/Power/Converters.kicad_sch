@@ -4019,7 +4019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "124k"
+		(property "Value" "127k"
 			(at 116.84 147.3199 0)
 			(effects
 				(font
@@ -4055,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07124KL/726925"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07127KL/726927"
 			(at 114.3 146.05 0)
 			(effects
 				(font
@@ -4590,7 +4590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "54.9k"
+		(property "Value" "57.6k"
 			(at 127 96.5199 0)
 			(effects
 				(font
@@ -4626,7 +4626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0754K9L/727298"
+		(property "Listing" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0757K6L/727309"
 			(at 124.46 95.25 0)
 			(effects
 				(font
