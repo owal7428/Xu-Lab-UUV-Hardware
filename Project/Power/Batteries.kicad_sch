@@ -1938,12 +1938,6 @@
 		(uuid "3c2383ce-e515-43f3-899f-1cb7a7d3f57d")
 	)
 	(junction
-		(at 173.99 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47e65d6d-6e7c-4d1b-8cb6-c5f76ac3a623")
-	)
-	(junction
 		(at 55.88 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1968,12 +1962,6 @@
 		(uuid "5597b0a3-1a80-4cb9-a654-280cc40f493a")
 	)
 	(junction
-		(at 38.1 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c29c7dc-5867-43b3-9850-61d34cf06bd7")
-	)
-	(junction
 		(at 231.14 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1984,12 +1972,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63550c44-1c6c-499d-9e7e-c8df7f075f4b")
-	)
-	(junction
-		(at 173.99 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6404ac52-5baf-4d35-8b12-d28859d42701")
 	)
 	(junction
 		(at 88.9 101.6)
@@ -2008,6 +1990,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70d98232-702c-4240-934b-491e745233b8")
+	)
+	(junction
+		(at 38.1 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80037c85-dfc3-4511-bbe6-ac33aafc968f")
 	)
 	(junction
 		(at 63.5 101.6)
@@ -2040,6 +2028,12 @@
 		(uuid "96607be6-4281-4b03-9f45-0f440aaa44ae")
 	)
 	(junction
+		(at 38.1 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5413c19-d6d6-4bb1-802e-37a398534492")
+	)
+	(junction
 		(at 101.6 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2052,16 +2046,16 @@
 		(uuid "b2756ba1-8696-4bc8-98f1-ed67734e358b")
 	)
 	(junction
+		(at 173.99 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5c6723b-74e4-4106-b91f-e7516a4f0fd2")
+	)
+	(junction
 		(at 199.39 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cad5a018-a805-4b2e-b569-cdf5e8cb691b")
-	)
-	(junction
-		(at 38.1 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8638d73-e155-49c1-94ef-53d5be2ac26f")
 	)
 	(junction
 		(at 121.92 63.5)
@@ -2100,6 +2094,12 @@
 		(uuid "ef314e48-5b07-472f-a4e8-c1651131c1ee")
 	)
 	(junction
+		(at 173.99 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6fc6670-7c72-4f52-ad75-509c2849996b")
+	)
+	(junction
 		(at 43.18 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2114,6 +2114,16 @@
 			(type default)
 		)
 		(uuid "006d242c-a000-48a9-93a1-152840436a1c")
+	)
+	(wire
+		(pts
+			(xy 38.1 38.1) (xy 38.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018fc8a0-1631-4178-a8ba-912d297cb8a0")
 	)
 	(wire
 		(pts
@@ -2187,26 +2197,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 38.1) (xy 43.18 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08096e61-b032-4498-afac-05c14514f50b")
-	)
-	(wire
-		(pts
-			(xy 173.99 38.1) (xy 179.07 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0948b69a-2c4a-4d4e-8eaf-9b94be199626")
-	)
-	(wire
-		(pts
 			(xy 247.65 118.11) (xy 237.49 118.11)
 		)
 		(stroke
@@ -2214,6 +2204,16 @@
 			(type default)
 		)
 		(uuid "0c68cfbf-dc6b-408a-b0b6-b540bd9a9395")
+	)
+	(wire
+		(pts
+			(xy 173.99 101.6) (xy 179.07 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca2f091-d9fc-4861-888a-071014aa5f41")
 	)
 	(wire
 		(pts
@@ -2277,6 +2277,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 38.1) (xy 173.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e4fb42-de16-49fd-a675-38ac249edcdb")
+	)
+	(wire
+		(pts
+			(xy 173.99 104.14) (xy 173.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19089d1a-cccd-42d0-9a98-8fb1f8fa53bf")
+	)
+	(wire
+		(pts
 			(xy 95.25 124.46) (xy 101.6 124.46)
 		)
 		(stroke
@@ -2284,6 +2304,16 @@
 			(type default)
 		)
 		(uuid "19dfbdae-65e1-4377-9123-02733dbd46e9")
+	)
+	(wire
+		(pts
+			(xy 38.1 104.14) (xy 38.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b44cdd9-8255-4eb7-b448-0dc2048669ec")
 	)
 	(wire
 		(pts
@@ -2444,6 +2474,16 @@
 			(type default)
 		)
 		(uuid "3054ae11-8ccf-4aef-9313-abfa4c7758b4")
+	)
+	(wire
+		(pts
+			(xy 38.1 38.1) (xy 43.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a962a4-cc2c-4f7d-ab80-84d2b1b61a52")
 	)
 	(wire
 		(pts
@@ -2637,16 +2677,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 101.6) (xy 43.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ab4018a-e0b3-4efb-918e-b07f808e3ceb")
-	)
-	(wire
-		(pts
 			(xy 194.31 66.04) (xy 191.77 66.04)
 		)
 		(stroke
@@ -2694,6 +2724,16 @@
 			(type default)
 		)
 		(uuid "50b1a1f3-4e19-42fa-9833-e387668f0cbf")
+	)
+	(wire
+		(pts
+			(xy 38.1 101.6) (xy 38.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5321a9cd-cf74-4475-876e-4e21bb5b9d66")
 	)
 	(wire
 		(pts
@@ -2817,16 +2857,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 40.64) (xy 38.1 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c14dab-58be-4e0d-afea-df28257d68c1")
-	)
-	(wire
-		(pts
 			(xy 25.4 67.31) (xy 25.4 69.85)
 		)
 		(stroke
@@ -2937,6 +2967,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 38.1) (xy 179.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7249dbb5-5507-4950-b657-8a7cd158468c")
+	)
+	(wire
+		(pts
+			(xy 173.99 40.64) (xy 173.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7303f180-d6ed-495c-ad82-e4271f62430b")
+	)
+	(wire
+		(pts
 			(xy 101.6 54.61) (xy 101.6 60.96)
 		)
 		(stroke
@@ -3037,16 +3087,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 104.14) (xy 173.99 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d3c2b25-5184-47a9-81c9-3929001d9366")
-	)
-	(wire
-		(pts
 			(xy 266.7 40.64) (xy 266.7 43.18)
 		)
 		(stroke
@@ -3127,16 +3167,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 104.14) (xy 38.1 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8748ab64-c48f-41e9-a838-cbfbbce381ae")
-	)
-	(wire
-		(pts
 			(xy 109.22 71.12) (xy 109.22 73.66)
 		)
 		(stroke
@@ -3207,16 +3237,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 99.06) (xy 173.99 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d958377-4547-4dc7-aa2b-06dc5f878f98")
-	)
-	(wire
-		(pts
 			(xy 237.49 124.46) (xy 240.03 124.46)
 		)
 		(stroke
@@ -3224,16 +3244,6 @@
 			(type default)
 		)
 		(uuid "8dde0b75-0277-46f7-b161-81c855e8890d")
-	)
-	(wire
-		(pts
-			(xy 38.1 35.56) (xy 38.1 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e6866fd-8528-40e8-bc67-07199ae9eaaf")
 	)
 	(wire
 		(pts
@@ -3367,6 +3377,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 101.6) (xy 173.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac7f72c-af0a-4952-93f0-1c5029e59e85")
+	)
+	(wire
+		(pts
 			(xy 191.77 129.54) (xy 191.77 101.6)
 		)
 		(stroke
@@ -3464,6 +3484,16 @@
 			(type default)
 		)
 		(uuid "a37b0eea-94dd-41f3-beb7-7477084fdab3")
+	)
+	(wire
+		(pts
+			(xy 38.1 101.6) (xy 43.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1adb3a-bf15-4288-824e-af61c6a3e76c")
 	)
 	(wire
 		(pts
@@ -3637,16 +3667,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 35.56) (xy 173.99 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c26291d8-f5b7-467a-84c8-e23333f58677")
-	)
-	(wire
-		(pts
 			(xy 25.4 130.81) (xy 25.4 133.35)
 		)
 		(stroke
@@ -3654,26 +3674,6 @@
 			(type default)
 		)
 		(uuid "c40c5170-ad10-4475-84ae-5fae8c85fe4a")
-	)
-	(wire
-		(pts
-			(xy 38.1 99.06) (xy 38.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66e8c2d-7312-4279-9bce-56f560d9188f")
-	)
-	(wire
-		(pts
-			(xy 173.99 40.64) (xy 173.99 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c715cb79-5143-492b-95d9-e0256daec299")
 	)
 	(wire
 		(pts
@@ -3857,16 +3857,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 101.6) (xy 179.07 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df32a9cf-79cf-457e-a399-71cc2ada09b7")
-	)
-	(wire
-		(pts
 			(xy 199.39 71.12) (xy 199.39 72.39)
 		)
 		(stroke
@@ -4024,6 +4014,16 @@
 			(type default)
 		)
 		(uuid "f04d37ac-57da-4d6e-88ee-9998977d3022")
+	)
+	(wire
+		(pts
+			(xy 38.1 40.64) (xy 38.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2408ba9-74bb-4754-b839-2d002ae6e85c")
 	)
 	(wire
 		(pts
@@ -5473,8 +5473,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 168.91 38.1 0)
-		(mirror y)
+		(at 168.91 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5482,7 +5481,7 @@
 		(dnp no)
 		(uuid "228d803f-47bc-47c6-aadd-cda23e0a85bb")
 		(property "Reference" "J10"
-			(at 166.37 38.0999 0)
+			(at 166.37 40.6401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +5490,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 166.37 40.6399 0)
+			(at 166.37 38.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5499,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 168.91 38.1 0)
+			(at 168.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +5508,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
-			(at 168.91 38.1 0)
+			(at 168.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5517,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02"
-			(at 168.91 38.1 0)
+			(at 168.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5526,7 @@
 			)
 		)
 		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
-			(at 168.91 38.1 0)
+			(at 168.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +5535,7 @@
 			)
 		)
 		(property "Interchangeable" "No"
-			(at 168.91 38.1 0)
+			(at 168.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,8 +5811,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 168.91 101.6 0)
-		(mirror y)
+		(at 168.91 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5821,7 +5819,7 @@
 		(dnp no)
 		(uuid "2a2727eb-d702-4d4e-b2e2-7f1c96bb31d0")
 		(property "Reference" "J12"
-			(at 166.37 101.5999 0)
+			(at 166.37 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5828,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 166.37 104.1399 0)
+			(at 166.37 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5837,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 168.91 101.6 0)
+			(at 168.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +5846,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
-			(at 168.91 101.6 0)
+			(at 168.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5855,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02"
-			(at 168.91 101.6 0)
+			(at 168.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5864,7 @@
 			)
 		)
 		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
-			(at 168.91 101.6 0)
+			(at 168.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5873,7 @@
 			)
 		)
 		(property "Interchangeable" "No"
-			(at 168.91 101.6 0)
+			(at 168.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,8 +9862,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 33.02 101.6 0)
-		(mirror y)
+		(at 33.02 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9873,7 +9870,7 @@
 		(dnp no)
 		(uuid "ad04a932-baa8-4c1f-a39c-2de02eeb817a")
 		(property "Reference" "J11"
-			(at 30.48 101.5999 0)
+			(at 30.48 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9882,7 +9879,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 30.48 104.1399 0)
+			(at 30.48 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +9888,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 33.02 101.6 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,7 +9897,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
-			(at 33.02 101.6 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +9906,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02"
-			(at 33.02 101.6 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +9915,7 @@
 			)
 		)
 		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
-			(at 33.02 101.6 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9927,7 +9924,7 @@
 			)
 		)
 		(property "Interchangeable" "No"
-			(at 33.02 101.6 0)
+			(at 33.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,8 +11222,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 33.02 38.1 0)
-		(mirror y)
+		(at 33.02 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11234,7 +11230,7 @@
 		(dnp no)
 		(uuid "ce7f4fbe-23fc-46c0-82ad-597cd4df4a85")
 		(property "Reference" "J9"
-			(at 30.48 38.0999 0)
+			(at 30.48 40.6401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11239,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 30.48 40.6399 0)
+			(at 30.48 38.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11248,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 33.02 38.1 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11261,7 +11257,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
-			(at 33.02 38.1 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11266,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02"
-			(at 33.02 38.1 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11275,7 @@
 			)
 		)
 		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
-			(at 33.02 38.1 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +11284,7 @@
 			)
 		)
 		(property "Interchangeable" "No"
-			(at 33.02 38.1 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
