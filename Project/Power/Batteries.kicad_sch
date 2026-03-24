@@ -5792,7 +5792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 168.91 40.64 0)
 			(effects
 				(font
@@ -5801,7 +5801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/xt60.pdf"
 			(at 168.91 40.64 0)
 			(effects
 				(font
@@ -5819,7 +5819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
+		(property "Listing" "https://www.sparkfun.com/xt60-connectors-male-female-pair.html"
 			(at 168.91 40.64 0)
 			(effects
 				(font
@@ -6130,7 +6130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -6139,7 +6139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/xt60.pdf"
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -6157,7 +6157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
+		(property "Listing" "https://www.sparkfun.com/xt60-connectors-male-female-pair.html"
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -11032,7 +11032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 33.02 104.14 0)
 			(effects
 				(font
@@ -11041,7 +11041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/xt60.pdf"
 			(at 33.02 104.14 0)
 			(effects
 				(font
@@ -11059,7 +11059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
+		(property "Listing" "https://www.sparkfun.com/xt60-connectors-male-female-pair.html"
 			(at 33.02 104.14 0)
 			(effects
 				(font
@@ -12526,7 +12526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -12535,7 +12535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/xt60.pdf"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -12553,7 +12553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.lcsc.com/product-detail/C98732.html"
+		(property "Listing" "https://www.sparkfun.com/xt60-connectors-male-female-pair.html"
 			(at 33.02 40.64 0)
 			(effects
 				(font
