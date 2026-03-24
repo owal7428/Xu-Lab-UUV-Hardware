@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Main Sheet")
-		(date "2026-03-20")
+		(date "2026-03-24")
 		(rev "B")
 		(company "CU Boulder Senior Design Team 29 - Xu Lab")
 	)
@@ -3214,7 +3214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700uF"
+		(property "Value" "2200uF"
 			(at 257.81 45.0849 0)
 			(effects
 				(font
@@ -3223,7 +3223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 			(at 254 44.45 0)
 			(effects
 				(font
@@ -3232,7 +3232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/PK.pdf"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uhe.pdf"
 			(at 254 44.45 0)
 			(effects
 				(font
@@ -3250,7 +3250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Listing" "https://www.digikey.com/en/products/detail/rubycon/16PK4700MEFC12-5X25/3134081"
+		(property "Listing" "https://www.digikey.com/en/products/detail/nichicon/UHE1C222MHD6/589274"
 			(at 254 44.45 0)
 			(effects
 				(font
