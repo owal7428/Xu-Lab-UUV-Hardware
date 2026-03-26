@@ -65226,6 +65226,212 @@
 		(layer "Edge.Cuts")
 		(uuid "987013d4-12b7-4c8b-a184-d80c70246fdb")
 	)
+	(gr_text "5V-(6A)"
+		(at 133 23.5 0)
+		(layer "F.SilkS")
+		(uuid "083a0dbc-c4fc-4556-ac0a-5f5fbd152ad8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify right top)
+		)
+	)
+	(gr_text "+"
+		(at 162.5 27 0)
+		(layer "F.SilkS")
+		(uuid "0fb47b44-63e2-405a-8f65-bf88293e1b22")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "SWO"
+		(at 143.75 38.75 0)
+		(layer "F.SilkS")
+		(uuid "297b09fc-d08f-4603-9f8b-8645243a75c7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 151 27 0)
+		(layer "F.SilkS")
+		(uuid "33f45894-3d37-4781-8428-6b36c5ac4763")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "3V3"
+		(at 152.25 31.75 0)
+		(layer "F.SilkS")
+		(uuid "3c618e26-f35f-495e-b89f-1692d203ec87")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "SPI"
+		(at 173.25 101 270)
+		(layer "F.SilkS")
+		(uuid "4357e08a-08cd-4835-99ae-8026da8f9e10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "I2C"
+		(at 173.25 112.25 270)
+		(layer "F.SilkS")
+		(uuid "562fe29c-906e-4e14-be4e-50011488ac3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "5V-(2A)"
+		(at 162.5 23.5 0)
+		(layer "F.SilkS")
+		(uuid "6a2e73d1-1b1e-4104-9eb3-da311e2c1ba7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "-"
+		(at 133.25 27 0)
+		(layer "F.SilkS")
+		(uuid "6af61360-9d4d-4fb1-8e22-4b9d7e7fb207")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 144.75 27 0)
+		(layer "F.SilkS")
+		(uuid "87da6cd6-b67f-49e3-a3ed-02caebd04fee")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 143.75 31.75 0)
+		(layer "F.SilkS")
+		(uuid "b3086947-c6fd-4201-bf23-15dded984fff")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RST"
+		(at 148 31.75 0)
+		(layer "F.SilkS")
+		(uuid "bb37f316-7b36-4ad7-a6e7-c91b732f0ef1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "CLK"
+		(at 148 38.75 0)
+		(layer "F.SilkS")
+		(uuid "c2744d68-3287-4551-9fa1-1c716faf1ce5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "DIO"
+		(at 152.25 38.75 0)
+		(layer "F.SilkS")
+		(uuid "cbbbffa4-50d8-46a8-92f1-3a843b5fd4b6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "RESET"
+		(at 135 51.5 0)
+		(layer "F.SilkS")
+		(uuid "f519dfd0-85b1-48f3-b66c-1938e2c13a30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Team 29:\nOwen Allison\n\nJose Cabrera\n\nSean Curry\n\nAlex Hansen\n\nAnthony Javier\n\nTopher Prokopius\n\nIlsa Runge\n\nLeon Steinbach\n\nCarter Winkleman"
+		(at 137.5 34.5 0)
+		(layer "B.SilkS")
+		(uuid "1391394e-3b5a-49ef-a97d-76d8caed8538")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+	)
+	(gr_text "Designed By: Owen Allison\n03/2026 - Rev B"
+		(at 179.75 28.5 0)
+		(layer "B.SilkS")
+		(uuid "5c3fdc9e-f191-4845-b29c-fa68277dd474")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+	)
 	(segment
 		(start 149.1375 103.975)
 		(end 151.25 103.975)
